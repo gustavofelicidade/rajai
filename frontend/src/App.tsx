@@ -1,6 +1,7 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LandingPage from './pages/landingPage'
+import MapPage from './pages/mapPage'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<h1>Login </h1>} />
-
+        <Route path="/mapa" element={<MapPage />} />
       </Routes>
     </BrowserRouter >
   )
