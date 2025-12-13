@@ -46,3 +46,4 @@ pnpm-debug.log*
 *.swo
 .zshrc
 estrutura.txt
+backend/__pycache__
