@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
 
 export default function LandingPage() {
-  const ticketUrl = "/hero.gif";
-
   return (
     <div className="relative w-full min-h-[75vh] lg:h-screen overflow-hidden">
       <img
