@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Feiras Urbanas — RJ</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- MarkerCluster -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- Heatmap -->
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
+  <!-- PMTiles (offline) -->
+  <script src="https://unpkg.com/pmtiles@3.0.6/dist/pmtiles.js"></script>
+  <script src="https://unpkg.com/protomaps-leaflet@1.24.0/dist/protomaps-leaflet.min.js"></script>
+
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    header { padding: 12px 16px; border-bottom: 1px solid #eee; display:flex; gap:12px; align-items:center; flex-wrap:wrap;}
+    #map { height: calc(100vh - 72px); }
+    .pill { padding: 6px 10px; border: 1px solid #ddd; border-radius: 999px; font-size: 12px; background:#fafafa; }
+    label { font-size: 12px; color:#333; }
+    select, input { padding: 8px 10px; border:1px solid #ddd; border-radius: 10px; font-size: 14px;}
+    .muted { color:#666; font-size:12px;}
+    .btn {
+      padding: 8px 10px; border:1px solid #ddd; border-radius: 10px;
+      background:#fff; cursor:pointer; font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="pill"><strong>Feiras — RJ</strong> • mapa interativo</div>
+
+  <div>
+    <label for="ra">RA</label><br/>
+    <select id="ra"></select>
+  </div>
+
+  <div>
+    <label for="dia">Dia</label><br/>
+    <select id="dia"></select>
+  </div>
+
+  <div>
+    <label for="q">Busca</label><br/>
+    <input id="q" placeholder="bairro ou rua" size="24"/>
+  </div>
+
+  <button class="btn" id="toggleHeat">Heatmap: OFF</button>
+  <button class="btn" id="exportCSV">Exportar CSV</button>
+  <button class="btn" id="exportGeoJSON">Exportar GeoJSON</button>
+
+  <div class="muted" id="status"></div>
+</header>
+
+<div id="map"></div>
+
+<script>
+/* ================== MAPA BASE (fallback seguro) ================== */
+
+const map = L.map("map").setView([-22.92, -43.2], 11);
+
+// Online OSM (sempre existe se tiver internet)
+const osmOnline = L.tileLayer(
+  "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  { maxZoom: 19, attribution: "&copy; OpenStreetMap" }
+).addTo(map);
+
+let pmtilesLayer = null;
+const baseLayers = { "Online (OpenStreetMap)": osmOnline };
+const layersControl = L.control.layers(baseLayers, null, { position: "topright" }).addTo(map);
+
+async function tryEnablePMTiles() {
+  try {
+    const head = await fetch("./tiles/rio.pmtiles", { method: "HEAD" });
+    if (!head.ok) {
+      console.warn("PMTiles não encontrado em ./tiles/rio.pmtiles (OK).");
+      return;
+    }
+
+    const protocol = new pmtiles.Protocol();
+    pmtiles.addProtocol("pmtiles", protocol.tile);
+
+    pmtilesLayer = protomapsL.leafletLayer({ url: "pmtiles://tiles/rio.pmtiles" });
+
+    // troca para offline como padrão
+    map.removeLayer(osmOnline);
+    pmtilesLayer.addTo(map);
+
+    layersControl.addBaseLayer(pmtilesLayer, "Offline (PMTiles)");
+    console.log("PMTiles ativado.");
+  } catch (e) {
+    console.warn("Falha ao ativar PMTiles. Continuando com OSM online.", e);
+  }
+}
+tryEnablePMTiles();
+
+/* ================== CAMADAS DE DADOS ================== */
+
+const clusters = L.markerClusterGroup({ disableClusteringAtZoom: 16 });
+map.addLayer(clusters);
+
+const heatLayer = L.heatLayer([], { radius: 25, blur: 18, maxZoom: 14 });
+let heatOn = false;
+
+/* ================== UI ================== */
+
+const raSelect = document.getElementById("ra");
+const diaSelect = document.getElementById("dia");
+const qInput = document.getElementById("q");
+const statusEl = document.getElementById("status");
+
+const toggleHeatBtn = document.getElementById("toggleHeat");
+const exportCSVBtn = document.getElementById("exportCSV");
+const exportGeoJSONBtn = document.getElementById("exportGeoJSON");
+
+let allFeatures = [];
+let lastFiltered = [];
+
+/* ================== HELPERS ================== */
+
+function uniq(arr) {
+  return Array.from(new Set(arr.filter(Boolean))).sort((a,b)=>a.localeCompare(b,'pt-BR'));
+}
+
+function buildSelect(select, values) {
+  select.innerHTML = `<option value="">(Todas)</option>`;
+  values.forEach(v=>{
+    const o = document.createElement("option");
+    o.value = v; o.textContent = v;
+    select.appendChild(o);
+  });
+}
+
+// cores por RA (hash simples)
+function colorByRA(ra) {
+  const colors = ["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f"];
+  const s = String(ra || "");
+  let h = 0;
+  for (let i=0;i<s.length;i++) h = s.charCodeAt(i) + ((h<<5) - h);
+  return colors[Math.abs(h) % colors.length];
+}
+
+function matchesQuery(p, q) {
+  if (!q) return true;
+  const hay = `${p.endereco||""} ${p.bairro||""} ${p.ra||""}`.toLowerCase();
+  return hay.includes(q.toLowerCase());
+}
+
+/* ================== FILTROS ================== */
+
+function applyFilters() {
+  clusters.clearLayers();
+  heatLayer.setLatLngs([]);
+
+  const ra = raSelect.value;
+  const dia = diaSelect.value;
+  const q = qInput.value.trim();
+
+  const filtered = allFeatures.filter(f => {
+    const p = f.properties || {};
+    if (ra && p.ra !== ra) return false;
+    if (dia && p.dia !== dia) return false;
+    if (!matchesQuery(p, q)) return false;
+    return true;
+  });
+
+  lastFiltered = filtered;
+
+  filtered.forEach(f => {
+    const p = f.properties || {};
+    const coords = (f.geometry && f.geometry.coordinates) || null;
+    if (!coords || coords.length < 2) return;
+
+    const [lon, lat] = coords;
+
+    const marker = L.circleMarker([lat, lon], {
+      radius: 7,
+      color: colorByRA(p.ra),
+      weight: 2,
+      fillOpacity: 0.8
+    });
+
+    marker.bindPopup(`
+      <div style="font-size:14px">
+        <div><strong>${p.bairro || "-"}</strong> • ${p.ra || "-"}</div>
+        <div>${p.endereco || "-"}</div>
+        <div><strong>${p.dia || "-"}</strong> • ${p.horario || "-"}</div>
+        <div style="margin-top:8px;font-size:12px;color:#666">
+          <div>ID: ${p.id || "-"}</div>
+          <div>Geocode: ${p.geocode_status || "-"}</div>
+          <div>Precisão: ${p.geocode_precision || "-"}</div>
+        </div>
+      </div>
+    `);
+
+    clusters.addLayer(marker);
+    heatLayer.addLatLng([lat, lon, 0.6]);
+  });
+
+  statusEl.textContent = `Mostrando ${filtered.length} feira(s) de ${allFeatures.length}`;
+
+  if (filtered.length) {
+    try { map.fitBounds(clusters.getBounds().pad(0.2)); } catch(e) {}
+  }
+}
+
+/* ================== EXPORT ================== */
+
+function downloadText(filename, text, mime="text/plain") {
+  const blob = new Blob([text], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+function exportFilteredCSV() {
+  const rows = lastFiltered.map(f => {
+    const p = f.properties || {};
+    const [lon, lat] = (f.geometry && f.geometry.coordinates) || [null, null];
+    return {
+      id: p.id || "",
+      endereco: p.endereco || "",
+      bairro: p.bairro || "",
+      dia: p.dia || "",
+      horario: p.horario || "",
+      ra: p.ra || "",
+      lat: lat ?? "",
+      lon: lon ?? "",
+      geocode_status: p.geocode_status || "",
+      geocode_precision: p.geocode_precision || "",
+      geocode_provider: p.geocode_provider || "",
+      geocode_query: p.geocode_query || ""
+    };
+  });
+
+  const headers = Object.keys(rows[0] || {id:""});
+  const csv = [
+    headers.join(","),
+    ...rows.map(r => headers.map(h => JSON.stringify(String(r[h] ?? ""))).join(","))
+  ].join("\n");
+
+  downloadText("feiras_filtradas.csv", csv, "text/csv;charset=utf-8");
+}
+
+function exportFilteredGeoJSON() {
+  const gj = {
+    type: "FeatureCollection",
+    features: lastFiltered
+  };
+  downloadText("feiras_filtradas.geojson", JSON.stringify(gj, null, 2), "application/geo+json");
+}
+
+/* ================== LOAD ================== */
+
+async function loadGeoJSON() {
+  try {
+    statusEl.textContent = "Carregando feiras_rio.geojson...";
+    const res = await fetch("./feiras_rio.geojson");
+    if (!res.ok) throw new Error("Não encontrei ./feiras_rio.geojson (404)");
+    const data = await res.json();
+
+    allFeatures = data.features || [];
+
+    buildSelect(raSelect, uniq(allFeatures.map(f => f.properties?.ra)));
+    buildSelect(diaSelect, uniq(allFeatures.map(f => f.properties?.dia)));
+
+    applyFilters();
+  } catch (e) {
+    console.error(e);
+    statusEl.textContent = "Erro ao carregar dados. Abra o console (F12) para detalhes.";
+  }
+}
+
+/* ================== EVENTS ================== */
+
+raSelect.addEventListener("change", applyFilters);
+diaSelect.addEventListener("change", applyFilters);
+qInput.addEventListener("input", () => { clearTimeout(window.__t); window.__t=setTimeout(applyFilters, 150); });
+
+toggleHeatBtn.addEventListener("click", () => {
+  heatOn = !heatOn;
+  toggleHeatBtn.textContent = `Heatmap: ${heatOn ? "ON" : "OFF"}`;
+  if (heatOn) map.addLayer(heatLayer);
+  else map.removeLayer(heatLayer);
+});
+
+exportCSVBtn.addEventListener("click", () => {
+  if (!lastFiltered.length) return alert("Nada filtrado para exportar.");
+  exportFilteredCSV();
+});
+exportGeoJSONBtn.addEventListener("click", () => {
+  if (!lastFiltered.length) return alert("Nada filtrado para exportar.");
+  exportFilteredGeoJSON();
+});
+
+loadGeoJSON();
+</script>
+</body>
+</html>

@@ -1,0 +1,3415 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1841545,
+          -22.8971835
+        ]
+      },
+      "properties": {
+        "id": "5d34a532f2b8",
+        "endereco": "LIVRAMENTO DO, RUA",
+        "bairro": "SAUDE",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "01-Portuária",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "SAUDE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2214936,
+          -22.8803063
+        ]
+      },
+      "properties": {
+        "id": "aafaf596cb9b",
+        "endereco": "GAL. GURJAO, RUA",
+        "bairro": "CAJU",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "01-Portuária",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CAJU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1883697,
+          -22.9144389
+        ]
+      },
+      "properties": {
+        "id": "bb284518e45a",
+        "endereco": "TADEU KOSCIUSKO / CARLOS SAMPAIO, RUA",
+        "bairro": "CENTRO",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "02-Centro",
+        "geocode_status": "override",
+        "geocode_precision": "exact",
+        "geocode_provider": "manual_override",
+        "geocode_query": "Rua Tadeu Kosciusko, Centro, Rio de Janeiro, RJ, 20230050, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.17778,
+          -22.91737
+        ]
+      },
+      "properties": {
+        "id": "bc572129fbec",
+        "endereco": "CONDE LAGES, RUA",
+        "bairro": "CENTRO",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "02-Centro",
+        "geocode_status": "override",
+        "geocode_precision": "exact",
+        "geocode_provider": "manual_override",
+        "geocode_query": "Rua Conde de Lages, Centro, Rio de Janeiro, RJ, 20241-080, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1970806,
+          -22.9194542
+        ]
+      },
+      "properties": {
+        "id": "bbedf259b308",
+        "endereco": "EMILIA GUIMARAES, RUA",
+        "bairro": "CATUMBI",
+        "dia": "Segunda-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "03-Rio Comprido",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CATUMBI, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2088566,
+          -22.9279449
+        ]
+      },
+      "properties": {
+        "id": "5e258c270235",
+        "endereco": "BARAO DE SERTORIO, RUA",
+        "bairro": "RIO COMPRIDO",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "03-Rio Comprido",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RIO COMPRIDO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2088566,
+          -22.9279449
+        ]
+      },
+      "properties": {
+        "id": "094b06095300",
+        "endereco": "COSTA FERRAZ, RUA",
+        "bairro": "RIO COMPRIDO",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "03-Rio Comprido",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RIO COMPRIDO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.201756,
+          -22.9100508
+        ]
+      },
+      "properties": {
+        "id": "28bb268c8bea",
+        "endereco": "CEL. CASTELO BRANCO, PCA",
+        "bairro": "CIDADE NOVA",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "03-Rio Comprido",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CIDADE NOVA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.20363,
+          -22.9166265
+        ]
+      },
+      "properties": {
+        "id": "ec00b2808f21",
+        "endereco": "SAMPAIO FERRAZ, RUA",
+        "bairro": "ESTACIO",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "03-Rio Comprido",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ESTACIO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2219346,
+          -22.899318
+        ]
+      },
+      "properties": {
+        "id": "dedcbba56718",
+        "endereco": "GAL ARGOLO, RUA",
+        "bairro": "SAO CRISTOVAO",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "07-São Cristóvão",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "SAO CRISTOVAO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2219346,
+          -22.899318
+        ]
+      },
+      "properties": {
+        "id": "3a377143a833",
+        "endereco": "GAL BRUCE, RUA",
+        "bairro": "SAO CRISTOVAO",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "07-São Cristóvão",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "SAO CRISTOVAO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1882594,
+          -22.9209485
+        ]
+      },
+      "properties": {
+        "id": "0b3de3a7b367",
+        "endereco": "RUA TEREZINA",
+        "bairro": "SANTA TERESA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "23-Santa Teresa",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RUA TEREZINA, SANTA TERESA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1751631,
+          -22.9198604
+        ]
+      },
+      "properties": {
+        "id": "ad94267fdb64",
+        "endereco": "AUGUSTO SEVERO, AV",
+        "bairro": "GLORIA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "AUGUSTO SEVERO, AV, GLORIA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1878165,
+          -22.9343173
+        ]
+      },
+      "properties": {
+        "id": "06ecc52e238a",
+        "endereco": "PROF. ORTIZ MONTEIRO, RUA",
+        "bairro": "LARANJEIRAS",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "LARANJEIRAS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1878165,
+          -22.9343173
+        ]
+      },
+      "properties": {
+        "id": "3d8ed3fe6ca9",
+        "endereco": "JARDEL FILHO, VDT",
+        "bairro": "LARANJEIRAS",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "LARANJEIRAS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1862969,
+          -22.9515096
+        ]
+      },
+      "properties": {
+        "id": "3d2da7aa9d5f",
+        "endereco": "PAULO BARRETO, RUA",
+        "bairro": "BOTAFOGO",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BOTAFOGO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1862969,
+          -22.9515096
+        ]
+      },
+      "properties": {
+        "id": "9b895c3009f3",
+        "endereco": "VICENTE DE SOUZA, RUA",
+        "bairro": "BOTAFOGO",
+        "dia": "Segunda-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BOTAFOGO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1862969,
+          -22.9515096
+        ]
+      },
+      "properties": {
+        "id": "a3290a1b4048",
+        "endereco": "NICARAGUA, PCA",
+        "bairro": "BOTAFOGO",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BOTAFOGO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1862969,
+          -22.9515096
+        ]
+      },
+      "properties": {
+        "id": "cdee328bce46",
+        "endereco": "RODRIGO DE BRITO, RUA",
+        "bairro": "BOTAFOGO",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BOTAFOGO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1927035,
+          -22.9497877
+        ]
+      },
+      "properties": {
+        "id": "e5f822a39d6d",
+        "endereco": "BARAO DE MACAUBAS, RUA",
+        "bairro": "BOTAFOGO",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BARAO DE MACAUBAS, RUA, BOTAFOGO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2004797,
+          -22.9546413
+        ]
+      },
+      "properties": {
+        "id": "2f2e34c35797",
+        "endereco": "MARIA EUGENIA, RUA",
+        "bairro": "HUMAITA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "HUMAITA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1679727,
+          -22.954074
+        ]
+      },
+      "properties": {
+        "id": "3547266e9371",
+        "endereco": "TENENTE GIL GUILHERME, PCA",
+        "bairro": "URCA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "04-Botafogo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "URCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1669042,
+          -22.961704
+        ]
+      },
+      "properties": {
+        "id": "d7d15fa50257",
+        "endereco": "PRC ALMTE JULIO DE NORONHA",
+        "bairro": "LEME",
+        "dia": "Segunda-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "05-Copacabana",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "LEME, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1842997,
+          -22.971974
+        ]
+      },
+      "properties": {
+        "id": "a269813fd59b",
+        "endereco": "SERZEDELO CORREIA, PRC",
+        "bairro": "COPACABANA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "05-Copacabana",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "COPACABANA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1770235,
+          -22.9629176
+        ]
+      },
+      "properties": {
+        "id": "630b0667e532",
+        "endereco": "RONALD DE CARVALHO",
+        "bairro": "COPACABANA",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "05-Copacabana",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RONALD DE CARVALHO, COPACABANA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1842997,
+          -22.971974
+        ]
+      },
+      "properties": {
+        "id": "fc82ce505fd3",
+        "endereco": "EDMUNDO BITTENCOURT, PRC",
+        "bairro": "COPACABANA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "05-Copacabana",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "COPACABANA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2022163,
+          -22.9839557
+        ]
+      },
+      "properties": {
+        "id": "3f6c5f45e7ea",
+        "endereco": "NOSSA SENHORA DA PAZ, PCA",
+        "bairro": "IPANEMA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "06-Lagoa",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "IPANEMA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2022163,
+          -22.9839557
+        ]
+      },
+      "properties": {
+        "id": "fdfda97090c1",
+        "endereco": "GAL OSORIO, PCA",
+        "bairro": "IPANEMA",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "06-Lagoa",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "IPANEMA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2231894,
+          -22.9784126
+        ]
+      },
+      "properties": {
+        "id": "6ba777f3e2da",
+        "endereco": "PRAÇA NOSSA SENHORA AUXILIADORA",
+        "bairro": "LEBLON",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "06-Lagoa",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PRAÇA NOSSA SENHORA AUXILIADORA, LEBLON, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2024884,
+          -22.9624658
+        ]
+      },
+      "properties": {
+        "id": "58402c8a33da",
+        "endereco": "LINEU DE PAULA MACHADO, AV",
+        "bairro": "LAGOA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "06-Lagoa",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "LAGOA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2233457,
+          -22.9636362
+        ]
+      },
+      "properties": {
+        "id": "392910e6e785",
+        "endereco": "FREI LEANDRO, RUA",
+        "bairro": "JARDIM BOTANICO",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "06-Lagoa",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "JARDIM BOTANICO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2383245,
+          -22.9814243
+        ]
+      },
+      "properties": {
+        "id": "38e723353450",
+        "endereco": "SANTOS DUMONT, PCA",
+        "bairro": "GAVEA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "06-Lagoa",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "GAVEA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2131983,
+          -22.9112162
+        ]
+      },
+      "properties": {
+        "id": "fc8e6554e9ba",
+        "endereco": "VICENTE LICINIO, RUA",
+        "bairro": "PRACA DA BANDEIRA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "08-Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PRACA DA BANDEIRA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "75e814031f21",
+        "endereco": "GARIBALDI, RUA",
+        "bairro": "TIJUCA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "08-Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TIJUCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "40c15dd28b1d",
+        "endereco": "ALZIRA BRANDAO, RUA",
+        "bairro": "TIJUCA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "08-Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TIJUCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "70919106d396",
+        "endereco": "AGUIAR, RUA",
+        "bairro": "TIJUCA",
+        "dia": "Segunda-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "08-Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TIJUCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "bf53545413f3",
+        "endereco": "GABRIELA PRADO MAIA, RUA",
+        "bairro": "TIJUCA",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "08-Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TIJUCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "a2fa9cdd542e",
+        "endereco": "PROF PINHEIRO GUIMARAES, PCA",
+        "bairro": "TIJUCA",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "08-Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TIJUCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "78656a3e661a",
+        "endereco": "VISCONDE DE FIGUEIREDO, RUA",
+        "bairro": "TIJUCA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "08-Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TIJUCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2311861,
+          -22.9121619
+        ]
+      },
+      "properties": {
+        "id": "bf9ac8e4e358",
+        "endereco": "RUA PROFESSOR MANOEL DE ABREU",
+        "bairro": "MARACANA",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "09-Vila Isabel",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MARACANA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2508354,
+          -22.9166993
+        ]
+      },
+      "properties": {
+        "id": "9a578659e747",
+        "endereco": "JORGE RUDGE, RUA",
+        "bairro": "VILA ISABEL",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "09-Vila Isabel",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VILA ISABEL, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2508354,
+          -22.9166993
+        ]
+      },
+      "properties": {
+        "id": "05e486d31286",
+        "endereco": "MENDES TAVARES, RUA",
+        "bairro": "VILA ISABEL",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "09-Vila Isabel",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VILA ISABEL, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2534858,
+          -22.9290845
+        ]
+      },
+      "properties": {
+        "id": "a3d07897c72f",
+        "endereco": "ARARIPE JUNIOR, RUA",
+        "bairro": "ANDARAI",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "09-Vila Isabel",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ANDARAI, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2534858,
+          -22.9290845
+        ]
+      },
+      "properties": {
+        "id": "751d72f1fe04",
+        "endereco": "SILVA TELES, RUA",
+        "bairro": "ANDARAI",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "09-Vila Isabel",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ANDARAI, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2645145,
+          -22.9225217
+        ]
+      },
+      "properties": {
+        "id": "56ec2e5432c8",
+        "endereco": "DUQUESA DE BRAGANÇA, RUA",
+        "bairro": "GRAJAU",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "09-Vila Isabel",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "GRAJAU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2645145,
+          -22.9225217
+        ]
+      },
+      "properties": {
+        "id": "1a5c5d50ac61",
+        "endereco": "MEARIM, RUA",
+        "bairro": "GRAJAU",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "09-Vila Isabel",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "GRAJAU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2655268,
+          -22.9201725
+        ]
+      },
+      "properties": {
+        "id": "39aa5f42055a",
+        "endereco": "JULIO FURTADO, AV",
+        "bairro": "GRAJAU",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "09-Vila Isabel",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "JULIO FURTADO, AV, GRAJAU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.253318,
+          -22.8659317
+        ]
+      },
+      "properties": {
+        "id": "e9727018bd55",
+        "endereco": "MAL FOCH, RUA",
+        "bairro": "BONSUCESSO",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "10-Ramos",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BONSUCESSO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2555693,
+          -22.8519758
+        ]
+      },
+      "properties": {
+        "id": "ac15477c096e",
+        "endereco": "SENADOR MOURAO VIEIRA, RUA",
+        "bairro": "RAMOS",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "10-Ramos",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RAMOS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2555693,
+          -22.8519758
+        ]
+      },
+      "properties": {
+        "id": "4b06bfa5ac46",
+        "endereco": "FELISBELO FREIRE, RUA",
+        "bairro": "RAMOS",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "10-Ramos",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RAMOS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2706124,
+          -22.8484866
+        ]
+      },
+      "properties": {
+        "id": "8dda05864318",
+        "endereco": "ANTONIO REGO, RUA",
+        "bairro": "OLARIA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "10-Ramos",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "OLARIA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2706124,
+          -22.8484866
+        ]
+      },
+      "properties": {
+        "id": "f5e1ea721ab9",
+        "endereco": "FIRMINO GAMELEIRA, RUA",
+        "bairro": "OLARIA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "10-Ramos",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "OLARIA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2787445,
+          -22.8385131
+        ]
+      },
+      "properties": {
+        "id": "719f83b40047",
+        "endereco": "RUA BELISÁRIO PENA",
+        "bairro": "PENHA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "11-Penha",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RUA BELISÁRIO PENA, PENHA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2764454,
+          -22.8381127
+        ]
+      },
+      "properties": {
+        "id": "d2584ed6bf25",
+        "endereco": "GAL SILVEIRA SOBRINHO, RUA",
+        "bairro": "PENHA",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "11-Penha",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PENHA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2764454,
+          -22.8381127
+        ]
+      },
+      "properties": {
+        "id": "513057d8e561",
+        "endereco": "MACAPURI, RUA",
+        "bairro": "PENHA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "11-Penha",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PENHA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2764454,
+          -22.8381127
+        ]
+      },
+      "properties": {
+        "id": "d7fe187be5b7",
+        "endereco": "JACUI, RUA",
+        "bairro": "PENHA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "11-Penha",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PENHA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2764454,
+          -22.8381127
+        ]
+      },
+      "properties": {
+        "id": "5794127aec10",
+        "endereco": "JOSE RUCAS, ETR",
+        "bairro": "PENHA",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "11-Penha",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PENHA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.318807,
+          -22.8309084
+        ]
+      },
+      "properties": {
+        "id": "23355ad2ab8f",
+        "endereco": "IRICUME, RUA",
+        "bairro": "BRAZ DE PINA",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "11-Penha",
+        "geocode_status": "ok",
+        "geocode_precision": "exact",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BRAZ DE PINA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3097039,
+          -22.8095333
+        ]
+      },
+      "properties": {
+        "id": "032bbb08300f",
+        "endereco": "VALENTIM MAGALHAES, RUA",
+        "bairro": "VIGARIO GERAL",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "31-Vigário Geral",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VIGARIO GERAL, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.323212,
+          -22.810005
+        ]
+      },
+      "properties": {
+        "id": "2a23eed09b3f",
+        "endereco": "FRANZ LISZT, RUA",
+        "bairro": "JARDIM AMERICA",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "31-Vigário Geral",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "JARDIM AMERICA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2638849,
+          -22.8830403
+        ]
+      },
+      "properties": {
+        "id": "62ee5a339dd6",
+        "endereco": "PROF BOSCOLI, RUA",
+        "bairro": "MARIA DA GRACA",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "12-Inhaúma",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MARIA DA GRACA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2724202,
+          -22.8795618
+        ]
+      },
+      "properties": {
+        "id": "27c18700700f",
+        "endereco": "BISPO LACERDA, RUA",
+        "bairro": "DEL CASTILHO",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "12-Inhaúma",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "DEL CASTILHO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2724202,
+          -22.8795618
+        ]
+      },
+      "properties": {
+        "id": "b1d1e4427c05",
+        "endereco": "VAN GOGH, RUA",
+        "bairro": "DEL CASTILHO",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "12-Inhaúma",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "DEL CASTILHO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2823466,
+          -22.8715476
+        ]
+      },
+      "properties": {
+        "id": "7c120d4be054",
+        "endereco": "DONA EMILIA, RUA",
+        "bairro": "INHAUMA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "12-Inhaúma",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "INHAUMA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2937874,
+          -22.8626496
+        ]
+      },
+      "properties": {
+        "id": "a7a007810acf",
+        "endereco": "MARIO FERREIRA, RUA",
+        "bairro": "ENGENHO DA RAINHA",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "12-Inhaúma",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ENGENHO DA RAINHA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3037932,
+          -22.9954898
+        ]
+      },
+      "properties": {
+        "id": "b8d0d3228b1c",
+        "endereco": "ROCHA DO, RUA",
+        "bairro": "ROCHA",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "override",
+        "geocode_precision": "exact",
+        "geocode_provider": "manual_override",
+        "geocode_query": "Rocha, Rio de Janeiro, RJ, 20960-090, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.257076,
+          -22.9022455
+        ]
+      },
+      "properties": {
+        "id": "2092dfb2994a",
+        "endereco": "VITOR MEIRELES, RUA",
+        "bairro": "RIACHUELO",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VITOR MEIRELES, RUA, RIACHUELO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.255175,
+          -22.9026953
+        ]
+      },
+      "properties": {
+        "id": "c27f041d8b66",
+        "endereco": "DOUTOR MANOEL COTRIM, RUA",
+        "bairro": "RIACHUELO",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RIACHUELO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2678381,
+          -22.9090942
+        ]
+      },
+      "properties": {
+        "id": "e8187d35b43c",
+        "endereco": "MANOEL MIRANDA, RUA",
+        "bairro": "ENGENHO NOVO",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ENGENHO NOVO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2678381,
+          -22.9090942
+        ]
+      },
+      "properties": {
+        "id": "e611666656e6",
+        "endereco": "GRAO PARA, RUA",
+        "bairro": "ENGENHO NOVO",
+        "dia": "Segunda-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ENGENHO NOVO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2843528,
+          -22.9140512
+        ]
+      },
+      "properties": {
+        "id": "ea0258950a64",
+        "endereco": "JOAQUIM MEIER, RUA",
+        "bairro": "LINS DE VASCONCELOS",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "LINS DE VASCONCELOS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2797093,
+          -22.90173
+        ]
+      },
+      "properties": {
+        "id": "717bde7bd1a6",
+        "endereco": "GALDINO PIMENTEL, RUA",
+        "bairro": "MEIER",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MEIER, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2797093,
+          -22.90173
+        ]
+      },
+      "properties": {
+        "id": "6c2eb37d247a",
+        "endereco": "VAZ DE CAMINHA, RUA",
+        "bairro": "MEIER",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MEIER, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2797093,
+          -22.90173
+        ]
+      },
+      "properties": {
+        "id": "9c584c49f5dd",
+        "endereco": "SALVADOR PIRES, RUA",
+        "bairro": "MEIER",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MEIER, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2797093,
+          -22.90173
+        ]
+      },
+      "properties": {
+        "id": "22324155ed6a",
+        "endereco": "SILVA RABELO, RUA",
+        "bairro": "MEIER",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MEIER, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2743347,
+          -22.8897728
+        ]
+      },
+      "properties": {
+        "id": "0f088eef80fd",
+        "endereco": "BASILIO DE BRITO, RUA",
+        "bairro": "CACHAMBI",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CACHAMBI, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2743347,
+          -22.8897728
+        ]
+      },
+      "properties": {
+        "id": "a4dc9e829167",
+        "endereco": "ODORICO MENDES, RUA",
+        "bairro": "CACHAMBI",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CACHAMBI, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2967757,
+          -22.9026591
+        ]
+      },
+      "properties": {
+        "id": "fa84656460fb",
+        "endereco": "AFONSO FERREIRA, RUA",
+        "bairro": "ENGENHO DE DENTRO",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ENGENHO DE DENTRO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2967757,
+          -22.9026591
+        ]
+      },
+      "properties": {
+        "id": "fa3cdbef5d78",
+        "endereco": "GUSTAVO RIEDEL, RUA",
+        "bairro": "ENGENHO DE DENTRO",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ENGENHO DE DENTRO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2967757,
+          -22.9026591
+        ]
+      },
+      "properties": {
+        "id": "bac0035971c0",
+        "endereco": "CATULO CEARENCE, RUA",
+        "bairro": "ENGENHO DE DENTRO",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ENGENHO DE DENTRO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3042461,
+          -22.8974743
+        ]
+      },
+      "properties": {
+        "id": "d30b550b1311",
+        "endereco": "CRUZ E SOUZA, RUA",
+        "bairro": "ENCANTADO",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ENCANTADO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3110001,
+          -22.8926665
+        ]
+      },
+      "properties": {
+        "id": "272547b1e0e6",
+        "endereco": "ANTONIO VARGAS, RUA",
+        "bairro": "PIEDADE",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PIEDADE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3110001,
+          -22.8926665
+        ]
+      },
+      "properties": {
+        "id": "6167d933fb2c",
+        "endereco": "CAMINHO DO MATEUS, RUA",
+        "bairro": "PIEDADE",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PIEDADE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3110001,
+          -22.8926665
+        ]
+      },
+      "properties": {
+        "id": "bf3d451777dd",
+        "endereco": "TERESA CAVALCANTI, RUA",
+        "bairro": "PIEDADE",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PIEDADE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2955477,
+          -22.8790904
+        ]
+      },
+      "properties": {
+        "id": "121b5b2afef7",
+        "endereco": "CASEMIRO DE ABREU, RUA",
+        "bairro": "PILARES",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "13-Méier",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PILARES, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3032021,
+          -22.853597
+        ]
+      },
+      "properties": {
+        "id": "b4e876c10c62",
+        "endereco": "VICENTE DE CARVALHO, AVN",
+        "bairro": "VILA KOSMOS",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "14-Irajá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VILA KOSMOS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3157892,
+          -22.8571804
+        ]
+      },
+      "properties": {
+        "id": "b70b5d2ce658",
+        "endereco": "CAMBUCI DO VALE, RUA",
+        "bairro": "VICENTE DE CARVALHO",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "14-Irajá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VICENTE DE CARVALHO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3151276,
+          -22.8296244
+        ]
+      },
+      "properties": {
+        "id": "323d0ef76a4b",
+        "endereco": "FLORANIA, RUA",
+        "bairro": "VISTA ALEGRE",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "14-Irajá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VISTA ALEGRE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3151276,
+          -22.8296244
+        ]
+      },
+      "properties": {
+        "id": "aa848bc1876b",
+        "endereco": "PONTA PORA, RUA",
+        "bairro": "VISTA ALEGRE",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "14-Irajá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VISTA ALEGRE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.324589,
+          -22.8431439
+        ]
+      },
+      "properties": {
+        "id": "1ddf7a8501a7",
+        "endereco": "MARQUES DE QUELUZ, RUA",
+        "bairro": "IRAJA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "14-Irajá",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MARQUES DE QUELUZ, RUA, IRAJA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3233619,
+          -22.8351129
+        ]
+      },
+      "properties": {
+        "id": "dcfad11c4309",
+        "endereco": "TENENTE REBELO, AVN",
+        "bairro": "IRAJA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "14-Irajá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "IRAJA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3233619,
+          -22.8351129
+        ]
+      },
+      "properties": {
+        "id": "f09abedf13e2",
+        "endereco": "LOPES FERREIRA, RUA",
+        "bairro": "IRAJA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "14-Irajá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "IRAJA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.347738,
+          -22.8852187
+        ]
+      },
+      "properties": {
+        "id": "65fc5408fc06",
+        "endereco": "ANA TELES, RUA",
+        "bairro": "CAMPINHO",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CAMPINHO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3253269,
+          -22.8955889
+        ]
+      },
+      "properties": {
+        "id": "60266084fde2",
+        "endereco": "EUFRASIO CORREA, RUA",
+        "bairro": "QUINTINO BOCAIUVA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "QUINTINO BOCAIUVA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3165261,
+          -22.8705266
+        ]
+      },
+      "properties": {
+        "id": "b6e27b99a84a",
+        "endereco": "LAURINDO FILHO, RUA",
+        "bairro": "CAVALCANTI",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CAVALCANTI, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3255315,
+          -22.8743923
+        ]
+      },
+      "properties": {
+        "id": "ddaaa1cc7061",
+        "endereco": "VALERIO, RUA",
+        "bairro": "ENGENHEIRO LEAL",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ENGENHEIRO LEAL, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3283969,
+          -22.8841816
+        ]
+      },
+      "properties": {
+        "id": "2896bbafcbc0",
+        "endereco": "CAETANO DA SILVA, RUA",
+        "bairro": "CASCADURA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CASCADURA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3371976,
+          -22.871658
+        ]
+      },
+      "properties": {
+        "id": "84c5a6993c86",
+        "endereco": "HENRIQUE BRAGA, RUA",
+        "bairro": "MADUREIRA",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MADUREIRA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3371976,
+          -22.871658
+        ]
+      },
+      "properties": {
+        "id": "c7c910db7154",
+        "endereco": "OPERARIO SADOCK DE SA, RUA",
+        "bairro": "MADUREIRA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MADUREIRA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3272147,
+          -22.857214
+        ]
+      },
+      "properties": {
+        "id": "0a424d266e8d",
+        "endereco": "RUA OLIVEIRA FIGUEIREDO",
+        "bairro": "VAZ LOBO",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RUA OLIVEIRA FIGUEIREDO, VAZ LOBO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3278646,
+          -22.8589721
+        ]
+      },
+      "properties": {
+        "id": "c4bf862cf297",
+        "endereco": "JACINA, RUA",
+        "bairro": "VAZ LOBO",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VAZ LOBO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3463053,
+          -22.8503472
+        ]
+      },
+      "properties": {
+        "id": "3b38fbce3140",
+        "endereco": "RUBIS, RUA",
+        "bairro": "ROCHA MIRANDA",
+        "dia": "Segunda-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ROCHA MIRANDA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3561294,
+          -22.8465751
+        ]
+      },
+      "properties": {
+        "id": "da6cec0c8372",
+        "endereco": "JURUBAIBA, RUA",
+        "bairro": "HONORIO GURGEL",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "HONORIO GURGEL, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.350194,
+          -22.8705266
+        ]
+      },
+      "properties": {
+        "id": "8dfc834d8411",
+        "endereco": "ADELAIDE BADAJOS, RUA",
+        "bairro": "OSWALDO CRUZ",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "OSWALDO CRUZ, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3608367,
+          -22.8666607
+        ]
+      },
+      "properties": {
+        "id": "0d9da85851c5",
+        "endereco": "TERESA SANTOS, RUA",
+        "bairro": "BENTO RIBEIRO",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BENTO RIBEIRO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3608367,
+          -22.8666607
+        ]
+      },
+      "properties": {
+        "id": "ca6a772b2eaa",
+        "endereco": "OBIDOS, RUA",
+        "bairro": "BENTO RIBEIRO",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BENTO RIBEIRO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3608367,
+          -22.8666607
+        ]
+      },
+      "properties": {
+        "id": "64c35ecf1ced",
+        "endereco": "SAPOPEMBA, RUA",
+        "bairro": "BENTO RIBEIRO",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BENTO RIBEIRO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3704561,
+          -22.8599658
+        ]
+      },
+      "properties": {
+        "id": "4f38e7df64eb",
+        "endereco": "JORGE SCHMIDT, RUA",
+        "bairro": "MARECHAL HERMES",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "15-Madureira",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MARECHAL HERMES, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1705907,
+          -22.8252399
+        ]
+      },
+      "properties": {
+        "id": "43b9430a031b",
+        "endereco": "FERNANDES DA FONSECA, RUA",
+        "bairro": "RIBEIRA",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "20-Ilha do Governador",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RIBEIRA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1837917,
+          -22.8217028
+        ]
+      },
+      "properties": {
+        "id": "3b4ec3bb8ea1",
+        "endereco": "SARGENTO JOAO LOPES, RUA",
+        "bairro": "CACUIA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "20-Ilha do Governador",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CACUIA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1694534,
+          -22.7850602
+        ]
+      },
+      "properties": {
+        "id": "1b13a40375da",
+        "endereco": "ARUJA, RUA",
+        "bairro": "FREGUESIA(ILHA)",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "20-Ilha do Governador",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "FREGUESIA(ILHA), Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2007792,
+          -22.8128362
+        ]
+      },
+      "properties": {
+        "id": "fa0eba1993ec",
+        "endereco": "FRANCISCO ALVES, AVN",
+        "bairro": "JARDIM GUANABARA",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "20-Ilha do Governador",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "JARDIM GUANABARA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1867478,
+          -22.7977495
+        ]
+      },
+      "properties": {
+        "id": "f569c3124992",
+        "endereco": "PROF HILARIAO DA ROCHA, RUA",
+        "bairro": "TAUA",
+        "dia": "Segunda-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "20-Ilha do Governador",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TAUA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2046447,
+          -22.7960509
+        ]
+      },
+      "properties": {
+        "id": "6ebdad8885e5",
+        "endereco": "GOVERNADOR",
+        "bairro": "PORTUGUESA",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "20-Ilha do Governador",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "GOVERNADOR, PORTUGUESA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3780048,
+          -22.8414181
+        ]
+      },
+      "properties": {
+        "id": "4fd84c7452cc",
+        "endereco": "RUA BÉTULA",
+        "bairro": "GUADALUPE",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "22-Anchieta",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RUA BÉTULA, GUADALUPE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3751608,
+          -22.8376208
+        ]
+      },
+      "properties": {
+        "id": "dad76067db7c",
+        "endereco": "LOASA, RUA",
+        "bairro": "GUADALUPE",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "22-Anchieta",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "GUADALUPE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3751608,
+          -22.8376208
+        ]
+      },
+      "properties": {
+        "id": "cc416b958d5b",
+        "endereco": "ENEAS MARTINS, RUA",
+        "bairro": "GUADALUPE",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "22-Anchieta",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "GUADALUPE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3916757,
+          -22.8366987
+        ]
+      },
+      "properties": {
+        "id": "697e4a723c08",
+        "endereco": "PEREIRA DA ROCHA/ADEQUÊ, RUA",
+        "bairro": "RICARDO DE ALBUQUERQUE",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "22-Anchieta",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RICARDO DE ALBUQUERQUE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3501913,
+          -22.8322449
+        ]
+      },
+      "properties": {
+        "id": "1b1c38d87856",
+        "endereco": "OUSELEY, RUA",
+        "bairro": "COELHO NETO",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "25-Pavuna",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "COELHO NETO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3501913,
+          -22.8322449
+        ]
+      },
+      "properties": {
+        "id": "21c900a9c1ce",
+        "endereco": "PROF VIRGINIA CIDADE, PRA",
+        "bairro": "COELHO NETO",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "25-Pavuna",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "COELHO NETO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3698395,
+          -22.8246995
+        ]
+      },
+      "properties": {
+        "id": "cf031d90b46c",
+        "endereco": "CEL MOREIRA CESAR, RUA",
+        "bairro": "COSTA BARROS",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "25-Pavuna",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "COSTA BARROS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3715825,
+          -22.9531726
+        ]
+      },
+      "properties": {
+        "id": "b21f7813f42f",
+        "endereco": "LARGO DO ANIL",
+        "bairro": "JACAREPAGUA",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "JACAREPAGUA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3715825,
+          -22.9531726
+        ]
+      },
+      "properties": {
+        "id": "41517de685fb",
+        "endereco": "GAL OLIVIO UZEDA, RUA",
+        "bairro": "JACAREPAGUA",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "JACAREPAGUA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3715825,
+          -22.9531726
+        ]
+      },
+      "properties": {
+        "id": "ae04aaeaa248",
+        "endereco": "VOSSIO BRIGIDO, RUA GAL.",
+        "bairro": "JACAREPAGUA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "JACAREPAGUA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3715825,
+          -22.9531726
+        ]
+      },
+      "properties": {
+        "id": "d62748e58826",
+        "endereco": "ENG. SOUZA FILHO, AVN",
+        "bairro": "JACAREPAGUA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "JACAREPAGUA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3445873,
+          -22.9583617
+        ]
+      },
+      "properties": {
+        "id": "206a485b24c8",
+        "endereco": "AVENIDA DAS LAGOAS",
+        "bairro": "GARDENIA AZUL",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "AVENIDA DAS LAGOAS, GARDENIA AZUL, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.362903,
+          -22.94803
+        ]
+      },
+      "properties": {
+        "id": "616e2deb9060",
+        "endereco": "RUA EDGARD CAVALEIRO",
+        "bairro": "CIDADE DE DEUS",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "34-Cidade de Deus",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CIDADE DE DEUS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3592755,
+          -22.9480908
+        ]
+      },
+      "properties": {
+        "id": "e4ab41b579eb",
+        "endereco": "RUA MOISES",
+        "bairro": "CIDADE DE DEUS",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "34-Cidade de Deus",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RUA MOISES, CIDADE DE DEUS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3347313,
+          -22.9343093
+        ]
+      },
+      "properties": {
+        "id": "6cfd11e96472",
+        "endereco": "ARAGUAIA,RUA",
+        "bairro": "FREGUESIA(JACAREPAGUA)",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "ARAGUAIA,RUA, FREGUESIA(JACAREPAGUA), Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.384646,
+          -22.9218864
+        ]
+      },
+      "properties": {
+        "id": "aa7372ee8773",
+        "endereco": "ARIAPO, RUA",
+        "bairro": "TAQUARA",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TAQUARA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3689929,
+          -22.9347662
+        ]
+      },
+      "properties": {
+        "id": "a4de7fb31867",
+        "endereco": "RUA JOSÉ PERIGAULT",
+        "bairro": "TAQUARA",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RUA JOSÉ PERIGAULT, TAQUARA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3557471,
+          -22.9151927
+        ]
+      },
+      "properties": {
+        "id": "711399a943a5",
+        "endereco": "RUAS ALEXANDRE RAMOS E CORONEL TEDIM",
+        "bairro": "TANQUE",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "TANQUE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3572692,
+          -22.8950665
+        ]
+      },
+      "properties": {
+        "id": "c434ad977eac",
+        "endereco": "RUA BARÃO",
+        "bairro": "PRACA SECA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "RUA BARÃO, PRACA SECA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3657758,
+          -22.8886093
+        ]
+      },
+      "properties": {
+        "id": "f4363c6252f1",
+        "endereco": "DAS MARGARIDAS, RUA",
+        "bairro": "VILA VALQUEIRE",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VILA VALQUEIRE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3657758,
+          -22.8886093
+        ]
+      },
+      "properties": {
+        "id": "55891316f342",
+        "endereco": "JAMBEIRO, AVN",
+        "bairro": "VILA VALQUEIRE",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "16-Jacarépaguá",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "VILA VALQUEIRE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3659929,
+          -22.9997404
+        ]
+      },
+      "properties": {
+        "id": "49a74441253c",
+        "endereco": "SAO PERPETUO, PCA",
+        "bairro": "BARRA DA TIJUCA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "24-Barra da Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BARRA DA TIJUCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3659929,
+          -22.9997404
+        ]
+      },
+      "properties": {
+        "id": "e5d4b4bfdc87",
+        "endereco": "SAO PERPETUO, PRC",
+        "bairro": "BARRA DA TIJUCA",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 13:00 H",
+        "ra": "24-Barra da Tijuca",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BARRA DA TIJUCA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3803636,
+          -22.8795186
+        ]
+      },
+      "properties": {
+        "id": "d293921ca16d",
+        "endereco": "OLIMPIO DE CASTRO, RUA",
+        "bairro": "CAMPO DOS AFONSOS",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "33-Realengo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CAMPO DOS AFONSOS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4136384,
+          -22.8725117
+        ]
+      },
+      "properties": {
+        "id": "af4a374dc35e",
+        "endereco": "ABRANTES, RUA",
+        "bairro": "MAGALHAES BASTOS",
+        "dia": "Sexta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "33-Realengo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MAGALHAES BASTOS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4136384,
+          -22.8725117
+        ]
+      },
+      "properties": {
+        "id": "54c56a673482",
+        "endereco": "SAO CAETANO, RUA",
+        "bairro": "MAGALHAES BASTOS",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "33-Realengo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MAGALHAES BASTOS, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4332039,
+          -22.8701673
+        ]
+      },
+      "properties": {
+        "id": "6d9ab8ff65a8",
+        "endereco": "MAL MODESTINO, RUA",
+        "bairro": "REALENGO",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "33-Realengo",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MAL MODESTINO, RUA, REALENGO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4301032,
+          -22.8772743
+        ]
+      },
+      "properties": {
+        "id": "79dcfc880f26",
+        "endereco": "EUNAPIO DEIRO, RUA",
+        "bairro": "REALENGO",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "33-Realengo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "REALENGO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4301032,
+          -22.8772743
+        ]
+      },
+      "properties": {
+        "id": "5b9ef899c45e",
+        "endereco": "MANUEL NOGUEIRA DE SA, ETR",
+        "bairro": "REALENGO",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "33-Realengo",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "REALENGO, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4485569,
+          -22.8788135
+        ]
+      },
+      "properties": {
+        "id": "eeaad6a9b03b",
+        "endereco": "HELIANTO, RUA",
+        "bairro": "PADRE MIGUEL",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "17-Bangu",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "PADRE MIGUEL, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4648805,
+          -22.8753053
+        ]
+      },
+      "properties": {
+        "id": "5ea4e98dcee9",
+        "endereco": "IGUATAMA, PRÇ",
+        "bairro": "BANGU",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "17-Bangu",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BANGU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4648805,
+          -22.8753053
+        ]
+      },
+      "properties": {
+        "id": "a607f159cd87",
+        "endereco": "PROF CLEMENTE FERREIRA, RUA",
+        "bairro": "BANGU",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "17-Bangu",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BANGU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4648805,
+          -22.8753053
+        ]
+      },
+      "properties": {
+        "id": "50e6c2b93b73",
+        "endereco": "MAL MARCIANO, RUA",
+        "bairro": "BANGU",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "17-Bangu",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BANGU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4648805,
+          -22.8753053
+        ]
+      },
+      "properties": {
+        "id": "a7c2a25d716f",
+        "endereco": "CHERBURGO, RUA",
+        "bairro": "BANGU",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "17-Bangu",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BANGU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4648805,
+          -22.8753053
+        ]
+      },
+      "properties": {
+        "id": "0901d39e125a",
+        "endereco": "URUCUM, RUA",
+        "bairro": "BANGU",
+        "dia": "Quinta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "17-Bangu",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "BANGU, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4913887,
+          -22.888752
+        ]
+      },
+      "properties": {
+        "id": "196d48f229f9",
+        "endereco": "CARNAUBA, RUA",
+        "bairro": "SENADOR CAMARA",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "17-Bangu",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "SENADOR CAMARA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5591295,
+          -22.902953
+        ]
+      },
+      "properties": {
+        "id": "2d7f2259c791",
+        "endereco": "CAMPO MAIOR / AV MARIANA, RUA",
+        "bairro": "CAMPO GRANDE",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "18-Campo Grande",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CAMPO GRANDE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5591295,
+          -22.902953
+        ]
+      },
+      "properties": {
+        "id": "5722e269a765",
+        "endereco": "LAUDELINO VIEIRA DE CAMPOS, RUA",
+        "bairro": "CAMPO GRANDE",
+        "dia": "Domingo",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "18-Campo Grande",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "CAMPO GRANDE, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6834907,
+          -22.9176248
+        ]
+      },
+      "properties": {
+        "id": "ca29318ff097",
+        "endereco": "CAMPEIRO-MOR, RUA",
+        "bairro": "SANTA CRUZ",
+        "dia": "Terça-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "19-Santa Cruz",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "SANTA CRUZ, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6940872,
+          -22.9679803
+        ]
+      },
+      "properties": {
+        "id": "74547a91b526",
+        "endereco": "FLORESTA, RUA",
+        "bairro": "SEPETIBA",
+        "dia": "Sábado",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "19-Santa Cruz",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "SEPETIBA, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2425729,
+          -22.8592368
+        ]
+      },
+      "properties": {
+        "id": "892096642ace",
+        "endereco": "ROBERTO DA SILVEIRA, RUA/PARQUE UNIAO",
+        "bairro": "MARE",
+        "dia": "Quarta-Feira",
+        "horario": "07:00 H ÀS 14:30 H",
+        "ra": "30-Complexo da Maré",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "MARE, Rio de Janeiro, RJ, Brasil"
+      }
+    }
+  ]
+}
