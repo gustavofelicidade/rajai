@@ -1,0 +1,1215 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2324417,
+          -22.9299581
+        ]
+      },
+      "properties": {
+        "id": "3bd68a952f2d",
+        "endereco": "Rua Bom Pastor, 41",
+        "bairro": "Tijuca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Bom Pastor, 41, Tijuca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3406743,
+          -22.8221528
+        ]
+      },
+      "properties": {
+        "id": "99c23e6f921e",
+        "endereco": "Rua Piracambu, 605",
+        "bairro": "Acari",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Acari, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3453724,
+          -22.9016649
+        ]
+      },
+      "properties": {
+        "id": "41b5bacecc42",
+        "endereco": "Rua Baronesa, 782",
+        "bairro": "Praça Seca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Baronesa, 782, Praça Seca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4047474,
+          -22.8214159
+        ]
+      },
+      "properties": {
+        "id": "11d3a818af31",
+        "endereco": "Rua Delfina da Cunha, 214",
+        "bairro": "Anchieta",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Delfina da Cunha, 214, Anchieta, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4231147,
+          -22.8869979
+        ]
+      },
+      "properties": {
+        "id": "55c14c5d6d33",
+        "endereco": "Rua Capitão Teixeira, 583",
+        "bairro": "Realengo",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Capitão Teixeira, 583, Realengo, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2914373,
+          -22.8367145
+        ]
+      },
+      "properties": {
+        "id": "eabfc324a234",
+        "endereco": "Rua Irapuá, 158",
+        "bairro": "Penha Circular",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Irapuá, 158, Penha Circular, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.9236578,
+          -22.51201
+        ]
+      },
+      "properties": {
+        "id": "b93a2801442a",
+        "endereco": "Rua da Servidão, 311, G7, Lote 84- Lojas A e B Condomínio “Do Val”- Beira Rio",
+        "bairro": "Recreio",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Recreio, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4485569,
+          -22.8788135
+        ]
+      },
+      "properties": {
+        "id": "a15a5d29238c",
+        "endereco": "Rua Francisco Bricio, 306",
+        "bairro": "Padre Miguel",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Padre Miguel, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6878168,
+          -22.9579159
+        ]
+      },
+      "properties": {
+        "id": "ea5f76fa552c",
+        "endereco": "Avenida 2, 360",
+        "bairro": "Nova Sepetiba",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Avenida 2, 360, Nova Sepetiba, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3609356,
+          -22.9124716
+        ]
+      },
+      "properties": {
+        "id": "af3293a9ac4f",
+        "endereco": "Rua Godofredo Viana, 64",
+        "bairro": "Tanque",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Godofredo Viana, 64, Tanque, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2214936,
+          -22.8803063
+        ]
+      },
+      "properties": {
+        "id": "5b3af133d9f1",
+        "endereco": "Rua Fortaleza, 01 (Praça da Ladeira dos Funcionários)",
+        "bairro": "Caju",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Caju, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5571781,
+          -22.9462411
+        ]
+      },
+      "properties": {
+        "id": "2506c66b4c57",
+        "endereco": "Estrada da Cachamorra, 6133",
+        "bairro": "Campo Grande",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada da Cachamorra, 6133, Campo Grande, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3342656,
+          -22.8317381
+        ]
+      },
+      "properties": {
+        "id": "d1edaaf46eb1",
+        "endereco": "Estrada Pedro Borges de Freitas, 120",
+        "bairro": "Irajá",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada Pedro Borges de Freitas, 120, Irajá, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4775472,
+          -22.8722539
+        ]
+      },
+      "properties": {
+        "id": "7cce40e03918",
+        "endereco": "Rua do Desenhista, s/n",
+        "bairro": "Vila Aliança",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua do Desenhista, s/n, Vila Aliança, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1991363,
+          -22.9253995
+        ]
+      },
+      "properties": {
+        "id": "fb17b9700b45",
+        "endereco": "Rua Eliseu Visconti, 47",
+        "bairro": "Catumbi",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Eliseu Visconti, 47, Catumbi, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4610191,
+          -22.8824661
+        ]
+      },
+      "properties": {
+        "id": "725cf13a4d87",
+        "endereco": "Rua Jacinto Alcides, 68",
+        "bairro": "Bangu",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Jacinto Alcides, 68, Bangu, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5960882,
+          -22.889302
+        ]
+      },
+      "properties": {
+        "id": "431fcca49d67",
+        "endereco": "Estrada do Campinho, 4700",
+        "bairro": "Inhoaíba",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada do Campinho, 4700, Inhoaíba, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          NaN,
+          NaN
+        ]
+      },
+      "properties": {
+        "id": "f9f99a1d1ef3",
+        "endereco": "Rua Mita, 115",
+        "bairro": "Jardim Carioca (Ilha do Governador)",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "not_found",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Mita, 115, Jardim Carioca (Ilha do Governador), Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4485569,
+          -22.8788135
+        ]
+      },
+      "properties": {
+        "id": "f04765430abb",
+        "endereco": "Rua Bom Sossego, 382",
+        "bairro": "Padre Miguel",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Padre Miguel, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2981017,
+          -22.848544
+        ]
+      },
+      "properties": {
+        "id": "59627201109a",
+        "endereco": "Rua Conde Pereira Carneiro, 371",
+        "bairro": "Penha Circular",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Conde Pereira Carneiro, 371, Penha Circular, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3519587,
+          -22.8451435
+        ]
+      },
+      "properties": {
+        "id": "4ca5f45b61a0",
+        "endereco": "Rua dos Diamantes, 998",
+        "bairro": "Rocha Miranda",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua dos Diamantes, 998, Rocha Miranda, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2582942,
+          -22.8885429
+        ]
+      },
+      "properties": {
+        "id": "8cb9a024c8b5",
+        "endereco": "Rua do Rio, 8",
+        "bairro": "Jacarezinho",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua do Rio, 8, Jacarezinho, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2764454,
+          -22.8381127
+        ]
+      },
+      "properties": {
+        "id": "7e645349b47d",
+        "endereco": "Rua Nossa Senhora Aparecida, 46 (antiga Rua A)",
+        "bairro": "Penha",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Penha, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.185873,
+          -22.8974515
+        ]
+      },
+      "properties": {
+        "id": "d81631418125",
+        "endereco": "Rua Sacadura Cabral, 359",
+        "bairro": "Saúde",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Sacadura Cabral, 359, Saúde, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2376605,
+          -22.8998618
+        ]
+      },
+      "properties": {
+        "id": "1bd92d838b9e",
+        "endereco": "Rua Vigário Morato, 92",
+        "bairro": "Mangueira",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Vigário Morato, 92, Mangueira, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6834907,
+          -22.9176248
+        ]
+      },
+      "properties": {
+        "id": "bc3860357f19",
+        "endereco": "Estrada dos Palmares, 3935 (Condomínio Coimbra)",
+        "bairro": "Santa Cruz",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Santa Cruz, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6834907,
+          -22.9176248
+        ]
+      },
+      "properties": {
+        "id": "418e4b1e06d3",
+        "endereco": "Estrada Vitor Dumas, 1788 (rua ao lado do Kengão)",
+        "bairro": "Santa Cruz",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Santa Cruz, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6834907,
+          -22.9176248
+        ]
+      },
+      "properties": {
+        "id": "6e00b6292828",
+        "endereco": "Rua Hermínio Aurélio Sampaio, blc 56 (Antares)",
+        "bairro": "Santa Cruz",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Santa Cruz, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4301032,
+          -22.8772743
+        ]
+      },
+      "properties": {
+        "id": "5078ddfb8807",
+        "endereco": "Rua Corrêa Teixeira, 79",
+        "bairro": "Realengo",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Realengo, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2578789,
+          -22.8875068
+        ]
+      },
+      "properties": {
+        "id": "d308a2023a18",
+        "endereco": "Rua Senhor do Bonfim, 35 (quadra da Associação de Moradores)",
+        "bairro": "Jacarezinho",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Jacarezinho, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2457223,
+          -22.8799736
+        ]
+      },
+      "properties": {
+        "id": "d420bf61a55d",
+        "endereco": "Avenida Leopoldo Bulhões, 809",
+        "bairro": "Manguinhos",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Manguinhos, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.23116,
+          -22.908344
+        ]
+      },
+      "properties": {
+        "id": "c4a18ca41517",
+        "endereco": "Rua Bartolomeu de Gusmão, 1110",
+        "bairro": "Mangueira",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Bartolomeu de Gusmão, 1110, Mangueira, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.384646,
+          -22.9218864
+        ]
+      },
+      "properties": {
+        "id": "0167e2775cca",
+        "endereco": "Estrada do Guerenguê, 113 (Vila Santa Clara)",
+        "bairro": "Taquara",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Taquara, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3032021,
+          -22.853597
+        ]
+      },
+      "properties": {
+        "id": "572bda8fe5e7",
+        "endereco": "Rua Conde Pereira Carneiro, 11 (Ipase/Vila Kosmos)",
+        "bairro": "Vila Kosmos",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Vila Kosmos, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3441698,
+          -22.8520992
+        ]
+      },
+      "properties": {
+        "id": "8fb39279ae9d",
+        "endereco": "Rua Pão de Açúcar, 140",
+        "bairro": "Rocha Miranda",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Pão de Açúcar, 140, Rocha Miranda, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4844104,
+          -22.8554664
+        ]
+      },
+      "properties": {
+        "id": "49945f7584ee",
+        "endereco": "Travessa Orizaba, 43",
+        "bairro": "Vila Kennedy",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Travessa Orizaba, 43, Vila Kennedy, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2534858,
+          -22.9290845
+        ]
+      },
+      "properties": {
+        "id": "a0508a1a4c35",
+        "endereco": "Rua Sá Viana, 269 (Associação de Moradores do Andaraí)",
+        "bairro": "Andaraí",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Andaraí, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3012102,
+          -22.8167023
+        ]
+      },
+      "properties": {
+        "id": "de549bc347b4",
+        "endereco": "Rua Nova, 08 (Pistão)",
+        "bairro": "Parada de Lucas",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Parada de Lucas, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3419248,
+          -22.8459705
+        ]
+      },
+      "properties": {
+        "id": "f994e025ac1e",
+        "endereco": "Rua Caraíba, 808",
+        "bairro": "Rocha Miranda",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Caraíba, 808, Rocha Miranda, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3791273,
+          -22.8211841
+        ]
+      },
+      "properties": {
+        "id": "9e3c34ba6acf",
+        "endereco": "Rua Coronel Moreira Cesar, 1243",
+        "bairro": "Pavuna",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Coronel Moreira Cesar, 1243, Pavuna, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2369352,
+          -22.8725771
+        ]
+      },
+      "properties": {
+        "id": "40999ab453bb",
+        "endereco": "Rua Projetada D, 174 (Salsa e Merengue)",
+        "bairro": "Maré",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Projetada D, 174 (Salsa e Merengue), Maré, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3631412,
+          -22.8386165
+        ]
+      },
+      "properties": {
+        "id": "c61ebe2a18cc",
+        "endereco": "Rua Tapirai, 41C",
+        "bairro": "Barros Filho",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Tapirai, 41C, Barros Filho, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          NaN,
+          NaN
+        ]
+      },
+      "properties": {
+        "id": "4d12658618c1",
+        "endereco": "Rua Romancista, 96",
+        "bairro": "Freguesia (Ilha do Governador)",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "not_found",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Romancista, 96, Freguesia (Ilha do Governador), Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3558056,
+          -22.8598804
+        ]
+      },
+      "properties": {
+        "id": "1a9635c13842",
+        "endereco": "Rua Jundiá, 176",
+        "bairro": "Bento Ribeiro",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Jundiá, 176, Bento Ribeiro, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.9236578,
+          -22.51201
+        ]
+      },
+      "properties": {
+        "id": "67444fb5f51b",
+        "endereco": "Rua Jarbas de Carvalho, 1580",
+        "bairro": "Recreio",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Recreio, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2301003,
+          -22.8964682
+        ]
+      },
+      "properties": {
+        "id": "afa1a124f31b",
+        "endereco": "Rua Curuzu, 70",
+        "bairro": "São Cristóvão",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Curuzu, 70, São Cristóvão, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5591295,
+          -22.902953
+        ]
+      },
+      "properties": {
+        "id": "0c22a64f6b65",
+        "endereco": "Estrada Iaraquá, 375 (Comari)",
+        "bairro": "Campo Grande",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Campo Grande, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2431128,
+          -22.8533697
+        ]
+      },
+      "properties": {
+        "id": "fd824aa802a2",
+        "endereco": "Rua Bittencourt Sampaio, 140",
+        "bairro": "Nova Holanda (Maré)",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Bittencourt Sampaio, 140, Nova Holanda (Maré), Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3869551,
+          -22.8187417
+        ]
+      },
+      "properties": {
+        "id": "d322f4f7afe2",
+        "endereco": "Rua João Alfredo de Freitas, 88",
+        "bairro": "Anchieta",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua João Alfredo de Freitas, 88, Anchieta, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6017661,
+          -22.947341
+        ]
+      },
+      "properties": {
+        "id": "2331f5c299b9",
+        "endereco": "Estrada do Magarça, 3982",
+        "bairro": "Guaratiba",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada do Magarça, 3982, Guaratiba, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1981335,
+          -22.8975265
+        ]
+      },
+      "properties": {
+        "id": "a928227ba6f5",
+        "endereco": "Rua da Gamboa, 21",
+        "bairro": "Santo Cristo",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua da Gamboa, 21, Santo Cristo, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.363785,
+          -22.8207277
+        ]
+      },
+      "properties": {
+        "id": "abc980c6d4cf",
+        "endereco": "Estrada de Botafogo, 369",
+        "bairro": "Costa Barros",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada de Botafogo, 369, Costa Barros, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2491274,
+          -22.9242687
+        ]
+      },
+      "properties": {
+        "id": "2189c3cfce6c",
+        "endereco": "Rua Barão de São Francisco, 54",
+        "bairro": "Andaraí",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "exact",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Barão de São Francisco, 54, Andaraí, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4637134,
+          -22.8742683
+        ]
+      },
+      "properties": {
+        "id": "dbbc6f668514",
+        "endereco": "Rua da Chita, 638",
+        "bairro": "Bangu",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua da Chita, 638, Bangu, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.49003,
+          -22.855678
+        ]
+      },
+      "properties": {
+        "id": "2928872eae52",
+        "endereco": "Rua Major João Gualberto da Silva Braga, 2",
+        "bairro": "Vila Kennedy",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Vila Kennedy, Rio de Janeiro, RJ, Brasil"
+      }
+    }
+  ]
+}
