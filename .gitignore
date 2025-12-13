@@ -44,3 +44,6 @@ pnpm-debug.log*
 .vscode/
 *.swp
 *.swo
+.zshrc
+estrutura.txt
+backend/__pycache__

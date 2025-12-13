@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
 
 export default function LandingPage() {
-  const ticketUrl = "/hero.gif";
-
   return (
     <div className="relative w-full min-h-[75vh] lg:h-screen overflow-hidden">
       <img
@@ -28,8 +26,7 @@ export default function LandingPage() {
                 <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
                   <Button asChild aria-label="Garanta seu ingresso">
                     <a
-                      href={ticketUrl}
-                      target="_blank"
+                      href="/mapa"
                       rel="noopener noreferrer"
                       className="px-6 py-3"
                     >
