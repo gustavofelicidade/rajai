@@ -24,6 +24,10 @@ GEO_METRICS = [
     "total_misto",
     "total_ultraprocessado",
     "ratio_ultra_sobre_total",
+    "densidade_total_10k",
+    "densidade_in_natura_10k",
+    "densidade_misto_10k",
+    "densidade_ultraprocessado_10k",
 ]
 
 # Normalização de bairros para casar CSV x GeoJSON
@@ -63,6 +67,7 @@ def set_geo_cache(rows: List[Dict[str, Any]]) -> None:
 
     groups_set = set()
     cnaes_set = set()
+    pop_map: Dict[str, int] = {}
 
     for row in rows:
         bairro_raw = str(row.get("bairro", "")).strip()
@@ -81,6 +86,11 @@ def set_geo_cache(rows: List[Dict[str, Any]]) -> None:
         }
         GEO_ROWS.append(cleaned)
         GEO_INDEX.setdefault(bairro_norm, []).append(cleaned)
+
+        # populações são redundantes no CSV; guarda a primeira encontrada
+        pop_val = _try_parse_number(row.get("Total_de_pessoas_2022"))
+        if pop_val:
+            pop_map.setdefault(bairro_norm, int(pop_val))
 
         if grupo:
             groups_set.add(grupo)
@@ -105,15 +115,25 @@ def set_geo_cache(rows: List[Dict[str, Any]]) -> None:
         total_misto = group_totals.get("Misto", 0)
         total_ultra = group_totals.get("Ultraprocessado", 0)
         ratio_ultra = (total_ultra / total) if total else 0
+        pop_total = pop_map.get(bairro)
+        dens_total = (total * 10000 / pop_total) if pop_total else 0
+        dens_in_natura = (total_in_natura * 10000 / pop_total) if pop_total else 0
+        dens_misto = (total_misto * 10000 / pop_total) if pop_total else 0
+        dens_ultra = (total_ultra * 10000 / pop_total) if pop_total else 0
 
         GEO_SUMMARY[bairro] = {
             "bairro": bairro,
+            "populacao_2022": pop_total or 0,
             "totais": {
                 "total": total,
                 "total_in_natura": total_in_natura,
                 "total_misto": total_misto,
                 "total_ultraprocessado": total_ultra,
                 "ratio_ultra_sobre_total": ratio_ultra,
+                "densidade_total_10k": dens_total,
+                "densidade_in_natura_10k": dens_in_natura,
+                "densidade_misto_10k": dens_misto,
+                "densidade_ultraprocessado_10k": dens_ultra,
             },
             "breakdown": breakdown,
         }
@@ -368,7 +388,7 @@ async def geo_tooltip(bairro: str):
     if not summary:
         raise HTTPException(status_code=404, detail="Bairro não encontrado")
     return {
-        "meta": {"bairro": key},
+        "meta": {"bairro": key, "populacao_2022": summary.get("populacao_2022", 0)},
         "totais": summary["totais"],
         "breakdown": summary["breakdown"],
     }
