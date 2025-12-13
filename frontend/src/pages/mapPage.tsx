@@ -7,7 +7,7 @@ export default function MapPage() {
         <img src="/logo.svg" alt="logo" className="h-12" />
       </header>
 
-      <div className="mt-32 max-w-5xl mx-auto p-4">
+      <div className="mt-32 max-w-5xl mx-auto p-4 max-h-32">
         <Mapa />
       </div>
     </>
