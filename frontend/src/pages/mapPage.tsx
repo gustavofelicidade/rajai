@@ -4,11 +4,7 @@ import { AlertCircle, Leaf } from "lucide-react";
 export default function MapPage() {
   return (
     <>
-      <header className="bg-primary flex items-center justify-center absolute top-0 w-full">
-        <img src="/logo.svg" alt="logo" className="h-12" />
-      </header>
-
-      <div className="max-w-5xl p-4 mx-auto mt-32">
+      <div className="max-w-5xl p-4 mx-auto">
         <h1 className="text-4xl font-bold">Distribuição de alimentos no estado do Rio de Janeiro</h1>
         <h2 className="text-sm font-light mt-1">Entenda a qualidade da sua alimentação baseada no grau de processamento industrial, conforme diretrizes do Guia Alimentar para a População Brasileira.</h2>
       </div>
