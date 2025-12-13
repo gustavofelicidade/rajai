@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LandingPage from './pages/landingPage'
@@ -12,6 +13,13 @@ function App() {
       </Routes>
     </BrowserRouter >
   )
+=======
+import './App.css'
+import HomePage from './pages/HomePage'
+
+const App = () => {
+  return <HomePage />
+>>>>>>> Stashed changes
 }
 
 export default App

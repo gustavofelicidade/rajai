@@ -1,0 +1,69 @@
+📄 .DS_Store
+📄 .gitignore
+📄 .zshrc
+📁 backend
+  📄 .env
+  📁 dados
+    📄 .DS_Store
+    📁 tabelas_csv
+      📄 tabela_1.csv
+      📄 tabela_2.csv
+      📄 tabela_3.csv
+      📄 tabela_4.csv
+      📄 tabela_5.csv
+      📄 tabela_6.csv
+    📄 .DS_Store
+  📄 endpoint.py
+  📄 main.py
+  📄 .env
+📄 env.example
+📄 estrutura.txt
+📄 estrutura.txt.
+📁 frontend
+  📄 .env.local
+  📄 .gitignore
+  📄 README.md
+  📁 dist
+    📁 assets
+      📄 index-B7dqQQvn.css
+      📄 index-C2WahIeH.js
+    📄 index.html
+    📄 vite.svg
+  📄 eslint.config.js
+  📄 index.html
+  📁 public
+    📄 vite.svg
+  📁 src
+    📄 App.css
+    📄 App.tsx
+    📁 assets
+      📄 react.svg
+    📁 components
+      📁 atoms
+        📄 Button.tsx
+        📄 Pill.tsx
+        📄 SectionTitle.tsx
+      📁 molecules
+        📄 FeatureCard.tsx
+        📄 FlowStep.tsx
+        📄 StatCard.tsx
+      📁 organisms
+        📄 FlowSection.tsx
+        📄 Hero.tsx
+        📄 ImpactMetrics.tsx
+        📄 ValueGrid.tsx
+      📁 templates
+        📄 MainLayout.tsx
+    📄 index.css
+    📄 main.tsx
+    📁 pages
+      📄 HomePage.tsx
+  📄 tsconfig.app.json
+  📄 tsconfig.json
+  📄 tsconfig.node.json
+  📄 vite.config.ts
+  📄 .env.local
+  📄 .gitignore
+📄 .DS_Store
+📄 .gitignore
+📄 .zshrc
