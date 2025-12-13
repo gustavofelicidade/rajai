@@ -109,6 +109,13 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.51 0.21 28.5);
+
+  /* Paleta choropleth (0 = mais claro) */
+  --choropleth-0: #f3f4f6;
+  --choropleth-1: #dbeafe;
+  --choropleth-2: #93c5fd;
+  --choropleth-3: #3b82f6;
+  --choropleth-4: #1d4ed8;
 }
 
 .dark {
