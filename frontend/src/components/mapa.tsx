@@ -66,7 +66,7 @@ export function Mapa() {
   };
 
   return (
-    <div style={{ height: '100%', width: '100%' }}>
+    <div style={{ height: '500px', width: '100%' }}>
       <MapContainer
         center={centroRio}
         zoom={11}
