@@ -1,5 +1,13 @@
 ## RAJAI — Setup rápido
 
+### Imagens
+
+![Screenshot 1](frontend/src/assets/img/whatsapp-2025-12-14-094244.jpeg)
+![Screenshot 2](frontend/src/assets/img/whatsapp-2025-12-14-094319.jpeg)
+![Screenshot 3](frontend/src/assets/img/whatsapp-2025-12-14-100811.jpeg)
+![Screenshot 4](frontend/src/assets/img/whatsapp-2025-12-14-100944.jpeg)
+![Screenshot 5](frontend/src/assets/img/whatsapp-2025-12-14-111204.jpeg)
+
 ### Backend (FastAPI)
 1. Criar venv e instalar dependências:
    - **macOS/Linux**:

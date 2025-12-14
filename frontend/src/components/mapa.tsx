@@ -29,7 +29,8 @@ type TooltipResponse = {
 }
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
-const GEOJSON_URL =
+const GEOJSON_LOCAL = '/geo/bairros.geojson'
+const GEOJSON_REMOTE =
   'https://gist.githubusercontent.com/esperanc/db213370dd176f8524ae6ba32433f90a/raw/Limite_Bairro.geojson'
 const DEFAULT_METRIC = 'total_ultraprocessado'
 
@@ -96,13 +97,26 @@ export function Mapa() {
   }, [])
 
   useEffect(() => {
-    // GeoJSON de bairros
-    fetch(GEOJSON_URL)
-      .then((res) => res.json())
-      .then((data: FeatureCollection) => {
-        if (isMounted.current) setGeoJsonData(data)
-      })
-      .catch((err) => setError(`Falha ao carregar GeoJSON: ${String(err)}`))
+    // GeoJSON de bairros (tenta local primeiro, depois remoto)
+    const loadGeo = async () => {
+      const tryFetch = async (url: string) => {
+        const res = await fetch(url)
+        if (!res.ok) throw new Error(res.statusText)
+        return (await res.json()) as FeatureCollection
+      }
+      try {
+        const local = await tryFetch(GEOJSON_LOCAL)
+        if (isMounted.current) setGeoJsonData(local)
+      } catch {
+        try {
+          const remote = await tryFetch(GEOJSON_REMOTE)
+          if (isMounted.current) setGeoJsonData(remote)
+        } catch (err) {
+          setError(`Falha ao carregar GeoJSON: ${String(err)}`)
+        }
+      }
+    }
+    void loadGeo()
   }, [])
 
   useEffect(() => {
