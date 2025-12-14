@@ -2,11 +2,18 @@
 
 ### Backend (FastAPI)
 1. Criar venv e instalar dependências:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
+   - **macOS/Linux**:
+     ```bash
+     python3 -m venv .venv
+     source .venv/bin/activate
+     pip install -r requirements.txt
+     ```
+   - **Windows (PowerShell)**:
+     ```powershell
+     py -m venv .venv
+     .venv\Scripts\Activate.ps1
+     pip install -r requirements.txt
+     ```
 2. Rodar API:
    ```bash
    cd backend
@@ -23,10 +30,16 @@
 
 ### Frontend (React + Vite)
 1. Instalar deps:
-   ```bash
-   cd frontend
-   npm install
-   ```
+   - **macOS/Linux**:
+     ```bash
+     cd frontend
+     npm install
+     ```
+   - **Windows (PowerShell)**:
+     ```powershell
+     cd frontend
+     npm install
+     ```
 2. Configurar API (opcional se rodar em localhost:8000):
    - Crie `.env.local` com `VITE_API_URL=http://localhost:8000`
 3. Rodar dev server:
