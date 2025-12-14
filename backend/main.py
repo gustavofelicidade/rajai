@@ -10,6 +10,7 @@ import pandas as pd # Usaremos pandas para fazer o cálculo rápido em memória
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+
 BASE_DIR = Path(__file__).parent
 if str(BASE_DIR) not in sys.path:
     sys.path.append(str(BASE_DIR))
