@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem } from "@/components/ui/command"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { cn } from "@/lib/utils"
 import { Check, ChevronDown } from "lucide-react"
+import { MapContainer, TileLayer, CircleMarker, Polyline, Popup } from "react-leaflet"
+import "leaflet/dist/leaflet.css"
 
 type Producer = {
   id: string
@@ -85,6 +87,10 @@ export function LogisticaPanel() {
   const [routes, setRoutes] = useState<RouteResponse | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const produtoresVisiveis =
+    produtorSelecionado && produtorCatalogo.length
+      ? produtorCatalogo.filter((p) => p.id === produtorSelecionado)
+      : producers
 
   useEffect(() => {
     const selecionados = [...bairrosSelecionados, ...hubsSelecionados]
@@ -128,10 +134,7 @@ export function LogisticaPanel() {
     setLoading(true)
     setError(null)
     try {
-      const produtoresUsados =
-        produtorSelecionado && produtorCatalogo.length
-          ? produtorCatalogo.filter((p) => p.id === produtorSelecionado)
-          : producers
+      const produtoresUsados = produtoresVisiveis
       const res = await fetch(`${API_BASE}/api/v1/logistica/rotas-candidatas`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -282,6 +285,17 @@ export function LogisticaPanel() {
       ) : (
         <div className="text-sm text-muted-foreground">Clique em "Gerar rotas" para ver candidatos.</div>
       )}
+
+      <Card title="Mapa das rotas">
+        <p className="text-xs text-muted-foreground mb-2">
+          Produtores em azul, destinos em verde, linhas roxas representam as rotas retornadas pela API.
+        </p>
+        <MapaRotas
+          produtores={produtoresVisiveis}
+          destinos={destinos}
+          rotas={routes?.routes ?? []}
+        />
+      </Card>
     </div>
   )
 }
@@ -291,6 +305,89 @@ function Card({ title, children }: { title: string; children: React.ReactNode })
     <div className="rounded-xl border p-3">
       <div className="text-sm font-semibold mb-2">{title}</div>
       {children}
+    </div>
+  )
+}
+
+function MapaRotas({
+  produtores,
+  destinos,
+  rotas,
+}: {
+  produtores: Producer[]
+  destinos: Destino[]
+  rotas: RouteItem[]
+}) {
+  const centro = useMemo<[number, number]>(() => {
+    const pontos = [...produtores, ...destinos]
+    if (!pontos.length) return [-22.9068, -43.1729]
+    const lat = pontos.reduce((s, p) => s + p.lat, 0) / pontos.length
+    const lon = pontos.reduce((s, p) => s + p.lon, 0) / pontos.length
+    return [lat, lon]
+  }, [produtores, destinos])
+
+  return (
+    <div className="h-[420px] w-full rounded-xl overflow-hidden border">
+      <MapContainer center={centro} zoom={11} style={{ height: "100%", width: "100%" }} scrollWheelZoom>
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+
+        {produtores.map((p) => (
+          <CircleMarker
+            key={p.id}
+            center={[p.lat, p.lon]}
+            radius={8}
+            pathOptions={{ color: "#2563eb", fillColor: "#2563eb", fillOpacity: 0.6 }}
+          >
+            <Popup>
+              <div className="text-sm font-semibold">{p.nome}</div>
+              <div className="text-xs text-muted-foreground">{p.bairro}</div>
+              <div className="text-xs text-muted-foreground">
+                {p.lat.toFixed(4)}, {p.lon.toFixed(4)}
+              </div>
+            </Popup>
+          </CircleMarker>
+        ))}
+
+        {destinos.map((d) => (
+          <CircleMarker
+            key={d.id}
+            center={[d.lat, d.lon]}
+            radius={8}
+            pathOptions={{ color: "#16a34a", fillColor: "#16a34a", fillOpacity: 0.6 }}
+          >
+            <Popup>
+              <div className="text-sm font-semibold">{d.nome || d.bairro}</div>
+              <div className="text-xs text-muted-foreground">Demanda: {d.demand}</div>
+              <div className="text-xs text-muted-foreground">
+                {d.lat.toFixed(4)}, {d.lon.toFixed(4)}
+              </div>
+            </Popup>
+          </CircleMarker>
+        ))}
+
+        {rotas.map((r) => (
+          <Polyline
+            key={`${r.produtor.id}-${r.destino.id}`}
+            positions={[
+              [r.produtor.lat, r.produtor.lon],
+              [r.destino.lat, r.destino.lon],
+            ]}
+            pathOptions={{ color: "#8b5cf6", weight: 3, opacity: 0.8 }}
+          >
+            <Popup>
+              <div className="text-sm font-semibold">
+                {r.produtor.nome} → {r.destino.bairro}
+              </div>
+              <div className="text-xs text-muted-foreground">
+                Distância: {r.distance_km} km · Custo: {r.custo_estimado}
+              </div>
+            </Popup>
+          </Polyline>
+        ))}
+      </MapContainer>
     </div>
   )
 }
