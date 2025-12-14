@@ -72,9 +72,11 @@ export default function Chatbot() {
       const botMessage: Message = { text, isUser: false };
       setMessages((prev) => [...prev, botMessage]);
 
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const messageText =
+        error instanceof Error ? error.message : typeof error === "string" ? error : "Erro inesperado";
       console.error("Error generating content:", error);
-      const errorMessageText = `Desculpe, ocorreu um erro: ${error.message}. Verifique se sua chave de API é válida e se o modelo '${GEMINI_MODEL}' está acessível.`;
+      const errorMessageText = `Desculpe, ocorreu um erro: ${messageText}. Verifique se sua chave de API é válida e se o modelo '${GEMINI_MODEL}' está acessível.`;
       setError(errorMessageText); // Set error state to display in the UI
       const errorMessage: Message = {
         text: errorMessageText,

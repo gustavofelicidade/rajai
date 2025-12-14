@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from "react";
-import type { CSSProperties } from "react";
+import { useEffect, useMemo, useState } from "react"
+import type { CSSProperties } from "react"
 
 import { Mapa } from "@/components/mapa";
 import { AlertCircle, Leaf, UtensilsCrossed } from "lucide-react";
@@ -19,29 +19,29 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000"
 
 type ResumoGeral = {
   totais: {
-    total: number;
-    total_in_natura: number;
-    total_misto: number;
-    total_ultraprocessado: number;
-  };
+    total: number
+    total_in_natura: number
+    total_misto: number
+    total_ultraprocessado: number
+  }
   percentuais: {
-    in_natura: number;
-    misto: number;
-    ultraprocessado: number;
-  };
-};
+    in_natura: number
+    misto: number
+    ultraprocessado: number
+  }
+}
 
 function clampPct(x: number) {
-  if (!Number.isFinite(x)) return 0;
-  return Math.max(0, Math.min(100, x));
+  if (!Number.isFinite(x)) return 0
+  return Math.max(0, Math.min(100, x))
 }
 
 function fmtPct(x: number) {
-  return `${Math.round(clampPct(x))}%`;
+  return `${Math.round(clampPct(x))}%`
 }
 
 function Donut({
@@ -77,7 +77,7 @@ function Donut({
         <div className="text-lg font-bold">{fmtPct(a + b + c)}</div>
       </div>
     </div>
-  );
+  )
 }
 
 function StatRow({
@@ -86,10 +86,10 @@ function StatRow({
   value,
   hint,
 }: {
-  icon: React.ReactNode;
-  label: string;
-  value: string;
-  hint?: string;
+  icon: React.ReactNode
+  label: string
+  value: string
+  hint?: string
 }) {
   return (
     <div className="flex items-center justify-between gap-3 rounded-lg border bg-background/60 px-3 py-2">
@@ -104,43 +104,43 @@ function StatRow({
       </div>
       <div className="text-xl font-bold tabular-nums">{value}</div>
     </div>
-  );
+  )
 }
 
 export default function MapPage() {
-  const [resumo, setResumo] = useState<ResumoGeral | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [resumo, setResumo] = useState<ResumoGeral | null>(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    let cancelled = false;
+    let cancelled = false
 
-    setLoading(true);
-    setError(null);
+    const fetchResumo = async () => {
+      setLoading(true)
+      setError(null)
 
-    fetch(`${API_BASE}/api/v1/geo/bairros/resumo`)
-      .then((r) => {
-        if (!r.ok) throw new Error(r.statusText);
-        return r.json();
-      })
-      .then((json: ResumoGeral) => {
-        if (!cancelled) setResumo(json);
-      })
-      .catch((e) => {
-        if (!cancelled) setError(String(e));
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
-      });
+      try {
+        const r = await fetch(`${API_BASE}/api/v1/geo/bairros/resumo`)
+        if (!r.ok) throw new Error(r.statusText)
+        const json = (await r.json()) as ResumoGeral
+        if (!cancelled) setResumo(json)
+      } catch (e) {
+        if (!cancelled) setError(String(e))
+      } finally {
+        if (!cancelled) setLoading(false)
+      }
+    }
+
+    void fetchResumo()
 
     return () => {
-      cancelled = true;
-    };
-  }, []);
+      cancelled = true
+    }
+  }, [])
 
-  const ultraPct = resumo?.percentuais.ultraprocessado ?? 0;
-  const inNaturaPct = resumo?.percentuais.in_natura ?? 0;
-  const mistoPct = resumo?.percentuais.misto ?? 0;
+  const ultraPct = resumo?.percentuais.ultraprocessado ?? 0
+  const inNaturaPct = resumo?.percentuais.in_natura ?? 0
+  const mistoPct = resumo?.percentuais.misto ?? 0
 
   return (
     <>
@@ -256,64 +256,16 @@ export default function MapPage() {
         </div>
       </div>
 
-      {/* Mapa + dialogs */}
-      <div className="mx-auto max-w-5xl p-4">
-        <Mapa />
+      <div className="max-w-6xl p-4 mx-auto mt-4 flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
+          <h2 className="text-3xl md:text-4xl font-bold">Mapa coroplético por processamento</h2>
+          <p className="text-sm font-light">
+            Visualize densidades por processamento e contraste vulnerabilidades por bairro.
+          </p>
+        </div>
 
-        <div className="mt-4 flex flex-wrap gap-4">
-          <Dialog>
-            <DialogTrigger asChild>
-              <Button variant="outline">De onde vêm os dados?</Button>
-            </DialogTrigger>
-            <DialogContent className="z-50">
-              <DialogHeader>
-                <DialogTitle>De onde vêm os dados?</DialogTitle>
-              </DialogHeader>
-              <ul className="list-disc space-y-2 pl-4 text-sm">
-                <li>CNAE – Base dos Dados (API)</li>
-                <li>Data Rio</li>
-                <li>OpenStreetMap API</li>
-                <li>UFRRJ</li>
-              </ul>
-            </DialogContent>
-          </Dialog>
-
-          <Dialog>
-            <DialogTrigger asChild>
-              <Button variant="outline">Glossário</Button>
-            </DialogTrigger>
-            <DialogContent className="z-50">
-              <DialogHeader>
-                <DialogTitle>Glossário</DialogTitle>
-              </DialogHeader>
-
-              <Accordion type="single" collapsible>
-                <AccordionItem value="in-natura">
-                  <AccordionTrigger>In natura (verde)</AccordionTrigger>
-                  <AccordionContent>
-                    Alimentos obtidos diretamente da natureza, sem processamento
-                    industrial.
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem value="misto">
-                  <AccordionTrigger>Misto (amarelo)</AccordionTrigger>
-                  <AccordionContent>
-                    Estabelecimentos com oferta mista de alimentos.
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem value="ultra">
-                  <AccordionTrigger>
-                    Ultraprocessado (vermelho)
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    Produtos industrializados com alto grau de processamento.
-                  </AccordionContent>
-                </AccordionItem>
-              </Accordion>
-            </DialogContent>
-          </Dialog>
+        <div className="overflow-hidden rounded-xl border">
+          <Mapa />
         </div>
       </div>
     </>

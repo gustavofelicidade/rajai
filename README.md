@@ -17,6 +17,9 @@
    - Choropleth: `http://localhost:8000/api/v1/geo/bairros/choropleth?metric=total_ultraprocessado`
    - Tooltip: `http://localhost:8000/api/v1/geo/bairros/{bairro}/tooltip`
    - Legacy: `/api/v1/dados/tabela_1 ... tabela_6`
+   - Logística (demo): `/api/v1/logistica/demo`
+   - Logística (rotas candidatas): `POST /api/v1/logistica/rotas-candidatas` com `producers` e `destinos`
+   - Se quiser resumo IA, defina `GEMINI_API_KEY` e `GEMINI_MODEL` (ex.: gemini-2.5-flash)
 
 ### Frontend (React + Vite)
 1. Instalar deps:
