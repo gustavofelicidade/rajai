@@ -6,6 +6,10 @@ import LogisticaPage from './pages/logisticaPage'
 import AgentesPage from './pages/agentesPage'
 import BioporanAgent from './agents/bioporan'
 import RajaiAgent from './agents/rajai'
+import RelatorioAgent from './agents/relatorio'
+import AnalisadorDadosLocaisAgent from './agents/analisador_dados_locais'
+import RoteiristaLogisticoAgent from './agents/roteirista_logistico'
+import OnboardingProdutoresAgent from './agents/onboarding_produtores'
 import MapLayout from './layouts/MapLayout'
 import { Footer } from './components/footer'
 import ChatbotPage from './pages/chatbotPage'
@@ -22,6 +26,10 @@ function App() {
         <Route path="/mapa/agentes" element={<MapLayout><AgentesPage /></MapLayout>} />
         <Route path="/mapa/agentes/biopora" element={<MapLayout><BioporanAgent /></MapLayout>} />
         <Route path="/mapa/agentes/rajai" element={<MapLayout><RajaiAgent /></MapLayout>} />
+        <Route path="/mapa/agentes/relatorio" element={<MapLayout><RelatorioAgent /></MapLayout>} />
+        <Route path="/mapa/agentes/analisador" element={<MapLayout><AnalisadorDadosLocaisAgent /></MapLayout>} />
+        <Route path="/mapa/agentes/roteirista" element={<MapLayout><RoteiristaLogisticoAgent /></MapLayout>} />
+        <Route path="/mapa/agentes/onboarding" element={<MapLayout><OnboardingProdutoresAgent /></MapLayout>} />
       </Routes>
     </BrowserRouter >
   )

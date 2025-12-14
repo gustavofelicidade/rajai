@@ -19,6 +19,7 @@ const agents: AgentCard[] = [
     description: "Exporta PDF e XLSX com métricas chave por bairro e desempenho logístico.",
     icon: FileSpreadsheet,
     cta: "Exportar",
+    href: "/mapa/agentes/relatorio",
   },
   {
     id: "biopora",
@@ -35,6 +36,30 @@ const agents: AgentCard[] = [
     icon: MessagesSquare,
     cta: "Abrir chat",
     href: "/mapa/agentes/rajai",
+  },
+  {
+    id: "analisador",
+    title: "Analisador de dados locais",
+    description: "Rankings, hotspots e exportações CSV/Markdown por bairro.",
+    icon: FileSpreadsheet,
+    cta: "Analisar",
+    href: "/mapa/agentes/analisador",
+  },
+  {
+    id: "roteirista",
+    title: "Roteirista logístico",
+    description: "Sugere rotas candidatas, custos e trade-offs entre hubs e destinos.",
+    icon: MessagesSquare,
+    cta: "Planejar rotas",
+    href: "/mapa/agentes/roteirista",
+  },
+  {
+    id: "onboarding",
+    title: "Onboarding de produtores",
+    description: "Coleta e valida dados de cooperativas e gera CSV de importação.",
+    icon: Bot,
+    cta: "Cadastrar",
+    href: "/mapa/agentes/onboarding",
   },
 ]
 

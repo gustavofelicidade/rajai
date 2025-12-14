@@ -188,7 +188,16 @@ export function Mapa() {
     const min = minMax.min
     const max = minMax.max
 
-    return (feature: Feature<Geometry, BairroProperties>): PathOptions => {
+    return (feature?: Feature<Geometry, BairroProperties>): PathOptions => {
+      if (!feature) {
+        return {
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.75,
+          fillColor: choroplethColors[0],
+          color: 'rgba(0,0,0,0.25)',
+        }
+      }
       const bairro = normalizeBairro(String(feature?.properties?.NOME ?? ''))
       const value = valueMap.get(bairro) ?? 0
       const t = max > min ? (value - min) / (max - min) : 0
