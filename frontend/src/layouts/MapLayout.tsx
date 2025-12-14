@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Map } from 'lucide-react';
+import { Menu, X, Map, MessageSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
@@ -10,6 +10,7 @@ interface MapLayoutProps {
 
 const navItems = [
   { href: '/mapa', label: 'Distribuição de alimentos', icon: Map },
+  { href: '/mapa/chatbot', label: 'Chat com a IA', icon: MessageSquare },
   // Adicione outros futuros mapas aqui
   // { href: '/mapa/outro', label: 'Outro Mapa', icon: AnotherIcon },
 ];
