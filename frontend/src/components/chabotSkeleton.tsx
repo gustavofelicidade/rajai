@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, type ReactNode } from "react"
 import {
   Box,
   Paper,
@@ -10,6 +10,7 @@ import {
   Avatar,
 } from "@mui/material"
 import SendIcon from "@mui/icons-material/Send"
+import { ChatRenderer } from "./chatRenderer"
 
 export type ChatMessage = {
   id: string
@@ -26,6 +27,7 @@ type ChatbotSkeletonProps = {
   onSend: () => void
   isSending?: boolean
   placeholder?: string
+  renderAfterAssistant?: (message: ChatMessage) => ReactNode
 }
 
 export function ChatbotSkeleton({
@@ -37,6 +39,7 @@ export function ChatbotSkeleton({
   onSend,
   isSending = false,
   placeholder = "Digite sua mensagem...",
+  renderAfterAssistant,
 }: ChatbotSkeletonProps) {
   const inputRef = useRef<HTMLTextAreaElement | null>(null)
 
@@ -45,6 +48,13 @@ export function ChatbotSkeleton({
       inputRef.current.style.height = "auto"
     }
   }, [inputValue])
+
+  const lastAssistantIndex = (() => {
+    for (let i = messages.length - 1; i >= 0; i--) {
+      if (messages[i].role === "assistant") return i
+    }
+    return -1
+  })()
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
     if (e.key === "Enter" && !e.shiftKey) {
@@ -94,30 +104,36 @@ export function ChatbotSkeleton({
           backgroundColor: "background.paper",
         }}
       >
-        {messages.map((msg) => (
-          <Stack
-            key={msg.id}
-            direction="row"
-            spacing={1}
-            alignItems="flex-start"
-            sx={{ justifyContent: msg.role === "user" ? "flex-end" : "flex-start" }}
-          >
-            {msg.role === "assistant" ? <Avatar sx={{ width: 28, height: 28 }}>B</Avatar> : null}
-            <Box
-              sx={{
-                bgcolor: msg.role === "user" ? "primary.main" : "grey.100",
-                color: msg.role === "user" ? "primary.contrastText" : "text.primary",
-                px: 1.5,
-                py: 1,
-                borderRadius: 2,
-                maxWidth: { xs: "85%", md: "70%" },
-                whiteSpace: "pre-wrap",
-                wordBreak: "break-word",
-              }}
+        {messages.map((msg, idx) => (
+          <Stack key={msg.id} spacing={0.75}>
+            <Stack
+              direction="row"
+              spacing={1}
+              alignItems="flex-start"
+              sx={{ justifyContent: msg.role === "user" ? "flex-end" : "flex-start" }}
             >
-              <Typography variant="body2">{msg.text}</Typography>
-            </Box>
-            {msg.role === "user" ? <Avatar sx={{ width: 28, height: 28, bgcolor: "primary.main" }}>Você</Avatar> : null}
+              {msg.role === "assistant" ? <Avatar sx={{ width: 28, height: 28 }}>B</Avatar> : null}
+              <Box
+                sx={{
+                  bgcolor: msg.role === "user" ? "primary.main" : "grey.100",
+                  color: msg.role === "user" ? "primary.contrastText" : "text.primary",
+                  px: 1.5,
+                  py: 1,
+                  borderRadius: 2,
+                  maxWidth: { xs: "85%", md: "70%" },
+                  whiteSpace: "pre-wrap",
+                  wordBreak: "break-word",
+                }}
+              >
+                <ChatRenderer content={msg.text} />
+              </Box>
+              {msg.role === "user" ? (
+                <Avatar sx={{ width: 28, height: 28, bgcolor: "primary.main" }}>Você</Avatar>
+              ) : null}
+            </Stack>
+            {msg.role === "assistant" && idx === lastAssistantIndex && renderAfterAssistant
+              ? renderAfterAssistant(msg)
+              : null}
           </Stack>
         ))}
         {isSending ? (
