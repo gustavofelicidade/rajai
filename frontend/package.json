@@ -10,11 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< Updated upstream
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@google/generative-ai": "^0.24.1",
-=======
+    "@mui/icons-material": "^7.3.6",
+    "@mui/material": "^7.3.6",
     "@radix-ui/react-popover": "^1.1.15",
->>>>>>> Stashed changes
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/vite": "^4.1.18",

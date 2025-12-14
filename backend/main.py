@@ -17,19 +17,12 @@ if str(BASE_DIR) not in sys.path:
 # Certifique-se de que DATASETS está definido corretamente no seu endpoint.py
 # com chaves como 'ultraprocessado', 'in_natura', 'misto' para bater com as colunas que você quer.
 from endpoint import (
-<<<<<<< Updated upstream
-    data_router,
-    geo_router,
-    set_data_cache,
-    set_geo_cache,
-    DATASETS, 
-=======
   data_router,
   geo_router,
   logistica_router,
   set_data_cache,
   set_geo_cache,
->>>>>>> Stashed changes
+  DATASETS,
 )
 
 # --- Configuração de Caminhos ---

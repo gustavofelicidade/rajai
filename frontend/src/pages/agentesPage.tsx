@@ -1,6 +1,7 @@
 import type { ComponentType } from "react"
 import { Button } from "@/components/ui/button"
 import { Bot, FileSpreadsheet, Leaf, MessagesSquare } from "lucide-react"
+import { Link } from "react-router-dom"
 
 type AgentCard = {
   id: string
@@ -8,6 +9,7 @@ type AgentCard = {
   description: string
   icon: ComponentType<{ className?: string }>
   cta?: string
+  href?: string
 }
 
 const agents: AgentCard[] = [
@@ -24,6 +26,7 @@ const agents: AgentCard[] = [
     description: "Especialista em alimentação viva para apoiar recomendações e cardápios.",
     icon: Leaf,
     cta: "Conversar",
+    href: "/mapa/agentes/biopora",
   },
   {
     id: "geral",
@@ -31,6 +34,7 @@ const agents: AgentCard[] = [
     description: "Assistente amplo para dúvidas sobre dados, mapas e operação no RJ.",
     icon: MessagesSquare,
     cta: "Abrir chat",
+    href: "/mapa/agentes/rajai",
   },
 ]
 
@@ -57,9 +61,15 @@ export default function AgentesPage() {
                 <div className="font-semibold">{agent.title}</div>
               </div>
               <p className="text-sm text-muted-foreground flex-1">{agent.description}</p>
-              <Button variant="outline" disabled>
-                {agent.cta ?? "Em breve"}
-              </Button>
+              {agent.href ? (
+                <Button variant="outline" asChild>
+                  <Link to={agent.href}>{agent.cta ?? "Abrir"}</Link>
+                </Button>
+              ) : (
+                <Button variant="outline" disabled>
+                  {agent.cta ?? "Em breve"}
+                </Button>
+              )}
             </div>
           )
         })}

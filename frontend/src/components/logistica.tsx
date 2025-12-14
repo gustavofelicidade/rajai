@@ -42,6 +42,13 @@ type RouteResponse = {
 
 const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000"
 
+// Produtores/cooperativas base para exibir mesmo sem backend
+const PRODUCER_PRESETS: Producer[] = [
+  { id: "prod-1", nome: "Cooperativa Campo Grande", bairro: "Campo Grande", lat: -22.904, lon: -43.565 },
+  { id: "prod-2", nome: "Hortifruti Madureira", bairro: "Madureira", lat: -22.873, lon: -43.340 },
+  { id: "prod-3", nome: "Orgânicos Zona Oeste", bairro: "Bangu", lat: -22.876, lon: -43.459 },
+]
+
 // Presets de destinos (bairros e centros logísticos do RJ)
 const DESTINO_PRESETS: Destino[] = [
   { id: "dest-1", bairro: "Bangu", nome: "Bangu", lat: -22.875, lon: -43.4604, demand: 5, kind: "bairro" },
@@ -57,7 +64,7 @@ const DESTINO_PRESETS: Destino[] = [
 ]
 
 export function LogisticaPanel() {
-  const [producers, setProducers] = useState<Producer[]>([])
+  const [producers, setProducers] = useState<Producer[]>(PRODUCER_PRESETS)
   const [destinosCatalogo, setDestinosCatalogo] = useState<Destino[]>(DESTINO_PRESETS)
   const [bairrosSelecionados, setBairrosSelecionados] = useState<string[]>(
     DESTINO_PRESETS.filter((d) => d.kind === "bairro")
@@ -73,8 +80,8 @@ export function LogisticaPanel() {
   const [destinos, setDestinos] = useState<Destino[]>(
     DESTINO_PRESETS.filter((d) => destinosSelecionadosIds.includes(d.id))
   )
-  const [produtorSelecionado, setProdutorSelecionado] = useState<string>("")
-  const [produtorCatalogo, setProdutorCatalogo] = useState<Producer[]>([])
+  const [produtorSelecionado, setProdutorSelecionado] = useState<string>(PRODUCER_PRESETS[0]?.id ?? "")
+  const [produtorCatalogo, setProdutorCatalogo] = useState<Producer[]>(PRODUCER_PRESETS)
   const [routes, setRoutes] = useState<RouteResponse | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -89,9 +96,11 @@ export function LogisticaPanel() {
     fetch(`${API_BASE}/api/v1/logistica/demo`)
       .then((res) => res.json())
       .then((json) => {
-        setProducers(json.producers ?? [])
-        setProdutorCatalogo(json.producers ?? [])
-        setProdutorSelecionado(json.producers?.[0]?.id ?? "")
+        if (json.producers?.length) {
+          setProducers(json.producers)
+          setProdutorCatalogo(json.producers)
+          setProdutorSelecionado(json.producers?.[0]?.id ?? "")
+        }
       })
       .catch((err) => setError(`Falha ao carregar demo: ${String(err)}`))
 
