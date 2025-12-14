@@ -179,3 +179,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+/* \U0001f53d Leaflet sempre abaixo de dialogs/modals */
+.leaflet-container {
+  z-index: 0 !important;
+}
+
+.leaflet-pane {
+  z-index: 0 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 10 !important;
+}

@@ -4,6 +4,21 @@ import type { CSSProperties } from "react";
 import { Mapa } from "@/components/mapa";
 import { AlertCircle, Leaf, UtensilsCrossed } from "lucide-react";
 
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
 const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 type ResumoGeral = {
@@ -29,18 +44,29 @@ function fmtPct(x: number) {
   return `${Math.round(clampPct(x))}%`;
 }
 
-function Donut({ inNatura, misto, ultra }: { inNatura: number; misto: number; ultra: number }) {
+function Donut({
+  inNatura,
+  misto,
+  ultra,
+}: {
+  inNatura: number;
+  misto: number;
+  ultra: number;
+}) {
   const a = clampPct(ultra);
   const b = clampPct(inNatura);
   const c = clampPct(misto);
 
-  // Conic gradient: 1) ultraprocessado, 2) in natura, 3) misto
   const style = useMemo(
     () =>
       ({
-        background: `conic-gradient(var(--destructive) 0 ${a}%, var(--primary) ${a}% ${a + b}%, hsl(38 92% 50%) ${a + b}% 100%)`,
+        background: `conic-gradient(
+          var(--destructive) 0 ${a}%,
+          var(--primary) ${a}% ${a + b}%,
+          hsl(38 92% 50%) ${a + b}% ${a + b + c}%
+        )`,
       }) as CSSProperties,
-    [a, b]
+    [a, b, c]
   );
 
   return (
@@ -48,7 +74,7 @@ function Donut({ inNatura, misto, ultra }: { inNatura: number; misto: number; ul
       <div className="absolute inset-3 rounded-full bg-background shadow-inner" />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
         <div className="text-xs text-muted-foreground">Total</div>
-        <div className="text-lg font-bold">{fmtPct(a + b + c === 0 ? 0 : 100)}</div>
+        <div className="text-lg font-bold">{fmtPct(a + b + c)}</div>
       </div>
     </div>
   );
@@ -71,7 +97,9 @@ function StatRow({
         <div className="text-muted-foreground">{icon}</div>
         <div>
           <div className="text-sm font-medium leading-4">{label}</div>
-          {hint ? <div className="text-xs text-muted-foreground">{hint}</div> : null}
+          {hint && (
+            <div className="text-xs text-muted-foreground">{hint}</div>
+          )}
         </div>
       </div>
       <div className="text-xl font-bold tabular-nums">{value}</div>
@@ -86,6 +114,7 @@ export default function MapPage() {
 
   useEffect(() => {
     let cancelled = false;
+
     setLoading(true);
     setError(null);
 
@@ -95,16 +124,13 @@ export default function MapPage() {
         return r.json();
       })
       .then((json: ResumoGeral) => {
-        if (cancelled) return;
-        setResumo(json);
+        if (!cancelled) setResumo(json);
       })
       .catch((e) => {
-        if (cancelled) return;
-        setError(String(e));
+        if (!cancelled) setError(String(e));
       })
       .finally(() => {
-        if (cancelled) return;
-        setLoading(false);
+        if (!cancelled) setLoading(false);
       });
 
     return () => {
@@ -118,48 +144,82 @@ export default function MapPage() {
 
   return (
     <>
-      <header className="bg-primary flex items-center justify-center absolute top-0 w-full">
-        <img src="/logo.svg" alt="logo" className="h-12" />
+      {/* Header */}
+      <header className="fixed top-0 z-50 flex h-16 w-full items-center justify-center bg-primary">
+        <img src="/logo.svg" alt="Logo" className="h-12" />
       </header>
 
-      <div className="max-w-5xl p-4 mx-auto mt-32">
-        <h1 className="text-4xl font-bold">Distribuição de alimentos no estado do Rio de Janeiro</h1>
-        <h2 className="text-sm font-light mt-1">Entenda a qualidade da sua alimentação baseada no grau de processamento industrial, conforme diretrizes do Guia Alimentar para a População Brasileira.</h2>
+      {/* Título */}
+      <div className="mx-auto mt-24 max-w-5xl p-4">
+        <h1 className="text-4xl font-bold">
+          Distribuição de alimentos no estado do Rio de Janeiro
+        </h1>
+        <h2 className="mt-1 text-sm font-light">
+          Entenda a qualidade da alimentação com base no grau de processamento
+          industrial, conforme o Guia Alimentar para a População Brasileira.
+        </h2>
       </div>
 
-      <div className="max-w-5xl mx-auto p-4">
+      {/* Resumo */}
+      <div className="mx-auto max-w-5xl p-4">
         <div className="rounded-2xl border bg-card/40 p-4 shadow-sm">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <div className="space-y-1">
-              <div className="text-sm text-muted-foreground">Panorama (base atual do RAJAI)</div>
-              <div className="text-xl font-semibold">Proporção de pontos por tipo de oferta</div>
-              {loading ? <div className="text-xs text-muted-foreground">Carregando resumo…</div> : null}
-              {error ? <div className="text-xs text-destructive">Falha ao carregar: {error}</div> : null}
+            <div>
+              <div className="text-sm text-muted-foreground">
+                Panorama (base atual do RAJAI)
+              </div>
+              <div className="text-xl font-semibold">
+                Proporção de pontos por tipo de oferta
+              </div>
+              {loading && (
+                <div className="text-xs text-muted-foreground">
+                  Carregando resumo…
+                </div>
+              )}
+              {error && (
+                <div className="text-xs text-destructive">
+                  Falha ao carregar: {error}
+                </div>
+              )}
             </div>
 
             <div className="flex items-center gap-4">
-              <Donut inNatura={inNaturaPct} misto={mistoPct} ultra={ultraPct} />
-              <div className="space-y-2">
-                <div className="flex items-center gap-2 text-xs">
-                  <span className="inline-block h-2 w-2 rounded-full bg-destructive" />
-                  <span className="text-muted-foreground">Ultraprocessado</span>
-                  <span className="font-semibold tabular-nums">{fmtPct(ultraPct)}</span>
+              <Donut
+                ultra={ultraPct}
+                inNatura={inNaturaPct}
+                misto={mistoPct}
+              />
+
+              <div className="space-y-2 text-xs">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-destructive" />
+                  Ultraprocessado
+                  <span className="font-semibold">
+                    {fmtPct(ultraPct)}
+                  </span>
                 </div>
-                <div className="flex items-center gap-2 text-xs">
-                  <span className="inline-block h-2 w-2 rounded-full bg-primary" />
-                  <span className="text-muted-foreground">In natura</span>
-                  <span className="font-semibold tabular-nums">{fmtPct(inNaturaPct)}</span>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-primary" />
+                  In natura
+                  <span className="font-semibold">
+                    {fmtPct(inNaturaPct)}
+                  </span>
                 </div>
-                <div className="flex items-center gap-2 text-xs">
-                  <span className="inline-block h-2 w-2 rounded-full" style={{ background: "hsl(38 92% 50%)" }} />
-                  <span className="text-muted-foreground">Misto</span>
-                  <span className="font-semibold tabular-nums">{fmtPct(mistoPct)}</span>
+                <div className="flex items-center gap-2">
+                  <span
+                    className="h-2 w-2 rounded-full"
+                    style={{ background: "hsl(38 92% 50%)" }}
+                  />
+                  Misto
+                  <span className="font-semibold">
+                    {fmtPct(mistoPct)}
+                  </span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
+          <div className="mt-4 grid gap-3 md:grid-cols-3">
             <StatRow
               icon={<AlertCircle className="h-4 w-4 text-destructive" />}
               label="Ultraprocessado"
@@ -173,24 +233,89 @@ export default function MapPage() {
               hint="alimentos frescos"
             />
             <StatRow
-              icon={<UtensilsCrossed className="h-4 w-4" style={{ color: "hsl(38 92% 50%)" }} />}
+              icon={
+                <UtensilsCrossed
+                  className="h-4 w-4"
+                  style={{ color: "hsl(38 92% 50%)" }}
+                />
+              }
               label="Misto"
               value={fmtPct(mistoPct)}
               hint="oferta híbrida"
             />
           </div>
 
-          {resumo ? (
+          {resumo && (
             <div className="mt-3 text-xs text-muted-foreground">
-              Total de registros agregados: <span className="font-medium tabular-nums">{resumo.totais.total}</span>
+              Total de registros agregados:{" "}
+              <span className="font-medium">
+                {resumo.totais.total}
+              </span>
             </div>
-          ) : null}
+          )}
         </div>
       </div>
 
-      <div className="mt-4 max-w-5xl mx-auto p-4 overflow-hidden">
+      {/* Mapa + dialogs */}
+      <div className="mx-auto max-w-5xl p-4">
         <Mapa />
+
+        <div className="mt-4 flex flex-wrap gap-4">
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant="outline">De onde vêm os dados?</Button>
+            </DialogTrigger>
+            <DialogContent className="z-50">
+              <DialogHeader>
+                <DialogTitle>De onde vêm os dados?</DialogTitle>
+              </DialogHeader>
+              <ul className="list-disc space-y-2 pl-4 text-sm">
+                <li>CNAE – Base dos Dados (API)</li>
+                <li>Data Rio</li>
+                <li>OpenStreetMap API</li>
+                <li>UFRRJ</li>
+              </ul>
+            </DialogContent>
+          </Dialog>
+
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant="outline">Glossário</Button>
+            </DialogTrigger>
+            <DialogContent className="z-50">
+              <DialogHeader>
+                <DialogTitle>Glossário</DialogTitle>
+              </DialogHeader>
+
+              <Accordion type="single" collapsible>
+                <AccordionItem value="in-natura">
+                  <AccordionTrigger>In natura (verde)</AccordionTrigger>
+                  <AccordionContent>
+                    Alimentos obtidos diretamente da natureza, sem processamento
+                    industrial.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="misto">
+                  <AccordionTrigger>Misto (amarelo)</AccordionTrigger>
+                  <AccordionContent>
+                    Estabelecimentos com oferta mista de alimentos.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="ultra">
+                  <AccordionTrigger>
+                    Ultraprocessado (vermelho)
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Produtos industrializados com alto grau de processamento.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </DialogContent>
+          </Dialog>
+        </div>
       </div>
     </>
-  )
+  );
 }
