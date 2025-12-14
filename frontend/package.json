@@ -10,12 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< Updated upstream
     "@google/generative-ai": "^0.24.1",
+=======
+    "@radix-ui/react-popover": "^1.1.15",
+>>>>>>> Stashed changes
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/vite": "^4.1.18",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.561.0",
     "react": "^19.0.0-rc.1",

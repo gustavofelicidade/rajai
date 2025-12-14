@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Map } from 'lucide-react';
+import { Menu, X, Map, Route as RouteIcon, Bot } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
@@ -10,15 +10,19 @@ interface MapLayoutProps {
 
 const navItems = [
   { href: '/mapa', label: 'Distribuição de alimentos', icon: Map },
+  { href: '/mapa/logistica', label: 'Rotas logísticas (IA)', icon: RouteIcon },
+  { href: '/mapa/agentes', label: 'Agentes', icon: Bot },
   // Adicione outros futuros mapas aqui
-  // { href: '/mapa/outro', label: 'Outro Mapa', icon: AnotherIcon },
 ];
 
-const MapLayout: React.FC<MapLayoutProps> = ({ children }) => {
-  const [isSidebarOpen, setSidebarOpen] = useState(false);
-  const location = useLocation();
-
-  const SidebarContent = () => (
+function SidebarContent({
+  locationPath,
+  onNavigate,
+}: {
+  locationPath: string;
+  onNavigate: () => void;
+}) {
+  return (
     <>
       <div className="flex items-center justify-between p-4 border-b h-16">
         <Link to="/" className="flex items-center gap-2">
@@ -29,7 +33,7 @@ const MapLayout: React.FC<MapLayoutProps> = ({ children }) => {
           variant="ghost"
           size="icon"
           className="md:hidden"
-          onClick={() => setSidebarOpen(false)}
+          onClick={onNavigate}
           aria-label="Fechar menu"
         >
           <X className="h-6 w-6" />
@@ -41,10 +45,10 @@ const MapLayout: React.FC<MapLayoutProps> = ({ children }) => {
             <li key={item.href}>
               <Link
                 to={item.href}
-                onClick={() => setSidebarOpen(false)}
+                onClick={onNavigate}
                 className={cn(
                   'flex items-center p-2 rounded-lg',
-                  location.pathname === item.href
+                  locationPath === item.href
                     ? 'bg-primary text-primary-foreground'
                     : 'text-gray-700 hover:bg-gray-200'
                 )}
@@ -58,12 +62,17 @@ const MapLayout: React.FC<MapLayoutProps> = ({ children }) => {
       </nav>
     </>
   );
+}
+
+const MapLayout: React.FC<MapLayoutProps> = ({ children }) => {
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Sidebar para desktop */}
       <aside className="hidden md:flex md:flex-col md:fixed md:inset-y-0 md:z-20 md:w-64 bg-white border-r">
-        <SidebarContent />
+        <SidebarContent locationPath={location.pathname} onNavigate={() => {}} />
       </aside>
 
       {/* Mobile-only Overlay */}
@@ -82,7 +91,7 @@ const MapLayout: React.FC<MapLayoutProps> = ({ children }) => {
           isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
         )}
       >
-        <SidebarContent />
+        <SidebarContent locationPath={location.pathname} onNavigate={() => setSidebarOpen(false)} />
       </aside>
 
       <div className="md:pl-64 flex flex-col flex-1">
