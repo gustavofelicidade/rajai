@@ -1,129 +1,126 @@
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
-import { FileText } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ArrowRight, MapPinned, ShieldCheck, BookOpen } from "lucide-react";
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-col w-full">
-      <div className="relative w-full min-h-[75vh] lg:h-screen overflow-hidden">
-        <img
-          src="/hero.gif"
-          alt="Fundo animado - Semana da Computação 2025"
-          className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none"
-          aria-hidden="true"
-        />
+    <div className="relative w-full min-h-[85vh] lg:min-h-screen overflow-hidden">
+      {/* Background */}
+      <img
+        src="/hero.gif"
+        alt="Fundo ilustrativo"
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
+        aria-hidden="true"
+      />
 
-        <div className="absolute inset-0 bg-linear-to-b from-white/50 via-white/40 to-white/60 flex items-center">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto">
-              <div className="bg-transparent border-0 p-6 md:p-10 rounded-2xl">
-                <div className="text-center">
-                  <img src="/logo.svg" alt="logo " />
-                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold sr-only">
-                    RAJAI
-                  </h1>
-                  <p className="text-md sm:text-lg lg:text-xl">
-                    Veja como é a distribuição de alimentos no Rio de Janeiro
-                  </p>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/50 to-white/80" />
 
-                  <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
-                    <Button asChild aria-label="Visualizar mapa">
-                      <Link
-                        to="/mapa"
-                        className="px-6 py-3"
-                      >
-                        Visualizar mapa
-                      </Link>
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
+      {/* Top bar */}
+      <div className="relative z-10">
+        <header className="w-full">
+          <div className="mx-auto max-w-6xl px-4 pt-6 flex items-center justify-between">
+            <a href="/" className="flex items-center gap-3">
+              <img src="/logo.svg" alt="RAJAI" className="h-10" />
+              <span className="sr-only">RAJAI</span>
+            </a>
+
+            <nav className="hidden sm:flex items-center gap-2">
+              <Button variant="ghost" asChild>
+                <a href="/mapa">Mapa</a>
+              </Button>
+              <Button variant="ghost" asChild>
+                <a href="/login">Entrar</a>
+              </Button>
+            </nav>
           </div>
-        </div>
-      </div>
+        </header>
 
-      <section className="bg-white py-16 lg:py-24">
-        <div className="container mx-auto px-4 space-y-20">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              O que é o RAJAI?
-            </h2>
-            <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              O RAJAI é um <strong>centro de informações sobre a distribuição de alimentos no Rio de Janeiro</strong>.
-              Nosso objetivo é centralizar dados e oferecer visualizações claras sobre os sistemas alimentares,
-              auxiliando na criação de políticas públicas mais assertivas.
-            </p>
-          </div>
+        {/* Hero */}
+        <main className="mx-auto max-w-6xl px-4 pt-10 pb-10 lg:pt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
+                RAJAI
+              </h1>
 
-          <hr className="border-gray-200" />
-
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h2 className="text-3xl font-bold text-gray-900">Conceitos Importantes</h2>
-
-              <div className="space-y-3">
-                <h3 className="text-xl font-semibold text-gray-800">Deserto Alimentar</h3>
-                <p className="text-gray-700">
-                  Áreas onde o acesso a alimentos saudáveis e <em>in natura</em> é escasso.
-                  Moradores dessas regiões precisam percorrer grandes distâncias para encontrar comida de verdade.
-                </p>
-                <a href="https://www.camara.leg.br/noticias/754736-estudo-mostra-que-desertos-alimentares-atingem-areas-perifericas/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-blue-600 hover:underline text-sm font-medium">
-                  <FileText className="h-4 w-4" />
-                  Fonte: Câmara dos Deputados
-                </a>
-              </div>
-
-              <div className="space-y-3">
-                <h3 className="text-xl font-semibold text-gray-800">Pântano Alimentar</h3>
-                <p className="text-gray-700">
-                  Regiões com abundância de alimentos ultraprocessados, ricos em calorias e pobres em nutrientes.
-                  Aqui, a comida não saudável é a opção mais fácil e barata.
-                </p>
-                <a href="https://ojoioeotrigo.com.br/2020/10/pantanos-alimentares/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-blue-600 hover:underline text-sm font-medium">
-                  <FileText className="h-4 w-4" />
-                  Fonte: O Joio e O Trigo
-                </a>
-              </div>
-            </div>
-
-            <div className="aspect-video rounded-xl overflow-hidden shadow-lg bg-gray-100">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/X2djTOkLNHY"
-                title="Vídeo sobre Desertos Alimentares"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
-
-          <hr className="border-gray-200" />
-
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="aspect-video rounded-xl overflow-hidden shadow-lg bg-gray-100 order-2 md:order-1">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/5gyTL7vqwMA"
-                title="Vídeo sobre Ultraprocessados"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-
-            <div className="space-y-6 order-1 md:order-2">
-              <h2 className="text-3xl font-bold text-gray-900">Fome e Ultraprocessados</h2>
-              <p className="text-gray-700 text-lg leading-relaxed">
-                A fome moderna muitas vezes se esconde atrás do consumo de calorias vazias. Mesmo quando há acesso à comida, ela é majoritariamente composta por <strong>alimentos ultraprocessados</strong>. Fatores como a falta de tempo e o preço elevado de alimentos frescos acabam empurrando os cariocas para um ciclo de má nutrição e doenças crônicas, onde a falta de nutrientes essenciais coexiste com o excesso de peso.
+              <p className="mt-4 text-base sm:text-lg text-foreground/80 leading-relaxed">
+                Rede de Acesso Justo à Alimentação e Informação. Um painel para
+                explorar a distribuição de pontos de acesso a alimentos e apoiar
+                decisões com base em dados.
               </p>
-              <a href="https://www.gov.br/saude/pt-br/assuntos/saude-brasil/eu-quero-me-alimentar-melhor" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-blue-600 hover:underline font-medium">
-                <FileText className="h-4 w-4" />
-                Saiba mais no Ministério da Saúde
-              </a>
+
+              <div className="mt-6 flex flex-col sm:flex-row gap-3">
+                <Button asChild className="h-11 px-6">
+                  <a href="/mapa" aria-label="Abrir o mapa">
+                    Visualizar mapa <ArrowRight className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+
+                <Button variant="outline" asChild className="h-11 px-6">
+                  <a href="/login" aria-label="Entrar no sistema">
+                    Entrar no sistema
+                  </a>
+                </Button>
+              </div>
+
+              <p className="mt-3 text-xs text-foreground/60">
+                Dica: no mapa você pode trocar a métrica e clicar nos bairros para ver detalhes.
+              </p>
+            </div>
+
+            {/* Feature cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Card className="backdrop-blur-sm bg-white/70">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-base flex items-center gap-2">
+                    <MapPinned className="h-4 w-4" />
+                    Mapa por bairro
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-foreground/75 leading-relaxed">
+                  Visualize a distribuição e compare territórios rapidamente com uma
+                  leitura geográfica intuitiva.
+                </CardContent>
+              </Card>
+
+              <Card className="backdrop-blur-sm bg-white/70">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-base flex items-center gap-2">
+                    <ShieldCheck className="h-4 w-4" />
+                    Transparência
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-foreground/75 leading-relaxed">
+                  Deixe claro o que é fonte, o que é metodologia e quais limites os
+                  dados têm — isso aumenta confiança.
+                </CardContent>
+              </Card>
+
+              <Card className="backdrop-blur-sm bg-white/70 sm:col-span-2">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-base flex items-center gap-2">
+                    <BookOpen className="h-4 w-4" />
+                    Camada narrativa
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="text-sm text-foreground/75 leading-relaxed">
+                  O mapa é o “o quê”. A narrativa explica o “por quê”: desigualdade,
+                  acesso, preço, tempo de deslocamento e justiça social na alimentação.
+                </CardContent>
+              </Card>
             </div>
           </div>
-        </div>
-      </section>
+        </main>
+
+        {/* Footer */}
+        <footer className="relative z-10">
+          <div className="mx-auto max-w-6xl px-4 pb-8 text-xs text-foreground/60 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
+            <span>© {new Date().getFullYear()} RAJAI</span>
+            <span>Desenvolvido para apoio à decisão pública.</span>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 }

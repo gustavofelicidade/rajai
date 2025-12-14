@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Map } from 'lucide-react';
+import { Menu, X, Map, MessageSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
@@ -10,6 +10,7 @@ interface MapLayoutProps {
 
 const navItems = [
   { href: '/mapa', label: 'Distribuição de alimentos', icon: Map },
+  { href: '/mapa/chatbot', label: 'Chat com a IA', icon: MessageSquare },
   // Adicione outros futuros mapas aqui
   // { href: '/mapa/outro', label: 'Outro Mapa', icon: AnotherIcon },
 ];
@@ -23,7 +24,6 @@ const MapLayout: React.FC<MapLayoutProps> = ({ children }) => {
       <div className="flex items-center justify-between p-4 border-b h-16">
         <Link to="/" className="flex items-center gap-2">
           <img src="/logo.svg" alt="RAJAI Logo" className="h-8" />
-          <span className="font-bold text-xl">RAJAI</span>
         </Link>
         <Button
           variant="ghost"

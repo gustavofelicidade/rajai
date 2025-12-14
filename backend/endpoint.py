@@ -28,6 +28,10 @@ GEO_METRICS = [
     "densidade_in_natura_10k",
     "densidade_misto_10k",
     "densidade_ultraprocessado_10k",
+    "percentil_densidade_total",
+    "percentil_densidade_in_natura",
+    "percentil_densidade_misto",
+    "percentil_densidade_ultraprocessado",
 ]
 
 # Normalização de bairros para casar CSV x GeoJSON
@@ -137,7 +141,25 @@ def set_geo_cache(rows: List[Dict[str, Any]]) -> None:
             },
             "breakdown": breakdown,
         }
+        metrics_to_rank = [
+        ("densidade_total_10k", "percentil_densidade_total"),
+        ("densidade_in_natura_10k", "percentil_densidade_in_natura"),
+        ("densidade_misto_10k", "percentil_densidade_misto"),
+        ("densidade_ultraprocessado_10k", "percentil_densidade_ultraprocessado"),
+    ]
 
+    all_bairros = list(GEO_SUMMARY.values())
+    total_bairros = len(all_bairros)
+
+    if total_bairros > 0:
+        for metric_source, metric_target in metrics_to_rank:
+            # Ordena por densidade
+            all_bairros.sort(key=lambda x: x["totais"].get(metric_source, 0))
+            # Aplica o rank
+            for i, item in enumerate(all_bairros):
+                percentil = ((i + 1) / total_bairros) * 100
+                item["totais"][metric_target] = round(percentil, 2)
+                
     GEO_CATALOG.clear()
     GEO_CATALOG.update(
         {
@@ -337,6 +359,47 @@ async def geo_catalogo():
     if not GEO_CATALOG:
         raise HTTPException(status_code=404, detail="Catálogo de bairros não carregado")
     return GEO_CATALOG
+
+
+@geo_router.get("/resumo")
+async def geo_resumo_geral():
+    """Resumo agregado de todos os bairros.
+
+    Útil para cards/indicadores no frontend (ex.: percentuais por grupo).
+    """
+    if not GEO_SUMMARY:
+        raise HTTPException(status_code=404, detail="Resumo de bairros não carregado")
+
+    total = 0
+    total_in_natura = 0
+    total_misto = 0
+    total_ultra = 0
+
+    # soma os totais já computados por bairro
+    for summary in GEO_SUMMARY.values():
+        t = summary.get("totais", {})
+        total += int(t.get("total", 0) or 0)
+        total_in_natura += int(t.get("total_in_natura", 0) or 0)
+        total_misto += int(t.get("total_misto", 0) or 0)
+        total_ultra += int(t.get("total_ultraprocessado", 0) or 0)
+
+    def pct(x: int, denom: int) -> float:
+        return (x / denom * 100) if denom else 0.0
+
+    return {
+        "meta": {"geo_level": "bairro"},
+        "totais": {
+            "total": total,
+            "total_in_natura": total_in_natura,
+            "total_misto": total_misto,
+            "total_ultraprocessado": total_ultra,
+        },
+        "percentuais": {
+            "in_natura": pct(total_in_natura, total),
+            "misto": pct(total_misto, total),
+            "ultraprocessado": pct(total_ultra, total),
+        },
+    }
 
 
 @geo_router.get("/choropleth")
