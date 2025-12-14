@@ -23,7 +23,6 @@ const MapLayout: React.FC<MapLayoutProps> = ({ children }) => {
       <div className="flex items-center justify-between p-4 border-b h-16">
         <Link to="/" className="flex items-center gap-2">
           <img src="/logo.svg" alt="RAJAI Logo" className="h-8" />
-          <span className="font-bold text-xl">RAJAI</span>
         </Link>
         <Button
           variant="ghost"

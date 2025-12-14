@@ -361,6 +361,47 @@ async def geo_catalogo():
     return GEO_CATALOG
 
 
+@geo_router.get("/resumo")
+async def geo_resumo_geral():
+    """Resumo agregado de todos os bairros.
+
+    Útil para cards/indicadores no frontend (ex.: percentuais por grupo).
+    """
+    if not GEO_SUMMARY:
+        raise HTTPException(status_code=404, detail="Resumo de bairros não carregado")
+
+    total = 0
+    total_in_natura = 0
+    total_misto = 0
+    total_ultra = 0
+
+    # soma os totais já computados por bairro
+    for summary in GEO_SUMMARY.values():
+        t = summary.get("totais", {})
+        total += int(t.get("total", 0) or 0)
+        total_in_natura += int(t.get("total_in_natura", 0) or 0)
+        total_misto += int(t.get("total_misto", 0) or 0)
+        total_ultra += int(t.get("total_ultraprocessado", 0) or 0)
+
+    def pct(x: int, denom: int) -> float:
+        return (x / denom * 100) if denom else 0.0
+
+    return {
+        "meta": {"geo_level": "bairro"},
+        "totais": {
+            "total": total,
+            "total_in_natura": total_in_natura,
+            "total_misto": total_misto,
+            "total_ultraprocessado": total_ultra,
+        },
+        "percentuais": {
+            "in_natura": pct(total_in_natura, total),
+            "misto": pct(total_misto, total),
+            "ultraprocessado": pct(total_ultra, total),
+        },
+    }
+
+
 @geo_router.get("/choropleth")
 async def geo_choropleth(
     metric: str = Query(default="total_ultraprocessado", description="Métrica para pintar o mapa"),
