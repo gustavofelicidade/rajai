@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mapa — Feiras + Cozinhas + Hortas (RJ)</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- MarkerCluster -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- Heatmap -->
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
+  <!-- PMTiles (offline) -->
+  <script src="https://unpkg.com/pmtiles@3.0.6/dist/pmtiles.js"></script>
+  <script src="https://unpkg.com/protomaps-leaflet@1.24.0/dist/protomaps-leaflet.min.js"></script>
+
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    header {
+      padding: 12px 16px;
+      border-bottom: 1px solid #eee;
+      display:flex; gap:12px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    #map { height: calc(100vh - 92px); }
+
+    .pill {
+      padding: 6px 10px; border: 1px solid #ddd; border-radius: 999px;
+      font-size: 12px; background:#fafafa;
+    }
+    label { font-size: 12px; color:#333; }
+    select, input {
+      padding: 8px 10px;
+      border:1px solid #ddd; border-radius: 10px;
+      font-size: 14px;
+    }
+    .muted { color:#666; font-size:12px; }
+
+    .toggle {
+      display:flex; align-items:center; gap:8px;
+      padding: 6px 10px; border: 1px solid #ddd; border-radius: 12px;
+      background:#fff;
+      font-size: 13px;
+    }
+
+    /* Ícone grande (Cozinhas) */
+    .kitchen-pin {
+      width: 38px;
+      height: 38px;
+      border-radius: 999px;
+      border: 3px solid #111;
+      background: #ff8c00;
+      display: grid;
+      place-items: center;
+      font-size: 20px;
+      line-height: 1;
+      box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Label acima do ícone */
+    .kitchen-label {
+      background: rgba(255,255,255,.95);
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 2px 6px;
+      font-size: 11px;
+      font-weight: 700;
+      white-space: nowrap;
+      box-shadow: 0 2px 10px rgba(0,0,0,.15);
+    }
+
+    /* Ícone (Hortas) — verde */
+    .garden-pin {
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      border: 3px solid #111;
+      background: #35c759;
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+      line-height: 1;
+      box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    .garden-label {
+      background: rgba(255,255,255,.95);
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 2px 6px;
+      font-size: 11px;
+      font-weight: 700;
+      white-space: nowrap;
+      box-shadow: 0 2px 10px rgba(0,0,0,.15);
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="pill"><strong>RJ</strong> • Feiras + Cozinhas + Hortas</div>
+
+  <!-- Filtros FEIRAS -->
+  <div>
+    <label for="ra">RA (Feiras)</label><br/>
+    <select id="ra"></select>
+  </div>
+
+  <div>
+    <label for="dia">Dia (Feiras)</label><br/>
+    <select id="dia"></select>
+  </div>
+
+  <!-- Filtros COZINHAS -->
+  <div>
+    <label for="bairroCoz">Bairro (Cozinhas)</label><br/>
+    <select id="bairroCoz"></select>
+  </div>
+
+  <!-- Busca geral (aplica em Feiras + Cozinhas + Hortas) -->
+  <div>
+    <label for="q">Busca (endereço / bairro / nome)</label><br/>
+    <input id="q" placeholder="ex: Copacabana, Rua..., Madureira" size="26"/>
+  </div>
+
+  <div class="toggle">
+    <input type="checkbox" id="labelsCoz" />
+    <label for="labelsCoz" style="margin:0; cursor:pointer;">Mostrar labels (Cozinhas)</label>
+  </div>
+
+  <div class="toggle">
+    <input type="checkbox" id="labelsHorta" />
+    <label for="labelsHorta" style="margin:0; cursor:pointer;">Mostrar labels (Hortas)</label>
+  </div>
+
+  <div class="muted" id="status"></div>
+</header>
+
+<div id="map"></div>
+
+<script>
+/* =========================
+   1) MAPA BASE (OSM + PMTiles com fallback seguro)
+   ========================= */
+const map = L.map("map").setView([-22.92, -43.2], 11);
+
+// OSM online
+const osmOnline = L.tileLayer(
+  "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }
+).addTo(map);
+
+const layersControl = L.control.layers(
+  { "Online (OpenStreetMap)": osmOnline },
+  {},
+  { position: "topright" }
+).addTo(map);
+
+// PMTiles (offline) opcional: ./tiles/rio.pmtiles
+let pmtilesLayer = null;
+async function tryEnablePMTiles() {
+  try {
+    const head = await fetch("./tiles/rio.pmtiles", { method: "HEAD" });
+    if (!head.ok) return;
+
+    const protocol = new pmtiles.Protocol();
+    pmtiles.addProtocol("pmtiles", protocol.tile);
+
+    pmtilesLayer = protomapsL.leafletLayer({ url: "pmtiles://tiles/rio.pmtiles" });
+    layersControl.addBaseLayer(pmtilesLayer, "Offline (PMTiles)");
+
+    // troca para offline automaticamente se existir
+    map.removeLayer(osmOnline);
+    pmtilesLayer.addTo(map);
+  } catch (e) {
+    console.warn("PMTiles não ativado. Continuando com OSM online.", e);
+  }
+}
+tryEnablePMTiles();
+
+/* =========================
+   2) UI
+   ========================= */
+const raSelect = document.getElementById("ra");
+const diaSelect = document.getElementById("dia");
+const bairroCozSelect = document.getElementById("bairroCoz");
+const qInput = document.getElementById("q");
+const statusEl = document.getElementById("status");
+const labelsCozChk = document.getElementById("labelsCoz");
+const labelsHortaChk = document.getElementById("labelsHorta");
+
+let feirasFeatures = [];
+let cozinhasFeatures = [];
+let hortasFeatures = [];
+
+function uniq(arr) {
+  return Array.from(new Set(arr.filter(Boolean))).sort((a,b)=>a.localeCompare(b,'pt-BR'));
+}
+
+function buildOptions(select, values, allLabel="(Todas)") {
+  select.innerHTML = "";
+  const optAll = document.createElement("option");
+  optAll.value = "";
+  optAll.textContent = allLabel;
+  select.appendChild(optAll);
+  for (const v of values) {
+    const opt = document.createElement("option");
+    opt.value = v;
+    opt.textContent = v;
+    select.appendChild(opt);
+  }
+}
+
+function normalize(s) {
+  return String(s || "").toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
+}
+
+function matchesAnyText(props, q, extra="") {
+  if (!q) return true;
+  const needle = normalize(q);
+  const hay = normalize(
+    `${props.nome || ""} ${props.endereco || ""} ${props.bairro || ""} ${props.ra || ""} ${props.dia || ""} ${extra || ""}`
+  );
+  return hay.includes(needle);
+}
+
+function colorByRA(ra) {
+  const colors = ["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f"];
+  const s = String(ra || "");
+  let h = 0;
+  for (let i=0;i<s.length;i++) h = s.charCodeAt(i) + ((h<<5) - h);
+  return colors[Math.abs(h) % colors.length];
+}
+
+/* =========================
+   3) CAMADAS
+   ========================= */
+// FEIRAS
+const feirasCluster = L.markerClusterGroup({ disableClusteringAtZoom: 16 });
+map.addLayer(feirasCluster);
+
+const heatFeiras = L.heatLayer([], {
+  radius: 45, blur: 28, maxZoom: 15, minOpacity: 0.25
+});
+
+// COZINHAS
+const cozinhasLayer = L.layerGroup();
+map.addLayer(cozinhasLayer);
+
+const heatCozinhas = L.heatLayer([], {
+  radius: 55, blur: 32, maxZoom: 15, minOpacity: 0.25
+});
+
+// HORTAS
+const hortasLayer = L.layerGroup();
+map.addLayer(hortasLayer);
+
+const heatHortas = L.heatLayer([], {
+  radius: 55, blur: 34, maxZoom: 15, minOpacity: 0.25
+});
+
+// Overlays (podem sobrepor!)
+layersControl.addOverlay(feirasCluster, "Feiras (pins + cluster)");
+layersControl.addOverlay(heatFeiras, "Heatmap — Feiras");
+layersControl.addOverlay(cozinhasLayer, "Cozinhas (pins)");
+layersControl.addOverlay(heatCozinhas, "Heatmap — Cozinhas");
+layersControl.addOverlay(hortasLayer, "Hortas (pins)");
+layersControl.addOverlay(heatHortas, "Heatmap — Hortas");
+
+/* =========================
+   4) ÍCONES + LABELS
+   ========================= */
+const kitchenIcon = L.divIcon({
+  className: "",
+  html: `<div class="kitchen-pin" title="Cozinha Comunitária">🍲</div>`,
+  iconSize: [38, 38],
+  iconAnchor: [19, 19]
+});
+
+function bindKitchenLabel(marker, name) {
+  marker.bindTooltip(name, {
+    permanent: true,
+    direction: "top",
+    offset: [0, -20],
+    className: "kitchen-label",
+    opacity: 0.95
+  });
+}
+
+const gardenIcon = L.divIcon({
+  className: "",
+  html: `<div class="garden-pin" title="Horta Urbana">🌱</div>`,
+  iconSize: [34, 34],
+  iconAnchor: [17, 17]
+});
+
+function bindGardenLabel(marker, name) {
+  marker.bindTooltip(name, {
+    permanent: true,
+    direction: "top",
+    offset: [0, -18],
+    className: "garden-label",
+    opacity: 0.95
+  });
+}
+
+/* =========================
+   5) RENDER
+   ========================= */
+function renderAll() {
+  // limpa
+  feirasCluster.clearLayers();
+  heatFeiras.setLatLngs([]);
+  cozinhasLayer.clearLayers();
+  heatCozinhas.setLatLngs([]);
+  hortasLayer.clearLayers();
+  heatHortas.setLatLngs([]);
+
+  const ra = raSelect.value;
+  const dia = diaSelect.value;
+  const bairroCoz = bairroCozSelect.value;
+  const q = qInput.value.trim();
+
+  // FEIRAS (com filtros RA + dia + busca)
+  const feirasFiltered = feirasFeatures.filter(f => {
+    const p = f.properties || {};
+    if (ra && p.ra !== ra) return false;
+    if (dia && p.dia !== dia) return false;
+    if (!matchesAnyText(p, q)) return false;
+    return true;
+  });
+
+  for (const f of feirasFiltered) {
+    const p = f.properties || {};
+    const coords = f.geometry?.coordinates;
+    if (!coords || coords.length < 2) continue;
+    const [lon, lat] = coords;
+
+    const marker = L.circleMarker([lat, lon], {
+      radius: 7,
+      color: colorByRA(p.ra),
+      weight: 2,
+      fillOpacity: 0.85
+    });
+
+    marker.bindPopup(`
+      <div style="font-size:14px">
+        <div><strong>${p.bairro || "-"}</strong> • ${p.ra || "-"}</div>
+        <div>${p.endereco || "-"}</div>
+        <div><strong>${p.dia || "-"}</strong> • ${p.horario || "-"}</div>
+        <div style="margin-top:8px;font-size:12px;color:#666">
+          <div>ID: ${p.id || "-"}</div>
+          <div>Status geocode: ${p.geocode_status || "-"}</div>
+        </div>
+      </div>
+    `);
+
+    feirasCluster.addLayer(marker);
+    heatFeiras.addLatLng([lat, lon, 0.7]);
+  }
+
+  // COZINHAS (filtro bairro + busca)
+  const cozinhasFiltered = cozinhasFeatures.filter(f => {
+    const p = f.properties || {};
+    if (bairroCoz && (p.bairro || "") !== bairroCoz) return false;
+    if (!matchesAnyText(p, q)) return false;
+    return true;
+  });
+
+  const showKitchenLabels = labelsCozChk.checked;
+
+  for (const f of cozinhasFiltered) {
+    const p = f.properties || {};
+    const coords = f.geometry?.coordinates;
+    if (!coords || coords.length < 2) continue;
+    const [lon, lat] = coords;
+
+    const m = L.marker([lat, lon], { icon: kitchenIcon });
+
+    m.bindPopup(`
+      <div style="font-size:14px">
+        <div><strong>${p.nome || "Cozinha Comunitária"}</strong></div>
+        <div>${p.endereco || "-"}</div>
+        <div><em>${p.bairro || "-"}</em></div>
+        <div style="margin-top:6px;font-size:12px;color:#666">${p.tipo || "Cozinha Comunitária"}</div>
+        <div style="margin-top:6px;font-size:12px;color:#666">ID: ${p.id || "-"}</div>
+      </div>
+    `);
+
+    if (showKitchenLabels) bindKitchenLabel(m, p.nome || "Cozinha");
+
+    cozinhasLayer.addLayer(m);
+    heatCozinhas.addLatLng([lat, lon, 1.2]);
+  }
+
+  // HORTAS (por enquanto só busca)
+  const hortasFiltered = hortasFeatures.filter(f => {
+    const p = f.properties || {};
+    if (!matchesAnyText(p, q)) return false;
+    return true;
+  });
+
+  const showGardenLabels = labelsHortaChk.checked;
+
+  for (const f of hortasFiltered) {
+    const p = f.properties || {};
+    const coords = f.geometry?.coordinates;
+    if (!coords || coords.length < 2) continue;
+    const [lon, lat] = coords;
+
+    const m = L.marker([lat, lon], { icon: gardenIcon });
+
+    m.bindPopup(`
+      <div style="font-size:14px">
+        <div><strong>${p.nome || "Horta Urbana"}</strong></div>
+        <div>${p.endereco || "-"}</div>
+        <div><em>${p.bairro || "-"}</em></div>
+        <div style="margin-top:6px;font-size:12px;color:#666">${p.tipo || "Horta Urbana"}</div>
+        <div style="margin-top:6px;font-size:12px;color:#666">ID: ${p.id || "-"}</div>
+      </div>
+    `);
+
+    if (showGardenLabels) bindGardenLabel(m, p.nome || "Horta");
+
+    hortasLayer.addLayer(m);
+    heatHortas.addLatLng([lat, lon, 1.0]);
+  }
+
+  statusEl.textContent =
+    `Feiras: ${feirasFiltered.length}/${feirasFeatures.length} • ` +
+    `Cozinhas: ${cozinhasFiltered.length}/${cozinhasFeatures.length} • ` +
+    `Hortas: ${hortasFiltered.length}/${hortasFeatures.length}`;
+
+  // Só auto-zoom se tiver um resultado bem definido
+  const anyCount = feirasFiltered.length + cozinhasFiltered.length + hortasFiltered.length;
+  if (q && anyCount > 0 && anyCount < 150) {
+    const group = L.featureGroup([]);
+    try {
+      if (feirasCluster.getLayers().length) group.addLayer(feirasCluster);
+      if (cozinhasLayer.getLayers().length) group.addLayer(cozinhasLayer);
+      if (hortasLayer.getLayers().length) group.addLayer(hortasLayer);
+      map.fitBounds(group.getBounds().pad(0.25));
+    } catch(e) {}
+  }
+}
+
+/* =========================
+   6) LOAD
+   ========================= */
+async function loadGeoJSON(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`Não encontrei ${path}`);
+  return await res.json();
+}
+
+async function boot() {
+  try {
+    statusEl.textContent = "Carregando dados...";
+
+    // FEIRAS
+    const feirasData = await loadGeoJSON("./feiras_rio.geojson");
+    feirasFeatures = feirasData.features || [];
+    buildOptions(raSelect, uniq(feirasFeatures.map(f => f.properties?.ra)), "(Todas)");
+    buildOptions(diaSelect, uniq(feirasFeatures.map(f => f.properties?.dia)), "(Todos)");
+
+    // COZINHAS (opcional)
+    try {
+      const cozinhasData = await loadGeoJSON("./cozinhas_comunitarias_rio.geojson");
+      cozinhasFeatures = cozinhasData.features || [];
+    } catch {
+      cozinhasFeatures = [];
+    }
+    buildOptions(bairroCozSelect, uniq(cozinhasFeatures.map(f => f.properties?.bairro)), "(Todos)");
+
+    // HORTAS (opcional)
+    try {
+      const hortasData = await loadGeoJSON("./hortas_urbanas_rio.geojson");
+      hortasFeatures = hortasData.features || [];
+    } catch {
+      hortasFeatures = [];
+    }
+
+    // Render
+    renderAll();
+
+  } catch (e) {
+    console.error(e);
+    statusEl.textContent = "Erro ao carregar dados. Abra o Console (F12) para detalhes.";
+  }
+}
+
+// Eventos
+raSelect.addEventListener("change", renderAll);
+diaSelect.addEventListener("change", renderAll);
+bairroCozSelect.addEventListener("change", renderAll);
+
+qInput.addEventListener("input", () => {
+  clearTimeout(window.__t);
+  window.__t = setTimeout(renderAll, 150);
+});
+
+labelsCozChk.addEventListener("change", renderAll);
+labelsHortaChk.addEventListener("change", renderAll);
+
+boot();
+</script>
+</body>
+</html>

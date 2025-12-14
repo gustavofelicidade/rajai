@@ -1,13 +1,21 @@
 from __future__ import annotations
 
+import math
+import os
 import re
 import unicodedata
 from typing import Any, Dict, List, Optional, Tuple
 
 from fastapi import APIRouter, HTTPException, Query
 
+try:
+    from langchain_google_genai import ChatGoogleGenerativeAI
+except Exception:  # pragma: no cover - optional
+    ChatGoogleGenerativeAI = None  # type: ignore
+
 data_router = APIRouter(prefix="/api/v1/dados", tags=["dados"])
 geo_router = APIRouter(prefix="/api/v1/geo/bairros", tags=["geo"])
+logistica_router = APIRouter(prefix="/api/v1/logistica", tags=["logistica"])
 
 # Cache interno que recebe os dados carregados em main.py
 # Esperado: {"tabela_1": [ {col: val, ...}, ... ], ...}
@@ -28,6 +36,10 @@ GEO_METRICS = [
     "densidade_in_natura_10k",
     "densidade_misto_10k",
     "densidade_ultraprocessado_10k",
+    "percentil_densidade_total",
+    "percentil_densidade_in_natura",
+    "percentil_densidade_misto",
+    "percentil_densidade_ultraprocessado",
 ]
 
 # Normalização de bairros para casar CSV x GeoJSON
@@ -137,13 +149,32 @@ def set_geo_cache(rows: List[Dict[str, Any]]) -> None:
             },
             "breakdown": breakdown,
         }
+        metrics_to_rank = [
+        ("densidade_total_10k", "percentil_densidade_total"),
+        ("densidade_in_natura_10k", "percentil_densidade_in_natura"),
+        ("densidade_misto_10k", "percentil_densidade_misto"),
+        ("densidade_ultraprocessado_10k", "percentil_densidade_ultraprocessado"),
+    ]
 
+    all_bairros = list(GEO_SUMMARY.values())
+    total_bairros = len(all_bairros)
+
+    if total_bairros > 0:
+        for metric_source, metric_target in metrics_to_rank:
+            # Ordena por densidade
+            all_bairros.sort(key=lambda x: x["totais"].get(metric_source, 0))
+            # Aplica o rank
+            for i, item in enumerate(all_bairros):
+                percentil = ((i + 1) / total_bairros) * 100
+                item["totais"][metric_target] = round(percentil, 2)
+                
     GEO_CATALOG.clear()
     GEO_CATALOG.update(
         {
             "groups": sorted(groups_set),
             "cnaes": sorted(cnaes_set),
             "metrics": GEO_METRICS,
+            "bairros": sorted(GEO_SUMMARY.keys()),
         }
     )
 
@@ -330,6 +361,93 @@ def _filter_geo_rows(
 
 
 # -----------------------------
+# Helpers LOGÍSTICA
+# -----------------------------
+def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    r = 6371.0
+    p1 = math.radians(lat1)
+    p2 = math.radians(lat2)
+    dlat = p2 - p1
+    dlon = math.radians(lon2 - lon1)
+    a = math.sin(dlat / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dlon / 2) ** 2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+    return r * c
+
+
+def _greedy_routes(
+    producers: List[Dict[str, Any]], destinos: List[Dict[str, Any]]
+) -> Dict[str, Any]:
+    """
+    Heurística simples: para cada destino, escolhe o produtor mais próximo (menor distância).
+    """
+    routes = []
+    total_distance = 0.0
+    total_cost = 0.0
+
+    for destino in destinos:
+        if not producers:
+            continue
+        lat_d = float(destino.get("lat", 0))
+        lon_d = float(destino.get("lon", 0))
+        demand = float(destino.get("demand", 0))
+
+        best = None
+        best_dist = None
+        for prod in producers:
+            lat_p = float(prod.get("lat", 0))
+            lon_p = float(prod.get("lon", 0))
+            dist = _haversine_km(lat_p, lon_p, lat_d, lon_d)
+            if best_dist is None or dist < best_dist:
+                best_dist = dist
+                best = prod
+
+        if best is None or best_dist is None:
+            continue
+
+        cost = best_dist * demand
+        total_distance += best_dist
+        total_cost += cost
+        routes.append(
+            {
+                "produtor": best,
+                "destino": destino,
+                "distance_km": round(best_dist, 3),
+                "custo_estimado": round(cost, 3),
+            }
+        )
+
+    return {
+        "meta": {"algorithm": "greedy_nearest"},
+        "total_distance_km": round(total_distance, 3),
+        "total_custo_estimado": round(total_cost, 3),
+        "routes": routes,
+    }
+
+
+def _maybe_ai_summary(routes_payload: Dict[str, Any]) -> Optional[str]:
+    """
+    Se GEMINI_API_KEY estiver presente e langchain-google-genai instalado, gera um resumo.
+    """
+    api_key = os.getenv("GEMINI_API_KEY")
+    model_name = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    if not api_key or ChatGoogleGenerativeAI is None:
+        return None
+    try:
+        llm = ChatGoogleGenerativeAI(api_key=api_key, model=model_name, temperature=0)
+        content = (
+            "Você é um assistente logístico. Resuma rotas propostas e destaque gargalos."
+            f"\nDados: {routes_payload}"
+        )
+        resp = llm.invoke(content)
+        return resp.content if hasattr(resp, "content") else str(resp)
+    except Exception:
+        return None
+
+
+# -----------------------------
+# Endpoints GEO (choropleth + tooltip + linhas)
+# -----------------------------
+# -----------------------------
 # Endpoints GEO (choropleth + tooltip + linhas)
 # -----------------------------
 @geo_router.get("/catalogo")
@@ -337,6 +455,47 @@ async def geo_catalogo():
     if not GEO_CATALOG:
         raise HTTPException(status_code=404, detail="Catálogo de bairros não carregado")
     return GEO_CATALOG
+
+
+@geo_router.get("/resumo")
+async def geo_resumo_geral():
+    """Resumo agregado de todos os bairros.
+
+    Útil para cards/indicadores no frontend (ex.: percentuais por grupo).
+    """
+    if not GEO_SUMMARY:
+        raise HTTPException(status_code=404, detail="Resumo de bairros não carregado")
+
+    total = 0
+    total_in_natura = 0
+    total_misto = 0
+    total_ultra = 0
+
+    # soma os totais já computados por bairro
+    for summary in GEO_SUMMARY.values():
+        t = summary.get("totais", {})
+        total += int(t.get("total", 0) or 0)
+        total_in_natura += int(t.get("total_in_natura", 0) or 0)
+        total_misto += int(t.get("total_misto", 0) or 0)
+        total_ultra += int(t.get("total_ultraprocessado", 0) or 0)
+
+    def pct(x: int, denom: int) -> float:
+        return (x / denom * 100) if denom else 0.0
+
+    return {
+        "meta": {"geo_level": "bairro"},
+        "totais": {
+            "total": total,
+            "total_in_natura": total_in_natura,
+            "total_misto": total_misto,
+            "total_ultraprocessado": total_ultra,
+        },
+        "percentuais": {
+            "in_natura": pct(total_in_natura, total),
+            "misto": pct(total_misto, total),
+            "ultraprocessado": pct(total_ultra, total),
+        },
+    }
 
 
 @geo_router.get("/choropleth")
@@ -392,6 +551,40 @@ async def geo_tooltip(bairro: str):
         "totais": summary["totais"],
         "breakdown": summary["breakdown"],
     }
+
+
+# -----------------------------
+# Endpoints LOGÍSTICA
+# -----------------------------
+@logistica_router.get("/demo")
+async def logistica_demo():
+    """
+    Dados de exemplo para testar o front sem inputs do usuário.
+    """
+    producers = [
+        {"id": "prod-1", "nome": "Coop Zona Oeste", "bairro": "Campo Grande", "lat": -22.9028, "lon": -43.5586},
+        {"id": "prod-2", "nome": "Horta Serra", "bairro": "Tijuca", "lat": -22.925, "lon": -43.2409},
+    ]
+    destinos = [
+        {"id": "dest-1", "bairro": "Bangu", "lat": -22.875, "lon": -43.4604, "demand": 5},
+        {"id": "dest-2", "bairro": "Madureira", "lat": -22.8735, "lon": -43.3375, "demand": 7},
+        {"id": "dest-3", "bairro": "Vila Isabel", "lat": -22.9231, "lon": -43.2485, "demand": 4},
+    ]
+    return {"producers": producers, "destinos": destinos}
+
+
+@logistica_router.post("/rotas-candidatas")
+async def logistica_rotas(payload: Dict[str, Any]):
+    producers = payload.get("producers") or []
+    destinos = payload.get("destinos") or []
+    if not isinstance(producers, list) or not isinstance(destinos, list):
+        raise HTTPException(status_code=400, detail="producers e destinos devem ser listas")
+
+    result = _greedy_routes(producers, destinos)
+    ai_resumo = _maybe_ai_summary(result)
+    if ai_resumo:
+        result["ai_resumo"] = ai_resumo
+    return result
 
 
 # -----------------------------

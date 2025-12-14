@@ -2,13 +2,13 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { GeoJSON, MapContainer, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Feature, FeatureCollection, Geometry } from 'geojson'
-import type { Layer } from 'leaflet'
+import type { GeoJSONOptions, Layer, LeafletMouseEvent, Path, PathOptions } from 'leaflet'
 
 import { normalizeBairro } from '@/utils/normalizeBairro'
 
 type BairroProperties = {
   NOME?: string
-  [key: string]: any
+  [key: string]: unknown
 }
 
 type ChoroplethResponse = {
@@ -143,14 +143,14 @@ export function Mapa() {
       })
   }, [metric])
 
-  const onEachFeature = useCallback(
+  const onEachFeature = useCallback<NonNullable<GeoJSONOptions['onEachFeature']>>(
     (feature: Feature<Geometry, BairroProperties>, layer: Layer) => {
       const bairroRaw = feature?.properties?.NOME ?? ''
       const bairroNorm = normalizeBairro(String(bairroRaw))
 
       layer.on({
-        mouseover: async (e: any) => {
-          const target = e.target
+        mouseover: async (e: LeafletMouseEvent) => {
+          const target = e.target as Path
           target.setStyle({ weight: 2, color: 'rgba(0,0,0,0.5)' })
 
           if (!bairroNorm) return
@@ -163,7 +163,7 @@ export function Mapa() {
                 const json = (await res.json()) as TooltipResponse
                 tooltipCache.set(bairroNorm, json)
               }
-            } catch (err) {
+            } catch {
               // silencioso para não travar hover
             }
           }
@@ -174,8 +174,8 @@ export function Mapa() {
             target.bindTooltip(html, { sticky: true, direction: 'auto', opacity: 0.9 }).openTooltip()
           }
         },
-        mouseout: (e: any) => {
-          const target = e.target
+        mouseout: (e: LeafletMouseEvent) => {
+          const target = e.target as Path
           target.setStyle({ weight: 1, color: 'rgba(0,0,0,0.25)' })
           target.closeTooltip()
         },
@@ -184,11 +184,20 @@ export function Mapa() {
     []
   )
 
-  const styleFn = useMemo(() => {
+  const styleFn = useMemo<NonNullable<GeoJSONOptions['style']>>(() => {
     const min = minMax.min
     const max = minMax.max
 
-    return (feature: Feature<Geometry, BairroProperties>) => {
+    return (feature?: Feature<Geometry, BairroProperties>): PathOptions => {
+      if (!feature) {
+        return {
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.75,
+          fillColor: choroplethColors[0],
+          color: 'rgba(0,0,0,0.25)',
+        }
+      }
       const bairro = normalizeBairro(String(feature?.properties?.NOME ?? ''))
       const value = valueMap.get(bairro) ?? 0
       const t = max > min ? (value - min) / (max - min) : 0
@@ -254,8 +263,8 @@ export function Mapa() {
           {geoJsonData && (
             <GeoJSON
               data={geoJsonData}
-              style={styleFn as any}
-              onEachFeature={onEachFeature as any}
+              style={styleFn}
+              onEachFeature={onEachFeature}
             />
           )}
         </MapContainer>

@@ -1,0 +1,1237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2407717,
+          -22.9807346
+        ]
+      },
+      "properties": {
+        "id": "042b2c54ed31",
+        "endereco": "Estrada. Santa Marinha, 57 - Gávea, Rio de Janeiro",
+        "bairro": "Gávea",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada. Santa Marinha, 57 - Gávea, Rio de Janeiro, Gávea, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6293355,
+          -22.9154507
+        ]
+      },
+      "properties": {
+        "id": "081878c0e60b",
+        "endereco": "Estrada Urucânia, 936 - Paciência, Rio de Janeiro",
+        "bairro": "Paciência",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada Urucânia, 936 - Paciência, Rio de Janeiro, Paciência, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2764454,
+          -22.8381127
+        ]
+      },
+      "properties": {
+        "id": "1a82b7651354",
+        "endereco": "C. Floridos - Rua Aimoré, 1.023 - Penha, Rio de Janeiro",
+        "bairro": "Penha",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Penha, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2221317,
+          -22.9211975
+        ]
+      },
+      "properties": {
+        "id": "1c2046128851",
+        "endereco": "Rua São Francisco Xavier, 95 - Tijuca, Rio de Janeiro",
+        "bairro": "Tijuca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua São Francisco Xavier, 95 - Tijuca, Rio de Janeiro, Tijuca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5591295,
+          -22.902953
+        ]
+      },
+      "properties": {
+        "id": "214b20311e3a",
+        "endereco": "Rua Caminho do Partido, 40 - Campo Grande, Rio de Janeiro",
+        "bairro": "Campo Grande",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Campo Grande, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4087938,
+          -22.9565985
+        ]
+      },
+      "properties": {
+        "id": "2582ed8d2d1b",
+        "endereco": "Estrada de Curicica, 5038 - Curicica, Rio de Janeiro",
+        "bairro": "Curicica",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada de Curicica, 5038 - Curicica, Rio de Janeiro, Curicica, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3371976,
+          -22.871658
+        ]
+      },
+      "properties": {
+        "id": "2967ff6ba602",
+        "endereco": "Rua Licurgo, 900 - Madureira, Rio de Janeiro (Parque Madureira)",
+        "bairro": "Madureira",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Madureira, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3418026,
+          -22.8616631
+        ]
+      },
+      "properties": {
+        "id": "2a95f922938c",
+        "endereco": "Rua Pirapora, 195 - Turiaçu, Rio de Janeiro (Portão 3 - Parque Madureira)",
+        "bairro": "Turiaçu",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Turiaçu, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3371976,
+          -22.871658
+        ]
+      },
+      "properties": {
+        "id": "3248331a915d",
+        "endereco": "Rua Pedro Alexandrino, 297 - Madureira, Rio de Janeiro (Parque Madureira)",
+        "bairro": "Madureira",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Madureira, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "3aae95943c1c",
+        "endereco": "Estrada da Independência, s/nº - Tijuca, Rio de Janeiro",
+        "bairro": "Tijuca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Tijuca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3561294,
+          -22.8465751
+        ]
+      },
+      "properties": {
+        "id": "4023490b712b",
+        "endereco": "Rua Lourenço Marques, 103 - Honório Gurgel, Rio de Janeiro (Parque Madureira)",
+        "bairro": "Honório Gurgel",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Honório Gurgel, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2219346,
+          -22.899318
+        ]
+      },
+      "properties": {
+        "id": "42dece9de599",
+        "endereco": "Rua Lopes Trovão, 287 - São Cristóvão, Rio de Janeiro",
+        "bairro": "São Cristóvão",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "São Cristóvão, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          NaN,
+          NaN
+        ]
+      },
+      "properties": {
+        "id": "4df1f5cf19ae",
+        "endereco": "Estrada Almirante Santiago Dantas, 170 - Barros Filhos, Rio de Janeiro",
+        "bairro": "Barros Filhos",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "not_found",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada Almirante Santiago Dantas, 170 - Barros Filhos, Rio de Janeiro, Barros Filhos, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3146207,
+          -22.8088395
+        ]
+      },
+      "properties": {
+        "id": "4e3b4bbf5701",
+        "endereco": "Rua Gregório de Matos - Vigário Geral, Rio de Janeiro",
+        "bairro": "Vigário Geral",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Gregório de Matos - Vigário Geral, Rio de Janeiro, Vigário Geral, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "5388b181153a",
+        "endereco": "Rua São Miguel, s/nº - Tijuca, Rio de Janeiro",
+        "bairro": "Tijuca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Tijuca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "544259cd7d3d",
+        "endereco": "Rua Paulino Nogueira, s/nº - Tijuca, Rio de Janeiro",
+        "bairro": "Tijuca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Tijuca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3463053,
+          -22.8503472
+        ]
+      },
+      "properties": {
+        "id": "5725fb048025",
+        "endereco": "Rua São Roque, 04 - Rocha Miranda, Rio de Janeiro (Parque madureira)",
+        "bairro": "Rocha Miranda",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rocha Miranda, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2004797,
+          -22.9546413
+        ]
+      },
+      "properties": {
+        "id": "5772c369eead",
+        "endereco": "Rua Visconde Silva, s/nº - Humaitá, Rio de Janeiro",
+        "bairro": "Humaitá",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Humaitá, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1982662,
+          -22.9407127
+        ]
+      },
+      "properties": {
+        "id": "5dac3dce357c",
+        "endereco": "Praça São Judas Tadeu - Cosme Velho, Rio de Janeiro",
+        "bairro": "Cosme Velho",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Praça São Judas Tadeu - Cosme Velho, Rio de Janeiro, Cosme Velho, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6552852,
+          -22.8793051
+        ]
+      },
+      "properties": {
+        "id": "5ed575e1f0e4",
+        "endereco": "Estrada dos Palmares 4603 - Santa Cruz, Rio de Janeiro",
+        "bairro": "Santa Cruz",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada dos Palmares 4603 - Santa Cruz, Rio de Janeiro, Santa Cruz, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3490495,
+          -22.946582
+        ]
+      },
+      "properties": {
+        "id": "5f4a2b0796d6",
+        "endereco": "Rua Quintanilha, 820 - Freguesia, Rio de Janeiro",
+        "bairro": "Freguesia",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Quintanilha, 820 - Freguesia, Rio de Janeiro, Freguesia, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2425729,
+          -22.8592368
+        ]
+      },
+      "properties": {
+        "id": "68b20197f03a",
+        "endereco": "Via a 2, s/nº - Maré, Rio de Janeiro",
+        "bairro": "Maré",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Maré, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3870315,
+          -22.851201
+        ]
+      },
+      "properties": {
+        "id": "6a72fe06152f",
+        "endereco": "Rua Osman Lins, s/nº - Deodoro, Rio de Janeiro",
+        "bairro": "Deodoro",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Deodoro, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4146773,
+          -22.8734891
+        ]
+      },
+      "properties": {
+        "id": "6eea33a58de1",
+        "endereco": "Rua Corrêa Seara, 97 - Magalhães Bastos, Rio de Janeiro",
+        "bairro": "Magalhães Bastos",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Corrêa Seara, 97 - Magalhães Bastos, Rio de Janeiro, Magalhães Bastos, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3097159,
+          -22.81347
+        ]
+      },
+      "properties": {
+        "id": "71aa3e720363",
+        "endereco": "Praça Elba, 1215 - Vigário Geral, Rio de Janeiro",
+        "bairro": "Vigário Geral",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "exact",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Praça Elba, 1215 - Vigário Geral, Rio de Janeiro, Vigário Geral, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2425729,
+          -22.8592368
+        ]
+      },
+      "properties": {
+        "id": "730c72021b68",
+        "endereco": "Rua Principal, s/nº - Maré, Rio de Janeiro",
+        "bairro": "Maré",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Maré, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2199084,
+          -22.804841
+        ]
+      },
+      "properties": {
+        "id": "733d24987903",
+        "endereco": "Rua Antônio de Almeida, 11- Portuguesa, Ilha do Governador, Rio de Janeiro",
+        "bairro": "Ilha do Governador",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "unknown",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Ilha do Governador, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6369556,
+          -22.8987
+        ]
+      },
+      "properties": {
+        "id": "80bfcf0af394",
+        "endereco": "Rua Cilon Cunha Brum, s/nº - Paciência, Rio de Janeiro",
+        "bairro": "Paciência",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Paciência, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4301032,
+          -22.8772743
+        ]
+      },
+      "properties": {
+        "id": "8246c121b1d5",
+        "endereco": "Rua Jerusalém, 30 - Realengo, Rio de Janeiro",
+        "bairro": "Realengo",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Realengo, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3715825,
+          -22.9531726
+        ]
+      },
+      "properties": {
+        "id": "82794814c764",
+        "endereco": "Rua Quintanilha, s/nº - Jacarepaguá, Rio de Janeiro",
+        "bairro": "Jacarepaguá",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Jacarepaguá, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3991069,
+          -22.8231903
+        ]
+      },
+      "properties": {
+        "id": "842e65413ff0",
+        "endereco": "Rua Javatá, s/nº - Anchieta, Rio de Janeiro",
+        "bairro": "Anchieta",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Anchieta, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4736839,
+          -22.8564374
+        ]
+      },
+      "properties": {
+        "id": "85040069a93e",
+        "endereco": "Estrada do Gericinó,80 - Bangu, Rio de Janeiro",
+        "bairro": "Bangu",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada do Gericinó,80 - Bangu, Rio de Janeiro, Bangu, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3126794,
+          -22.8376751
+        ]
+      },
+      "properties": {
+        "id": "8cca2983245d",
+        "endereco": "Av. Brás de Pina, 1614 - Brás de Pina, Rio de Janeiro",
+        "bairro": "Brás de Pina",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "exact",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Av. Brás de Pina, 1614 - Brás de Pina, Rio de Janeiro, Brás de Pina, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.323212,
+          -22.810005
+        ]
+      },
+      "properties": {
+        "id": "93a4276e4f97",
+        "endereco": "Rua Viana do Castelo, s/nº - Jardim América, Rio de Janeiro",
+        "bairro": "Jardim América",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Jardim América, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3697439,
+          -22.9477846
+        ]
+      },
+      "properties": {
+        "id": "9ad61ba64f95",
+        "endereco": "Rua João Mafra, 85 - Cidade de Deus, Rio de Janeiro",
+        "bairro": "Cidade de Deus",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua João Mafra, 85 - Cidade de Deus, Rio de Janeiro, Cidade de Deus, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2457223,
+          -22.8799736
+        ]
+      },
+      "properties": {
+        "id": "9bc9d67cdae2",
+        "endereco": "Estrada de Manguinhos, s/nº - Manguinhos, Rio de Janeiro",
+        "bairro": "Manguinhos",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Manguinhos, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3836868,
+          -23.0031985
+        ]
+      },
+      "properties": {
+        "id": "a18a77f33bcf",
+        "endereco": "Rua Guimarães Rosa, 166 - Condomínio Novo Leblon, Barra da Tijuca, Rio de Janeiro",
+        "bairro": "Barra da Tijuca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "exact",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Guimarães Rosa, 166 - Condomínio Novo Leblon, Barra da Tijuca, Rio de Janeiro, Barra da Tijuca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3929967,
+          -22.8956799
+        ]
+      },
+      "properties": {
+        "id": "a1a75e2ac1b7",
+        "endereco": "Final da Rua Oliveira Martins, ao lado do nº133 - Jardim Sulacap, Rio de Janeiro",
+        "bairro": "Jardim Sulacap",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Jardim Sulacap, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4634021,
+          -23.0185151
+        ]
+      },
+      "properties": {
+        "id": "a67540a8b40f",
+        "endereco": "Rua Teotônio Vilela S/nº - Recreio dos Bandeirantes, Rio de Janeiro",
+        "bairro": "Recreio dos Bandeirantes",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Recreio dos Bandeirantes, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5459422,
+          -22.8612739
+        ]
+      },
+      "properties": {
+        "id": "ac8e9e4b65e0",
+        "endereco": "Av. Brasil, 50.851 - Campo Grande, Rio de Janeiro",
+        "bairro": "Campo Grande",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Av. Brasil, 50.851 - Campo Grande, Rio de Janeiro, Campo Grande, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2829831,
+          -22.8732007
+        ]
+      },
+      "properties": {
+        "id": "af6e09443f06",
+        "endereco": "Rua Padre Januário, 220 - Inhaúma, Rio de Janeiro",
+        "bairro": "Inhaúma",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "exact",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Padre Januário, 220 - Inhaúma, Rio de Janeiro, Inhaúma, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.20363,
+          -22.9166265
+        ]
+      },
+      "properties": {
+        "id": "b1948ff840d1",
+        "endereco": "Rua São Diniz, s/nº - Estácio, Rio de Janeiro",
+        "bairro": "Estácio",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estácio, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2516559,
+          -22.9394589
+        ]
+      },
+      "properties": {
+        "id": "b465b1634cfd",
+        "endereco": "Rua São Miguel, 500 - Tijuca, Rio de Janeiro",
+        "bairro": "Tijuca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua São Miguel, 500 - Tijuca, Rio de Janeiro, Tijuca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.584923,
+          -22.9905839
+        ]
+      },
+      "properties": {
+        "id": "b7962180c395",
+        "endereco": "Rua Várzea da Palma, s/nº - Guaratiba, Rio de Janeiro",
+        "bairro": "Guaratiba",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Guaratiba, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1998625,
+          -22.9348434
+        ]
+      },
+      "properties": {
+        "id": "b7a3a38e0de9",
+        "endereco": "Almirante. Alexandrino, 3.286 - Santa Teresa, Rio de Janeiro",
+        "bairro": "Santa Teresa",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Almirante. Alexandrino, 3.286 - Santa Teresa, Rio de Janeiro, Santa Teresa, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3296333,
+          -22.9735477
+        ]
+      },
+      "properties": {
+        "id": "bb35cbda89d1",
+        "endereco": "Estrada de Jacarepaguá, 3327 - Rio das Pedras, Rio de Janeiro",
+        "bairro": "Rio das Pedras",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "exact",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada de Jacarepaguá, 3327 - Rio das Pedras, Rio de Janeiro, Rio das Pedras, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2594525,
+          -22.9295418
+        ]
+      },
+      "properties": {
+        "id": "c3cc766ee370",
+        "endereco": "Rua Caçapava - Grajaú, Rio de Janeiro",
+        "bairro": "Grajaú",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Caçapava - Grajaú, Rio de Janeiro, Grajaú, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2327165,
+          -22.9247351
+        ]
+      },
+      "properties": {
+        "id": "c4239523164d",
+        "endereco": "Rua Potengi, s/nº - Tijuca, Rio de Janeiro",
+        "bairro": "Tijuca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Tijuca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.584923,
+          -22.9905839
+        ]
+      },
+      "properties": {
+        "id": "cd9871baaca3",
+        "endereco": "Rua Canoana, s/nº - Guaratiba, Rio de Janeiro",
+        "bairro": "Guaratiba",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Guaratiba, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6940872,
+          -22.9679803
+        ]
+      },
+      "properties": {
+        "id": "da7de0b89f00",
+        "endereco": "Estrada Nova Sepetiba, s/nº - Sepetiba, Rio de Janeiro",
+        "bairro": "Sepetiba",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Sepetiba, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3416295,
+          -22.9661695
+        ]
+      },
+      "properties": {
+        "id": "da9f747c80a5",
+        "endereco": "Estrada do Curipós, s/nº - Anil, Rio de Janeiro",
+        "bairro": "Anil",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Estrada do Curipós, s/nº - Anil, Rio de Janeiro, Anil, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3233619,
+          -22.8351129
+        ]
+      },
+      "properties": {
+        "id": "de9779a7e10f",
+        "endereco": "Rua Fernandes Gusmão, 340 - Irajá, Rio de Janeiro",
+        "bairro": "Irajá",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Irajá, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2249656,
+          -22.9834608
+        ]
+      },
+      "properties": {
+        "id": "e06900bfa479",
+        "endereco": "Praça Nossa Senhora Auxiliadora S/n° - Leblon, Rio de Janeiro",
+        "bairro": "Leblon",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Leblon, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1860269,
+          -22.9215542
+        ]
+      },
+      "properties": {
+        "id": "f22d53ed6b89",
+        "endereco": "Rua Marcel Proust, 201 - Santa Tereza, Rio de Janeiro",
+        "bairro": "Santa Tereza",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Santa Tereza, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1679727,
+          -22.954074
+        ]
+      },
+      "properties": {
+        "id": "fc3a197a4e3a",
+        "endereco": "Praça General Tibúrcio, 145 - Praia Vermelha, Urca, Rio de Janeiro",
+        "bairro": "Urca",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "neighborhood",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Urca, Rio de Janeiro, RJ, Brasil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5489408,
+          -22.8861904
+        ]
+      },
+      "properties": {
+        "id": "ffd31fdcd132",
+        "endereco": "Rua Ari Lobo, 430 - Campo Grande, Rio de Janeiro",
+        "bairro": "Campo Grande",
+        "dia": "nan",
+        "horario": "nan",
+        "ra": "nan",
+        "geocode_status": "ok",
+        "geocode_precision": "street",
+        "geocode_provider": "nominatim",
+        "geocode_query": "Rua Ari Lobo, 430 - Campo Grande, Rio de Janeiro, Campo Grande, Rio de Janeiro, RJ, Brasil"
+      }
+    }
+  ]
+}

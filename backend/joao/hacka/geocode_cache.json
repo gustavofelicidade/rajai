@@ -1,0 +1,2354 @@
+{
+  "LIVRAMENTO DO, RUA, SAUDE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "GAL. GURJAO, RUA, CAJU, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "TADEU KOSCIUSKO / CARLOS SAMPAIO, RUA, CENTRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "CONDE LAGES, RUA, CENTRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "EMILIA GUIMARAES, RUA, CATUMBI, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "BARAO DE SERTORIO, RUA, RIO COMPRIDO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "COSTA FERRAZ, RUA, RIO COMPRIDO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "CEL. CASTELO BRANCO, PCA, CIDADE NOVA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "SAMPAIO FERRAZ, RUA, ESTACIO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "GAL ARGOLO, RUA, SAO CRISTOVAO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "GAL BRUCE, RUA, SAO CRISTOVAO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "RUA TEREZINA, SANTA TERESA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9209485,
+    "lon": -43.1882594,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "AUGUSTO SEVERO, AV, GLORIA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9198604,
+    "lon": -43.1751631,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "PROF. ORTIZ MONTEIRO, RUA, LARANJEIRAS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "JARDEL FILHO, VDT, LARANJEIRAS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "PAULO BARRETO, RUA, BOTAFOGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "VICENTE DE SOUZA, RUA, BOTAFOGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "NICARAGUA, PCA, BOTAFOGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "RODRIGO DE BRITO, RUA, BOTAFOGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "BARAO DE MACAUBAS, RUA, BOTAFOGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9497877,
+    "lon": -43.1927035,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "MARIA EUGENIA, RUA, HUMAITA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "TENENTE GIL GUILHERME, PCA, URCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "PRC ALMTE JULIO DE NORONHA, LEME, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "SERZEDELO CORREIA, PRC, COPACABANA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "RONALD DE CARVALHO, COPACABANA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9629176,
+    "lon": -43.1770235,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "EDMUNDO BITTENCOURT, PRC, COPACABANA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "NOSSA SENHORA DA PAZ, PCA, IPANEMA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "GAL OSORIO, PCA, IPANEMA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "PRAÇA NOSSA SENHORA AUXILIADORA, LEBLON, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9784126,
+    "lon": -43.2231894,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "LINEU DE PAULA MACHADO, AV, LAGOA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "FREI LEANDRO, RUA, JARDIM BOTANICO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "SANTOS DUMONT, PCA, GAVEA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "VICENTE LICINIO, RUA, PRACA DA BANDEIRA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "GARIBALDI, RUA, TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "ALZIRA BRANDAO, RUA, TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "AGUIAR, RUA, TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "GABRIELA PRADO MAIA, RUA, TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "PROF PINHEIRO GUIMARAES, PCA, TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "VISCONDE DE FIGUEIREDO, RUA, TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "RUA PROFESSOR MANOEL DE ABREU, MARACANA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "JORGE RUDGE, RUA, VILA ISABEL, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "MENDES TAVARES, RUA, VILA ISABEL, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "ARARIPE JUNIOR, RUA, ANDARAI, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "SILVA TELES, RUA, ANDARAI, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "DUQUESA DE BRAGANÇA, RUA, GRAJAU, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "MEARIM, RUA, GRAJAU, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "JULIO FURTADO, AV, GRAJAU, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9201725,
+    "lon": -43.2655268,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "MAL FOCH, RUA, BONSUCESSO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "SENADOR MOURAO VIEIRA, RUA, RAMOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "FELISBELO FREIRE, RUA, RAMOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "ANTONIO REGO, RUA, OLARIA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "FIRMINO GAMELEIRA, RUA, OLARIA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "RUA BELISÁRIO PENA, PENHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8385131,
+    "lon": -43.2787445,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "GAL SILVEIRA SOBRINHO, RUA, PENHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "MACAPURI, RUA, PENHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "JACUI, RUA, PENHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "JOSE RUCAS, ETR, PENHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "IRICUME, RUA, BRAZ DE PINA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "VALENTIM MAGALHAES, RUA, VIGARIO GERAL, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "FRANZ LISZT, RUA, JARDIM AMERICA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "PROF BOSCOLI, RUA, MARIA DA GRACA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "BISPO LACERDA, RUA, DEL CASTILHO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "VAN GOGH, RUA, DEL CASTILHO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "DONA EMILIA, RUA, INHAUMA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "MARIO FERREIRA, RUA, ENGENHO DA RAINHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "ROCHA DO, RUA, ROCHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9954898,
+    "lon": -44.3037932,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "VITOR MEIRELES, RUA, RIACHUELO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9022455,
+    "lon": -43.257076,
+    "status": "ok",
+    "provider": "nominatim"
+  },
+  "DOUTOR MANOEL COTRIM, RUA, RIACHUELO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "MANOEL MIRANDA, RUA, ENGENHO NOVO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "GRAO PARA, RUA, ENGENHO NOVO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "provider": "nominatim"
+  },
+  "SAUDE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8971835,
+    "lon": -43.1841545,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "CAJU, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8803063,
+    "lon": -43.2214936,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "CENTRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.2800004,
+    "lon": -42.5325303,
+    "status": "ok",
+    "precision": "unknown"
+  },
+  "CATUMBI, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9194542,
+    "lon": -43.1970806,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "RIO COMPRIDO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9279449,
+    "lon": -43.2088566,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "CIDADE NOVA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9100508,
+    "lon": -43.201756,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ESTACIO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9166265,
+    "lon": -43.20363,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "SAO CRISTOVAO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.899318,
+    "lon": -43.2219346,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "LARANJEIRAS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9343173,
+    "lon": -43.1878165,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "BOTAFOGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9515096,
+    "lon": -43.1862969,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "HUMAITA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9546413,
+    "lon": -43.2004797,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "URCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.954074,
+    "lon": -43.1679727,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "LEME, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.961704,
+    "lon": -43.1669042,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "COPACABANA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.971974,
+    "lon": -43.1842997,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "IPANEMA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9839557,
+    "lon": -43.2022163,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "LAGOA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9624658,
+    "lon": -43.2024884,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "JARDIM BOTANICO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9636362,
+    "lon": -43.2233457,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "GAVEA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9814243,
+    "lon": -43.2383245,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "PRACA DA BANDEIRA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9112162,
+    "lon": -43.2131983,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9247351,
+    "lon": -43.2327165,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "MARACANA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9121619,
+    "lon": -43.2311861,
+    "status": "ok",
+    "precision": "street"
+  },
+  "VILA ISABEL, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9166993,
+    "lon": -43.2508354,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ANDARAI, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9290845,
+    "lon": -43.2534858,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "GRAJAU, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9225217,
+    "lon": -43.2645145,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "BONSUCESSO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8659317,
+    "lon": -43.253318,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "RAMOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8519758,
+    "lon": -43.2555693,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "OLARIA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8484866,
+    "lon": -43.2706124,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "PENHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8381127,
+    "lon": -43.2764454,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "BRAZ DE PINA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8309084,
+    "lon": -43.318807,
+    "status": "ok",
+    "precision": "exact"
+  },
+  "VIGARIO GERAL, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8095333,
+    "lon": -43.3097039,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "JARDIM AMERICA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.810005,
+    "lon": -43.323212,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "MARIA DA GRACA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8830403,
+    "lon": -43.2638849,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "DEL CASTILHO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8795618,
+    "lon": -43.2724202,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "INHAUMA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8715476,
+    "lon": -43.2823466,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ENGENHO DA RAINHA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8626496,
+    "lon": -43.2937874,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "RIACHUELO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9026953,
+    "lon": -43.255175,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ENGENHO NOVO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9090942,
+    "lon": -43.2678381,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "JOAQUIM MEIER, RUA, LINS DE VASCONCELOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "LINS DE VASCONCELOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9140512,
+    "lon": -43.2843528,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "GALDINO PIMENTEL, RUA, MEIER, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "MEIER, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.90173,
+    "lon": -43.2797093,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "VAZ DE CAMINHA, RUA, MEIER, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "SALVADOR PIRES, RUA, MEIER, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "SILVA RABELO, RUA, MEIER, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "BASILIO DE BRITO, RUA, CACHAMBI, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CACHAMBI, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8897728,
+    "lon": -43.2743347,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ODORICO MENDES, RUA, CACHAMBI, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "AFONSO FERREIRA, RUA, ENGENHO DE DENTRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "ENGENHO DE DENTRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9026591,
+    "lon": -43.2967757,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "GUSTAVO RIEDEL, RUA, ENGENHO DE DENTRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CATULO CEARENCE, RUA, ENGENHO DE DENTRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CRUZ E SOUZA, RUA, ENCANTADO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "ENCANTADO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8974743,
+    "lon": -43.3042461,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ANTONIO VARGAS, RUA, PIEDADE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "PIEDADE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8926665,
+    "lon": -43.3110001,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "CAMINHO DO MATEUS, RUA, PIEDADE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "TERESA CAVALCANTI, RUA, PIEDADE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CASEMIRO DE ABREU, RUA, PILARES, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "PILARES, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8790904,
+    "lon": -43.2955477,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "VICENTE DE CARVALHO, AVN, VILA KOSMOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "VILA KOSMOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.853597,
+    "lon": -43.3032021,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "CAMBUCI DO VALE, RUA, VICENTE DE CARVALHO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "VICENTE DE CARVALHO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8571804,
+    "lon": -43.3157892,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "FLORANIA, RUA, VISTA ALEGRE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "VISTA ALEGRE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8296244,
+    "lon": -43.3151276,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "PONTA PORA, RUA, VISTA ALEGRE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "MARQUES DE QUELUZ, RUA, IRAJA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8431439,
+    "lon": -43.324589,
+    "status": "ok",
+    "precision": "street"
+  },
+  "TENENTE REBELO, AVN, IRAJA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "IRAJA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8351129,
+    "lon": -43.3233619,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "LOPES FERREIRA, RUA, IRAJA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "ANA TELES, RUA, CAMPINHO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CAMPINHO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8852187,
+    "lon": -43.347738,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "EUFRASIO CORREA, RUA, QUINTINO BOCAIUVA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "QUINTINO BOCAIUVA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8955889,
+    "lon": -43.3253269,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "LAURINDO FILHO, RUA, CAVALCANTI, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CAVALCANTI, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8705266,
+    "lon": -43.3165261,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "VALERIO, RUA, ENGENHEIRO LEAL, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "ENGENHEIRO LEAL, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8743923,
+    "lon": -43.3255315,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "CAETANO DA SILVA, RUA, CASCADURA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CASCADURA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8841816,
+    "lon": -43.3283969,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "HENRIQUE BRAGA, RUA, MADUREIRA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "MADUREIRA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.871658,
+    "lon": -43.3371976,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "OPERARIO SADOCK DE SA, RUA, MADUREIRA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "RUA OLIVEIRA FIGUEIREDO, VAZ LOBO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.857214,
+    "lon": -43.3272147,
+    "status": "ok",
+    "precision": "street"
+  },
+  "JACINA, RUA, VAZ LOBO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "VAZ LOBO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8589721,
+    "lon": -43.3278646,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "RUBIS, RUA, ROCHA MIRANDA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "ROCHA MIRANDA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8503472,
+    "lon": -43.3463053,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "JURUBAIBA, RUA, HONORIO GURGEL, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "HONORIO GURGEL, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8465751,
+    "lon": -43.3561294,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ADELAIDE BADAJOS, RUA, OSWALDO CRUZ, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "OSWALDO CRUZ, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8705266,
+    "lon": -43.350194,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "TERESA SANTOS, RUA, BENTO RIBEIRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "BENTO RIBEIRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8666607,
+    "lon": -43.3608367,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "OBIDOS, RUA, BENTO RIBEIRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "SAPOPEMBA, RUA, BENTO RIBEIRO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "JORGE SCHMIDT, RUA, MARECHAL HERMES, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "MARECHAL HERMES, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8599658,
+    "lon": -43.3704561,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "FERNANDES DA FONSECA, RUA, RIBEIRA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "RIBEIRA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8252399,
+    "lon": -43.1705907,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "SARGENTO JOAO LOPES, RUA, CACUIA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CACUIA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8217028,
+    "lon": -43.1837917,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ARUJA, RUA, FREGUESIA(ILHA), Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "FREGUESIA(ILHA), Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.7850602,
+    "lon": -43.1694534,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "FRANCISCO ALVES, AVN, JARDIM GUANABARA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "JARDIM GUANABARA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8128362,
+    "lon": -43.2007792,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "PROF HILARIAO DA ROCHA, RUA, TAUA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "TAUA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.7977495,
+    "lon": -43.1867478,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "GOVERNADOR, PORTUGUESA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.7960509,
+    "lon": -43.2046447,
+    "status": "ok",
+    "precision": "street"
+  },
+  "RUA BÉTULA, GUADALUPE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8414181,
+    "lon": -43.3780048,
+    "status": "ok",
+    "precision": "street"
+  },
+  "LOASA, RUA, GUADALUPE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "GUADALUPE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8376208,
+    "lon": -43.3751608,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ENEAS MARTINS, RUA, GUADALUPE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "PEREIRA DA ROCHA/ADEQUÊ, RUA, RICARDO DE ALBUQUERQUE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "RICARDO DE ALBUQUERQUE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8366987,
+    "lon": -43.3916757,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "OUSELEY, RUA, COELHO NETO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "COELHO NETO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8322449,
+    "lon": -43.3501913,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "PROF VIRGINIA CIDADE, PRA, COELHO NETO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CEL MOREIRA CESAR, RUA, COSTA BARROS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "COSTA BARROS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8246995,
+    "lon": -43.3698395,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "LARGO DO ANIL, JACAREPAGUA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "JACAREPAGUA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9531726,
+    "lon": -43.3715825,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "GAL OLIVIO UZEDA, RUA, JACAREPAGUA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "VOSSIO BRIGIDO, RUA GAL., JACAREPAGUA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "ENG. SOUZA FILHO, AVN, JACAREPAGUA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "AVENIDA DAS LAGOAS, GARDENIA AZUL, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9583617,
+    "lon": -43.3445873,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "RUA EDGARD CAVALEIRO, CIDADE DE DEUS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CIDADE DE DEUS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.94803,
+    "lon": -43.362903,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "RUA MOISES, CIDADE DE DEUS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9480908,
+    "lon": -43.3592755,
+    "status": "ok",
+    "precision": "street"
+  },
+  "ARAGUAIA,RUA, FREGUESIA(JACAREPAGUA), Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9343093,
+    "lon": -43.3347313,
+    "status": "ok",
+    "precision": "street"
+  },
+  "ARIAPO, RUA, TAQUARA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "TAQUARA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9218864,
+    "lon": -43.384646,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "RUA JOSÉ PERIGAULT, TAQUARA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9347662,
+    "lon": -43.3689929,
+    "status": "ok",
+    "precision": "street"
+  },
+  "RUAS ALEXANDRE RAMOS E CORONEL TEDIM, TANQUE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "TANQUE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9151927,
+    "lon": -43.3557471,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "RUA BARÃO, PRACA SECA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8950665,
+    "lon": -43.3572692,
+    "status": "ok",
+    "precision": "street"
+  },
+  "DAS MARGARIDAS, RUA, VILA VALQUEIRE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "VILA VALQUEIRE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8886093,
+    "lon": -43.3657758,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "JAMBEIRO, AVN, VILA VALQUEIRE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "SAO PERPETUO, PCA, BARRA DA TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "BARRA DA TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9997404,
+    "lon": -43.3659929,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "SAO PERPETUO, PRC, BARRA DA TIJUCA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "OLIMPIO DE CASTRO, RUA, CAMPO DOS AFONSOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CAMPO DOS AFONSOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8795186,
+    "lon": -43.3803636,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ABRANTES, RUA, MAGALHAES BASTOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "MAGALHAES BASTOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8725117,
+    "lon": -43.4136384,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "SAO CAETANO, RUA, MAGALHAES BASTOS, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "MAL MODESTINO, RUA, REALENGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8701673,
+    "lon": -43.4332039,
+    "status": "ok",
+    "precision": "street"
+  },
+  "EUNAPIO DEIRO, RUA, REALENGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "REALENGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8772743,
+    "lon": -43.4301032,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "MANUEL NOGUEIRA DE SA, ETR, REALENGO, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "HELIANTO, RUA, PADRE MIGUEL, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "PADRE MIGUEL, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8788135,
+    "lon": -43.4485569,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "IGUATAMA, PRÇ, BANGU, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "BANGU, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8753053,
+    "lon": -43.4648805,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "PROF CLEMENTE FERREIRA, RUA, BANGU, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "MAL MARCIANO, RUA, BANGU, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CHERBURGO, RUA, BANGU, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "URUCUM, RUA, BANGU, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CARNAUBA, RUA, SENADOR CAMARA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "SENADOR CAMARA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.888752,
+    "lon": -43.4913887,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "CAMPO MAIOR / AV MARIANA, RUA, CAMPO GRANDE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CAMPO GRANDE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.902953,
+    "lon": -43.5591295,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "LAUDELINO VIEIRA DE CAMPOS, RUA, CAMPO GRANDE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "CAMPEIRO-MOR, RUA, SANTA CRUZ, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "SANTA CRUZ, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9176248,
+    "lon": -43.6834907,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "FLORESTA, RUA, SEPETIBA, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "SEPETIBA, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9679803,
+    "lon": -43.6940872,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "ROBERTO DA SILVEIRA, RUA/PARQUE UNIAO, MARE, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "MARE, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8592368,
+    "lon": -43.2425729,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Bom Pastor, 41, Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9299581,
+    "lon": -43.2324417,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Piracambu, 605, Acari, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Acari, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8221528,
+    "lon": -43.3406743,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Baronesa, 782, Praça Seca, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9016649,
+    "lon": -43.3453724,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Delfina da Cunha, 214, Anchieta, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8214159,
+    "lon": -43.4047474,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Capitão Teixeira, 583, Realengo, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8869979,
+    "lon": -43.4231147,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Irapuá, 158, Penha Circular, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8367145,
+    "lon": -43.2914373,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua da Servidão, 311, G7, Lote 84- Lojas A e B Condomínio “Do Val”- Beira Rio, Recreio, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Recreio, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.51201,
+    "lon": -41.9236578,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Francisco Bricio, 306, Padre Miguel, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Padre Miguel, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8788135,
+    "lon": -43.4485569,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Avenida 2, 360, Nova Sepetiba, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9579159,
+    "lon": -43.6878168,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Godofredo Viana, 64, Tanque, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9124716,
+    "lon": -43.3609356,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Fortaleza, 01 (Praça da Ladeira dos Funcionários), Caju, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Caju, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8803063,
+    "lon": -43.2214936,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Estrada da Cachamorra, 6133, Campo Grande, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9462411,
+    "lon": -43.5571781,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Estrada Pedro Borges de Freitas, 120, Irajá, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8317381,
+    "lon": -43.3342656,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua do Desenhista, s/n, Vila Aliança, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8722539,
+    "lon": -43.4775472,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Eliseu Visconti, 47, Catumbi, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9253995,
+    "lon": -43.1991363,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Jacinto Alcides, 68, Bangu, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8824661,
+    "lon": -43.4610191,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada do Campinho, 4700, Inhoaíba, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.889302,
+    "lon": -43.5960882,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Mita, 115, Jardim Carioca (Ilha do Governador), Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Jardim Carioca (Ilha do Governador), Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Bom Sossego, 382, Padre Miguel, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Conde Pereira Carneiro, 371, Penha Circular, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.848544,
+    "lon": -43.2981017,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua dos Diamantes, 998, Rocha Miranda, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8451435,
+    "lon": -43.3519587,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua do Rio, 8, Jacarezinho, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8885429,
+    "lon": -43.2582942,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Nossa Senhora Aparecida, 46 (antiga Rua A), Penha, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Penha, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8381127,
+    "lon": -43.2764454,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Sacadura Cabral, 359, Saúde, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8974515,
+    "lon": -43.185873,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Vigário Morato, 92, Mangueira, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8998618,
+    "lon": -43.2376605,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada dos Palmares, 3935 (Condomínio Coimbra), Santa Cruz, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Santa Cruz, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9176248,
+    "lon": -43.6834907,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Estrada Vitor Dumas, 1788 (rua ao lado do Kengão), Santa Cruz, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Hermínio Aurélio Sampaio, blc 56 (Antares), Santa Cruz, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Corrêa Teixeira, 79, Realengo, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Realengo, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8772743,
+    "lon": -43.4301032,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Senhor do Bonfim, 35 (quadra da Associação de Moradores), Jacarezinho, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Jacarezinho, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8875068,
+    "lon": -43.2578789,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Avenida Leopoldo Bulhões, 809, Manguinhos, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Manguinhos, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8799736,
+    "lon": -43.2457223,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Bartolomeu de Gusmão, 1110, Mangueira, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.908344,
+    "lon": -43.23116,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada do Guerenguê, 113 (Vila Santa Clara), Taquara, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Taquara, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9218864,
+    "lon": -43.384646,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Conde Pereira Carneiro, 11 (Ipase/Vila Kosmos), Vila Kosmos, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Vila Kosmos, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.853597,
+    "lon": -43.3032021,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Pão de Açúcar, 140, Rocha Miranda, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8520992,
+    "lon": -43.3441698,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Travessa Orizaba, 43, Vila Kennedy, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8554664,
+    "lon": -43.4844104,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Sá Viana, 269 (Associação de Moradores do Andaraí), Andaraí, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Andaraí, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9290845,
+    "lon": -43.2534858,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Nova, 08 (Pistão), Parada de Lucas, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Parada de Lucas, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8167023,
+    "lon": -43.3012102,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Caraíba, 808, Rocha Miranda, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8459705,
+    "lon": -43.3419248,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Coronel Moreira Cesar, 1243, Pavuna, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8211841,
+    "lon": -43.3791273,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Projetada D, 174 (Salsa e Merengue), Maré, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8725771,
+    "lon": -43.2369352,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Tapirai, 41C, Barros Filho, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8386165,
+    "lon": -43.3631412,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Romancista, 96, Freguesia (Ilha do Governador), Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Freguesia (Ilha do Governador), Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Jundiá, 176, Bento Ribeiro, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8598804,
+    "lon": -43.3558056,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Jarbas de Carvalho, 1580, Recreio, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Curuzu, 70, São Cristóvão, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8964682,
+    "lon": -43.2301003,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada Iaraquá, 375 (Comari), Campo Grande, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Campo Grande, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.902953,
+    "lon": -43.5591295,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Bittencourt Sampaio, 140, Nova Holanda (Maré), Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8533697,
+    "lon": -43.2431128,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua João Alfredo de Freitas, 88, Anchieta, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8187417,
+    "lon": -43.3869551,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada do Magarça, 3982, Guaratiba, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.947341,
+    "lon": -43.6017661,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua da Gamboa, 21, Santo Cristo, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8975265,
+    "lon": -43.1981335,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada de Botafogo, 369, Costa Barros, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8207277,
+    "lon": -43.363785,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Barão de São Francisco, 54, Andaraí, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9242687,
+    "lon": -43.2491274,
+    "status": "ok",
+    "precision": "exact"
+  },
+  "Rua da Chita, 638, Bangu, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8742683,
+    "lon": -43.4637134,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Major João Gualberto da Silva Braga, 2, Vila Kennedy, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Vila Kennedy, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.855678,
+    "lon": -43.49003,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Estrada. Santa Marinha, 57 - Gávea, Rio de Janeiro, Gávea, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9807346,
+    "lon": -43.2407717,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada Urucânia, 936 - Paciência, Rio de Janeiro, Paciência, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9154507,
+    "lon": -43.6293355,
+    "status": "ok",
+    "precision": "street"
+  },
+  "C. Floridos - Rua Aimoré, 1.023 - Penha, Rio de Janeiro, Penha, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua São Francisco Xavier, 95 - Tijuca, Rio de Janeiro, Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9211975,
+    "lon": -43.2221317,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Caminho do Partido, 40 - Campo Grande, Rio de Janeiro, Campo Grande, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Estrada de Curicica, 5038 - Curicica, Rio de Janeiro, Curicica, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9565985,
+    "lon": -43.4087938,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Licurgo, 900 - Madureira, Rio de Janeiro (Parque Madureira), Madureira, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Madureira, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.871658,
+    "lon": -43.3371976,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Pirapora, 195 - Turiaçu, Rio de Janeiro (Portão 3 - Parque Madureira), Turiaçu, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Turiaçu, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8616631,
+    "lon": -43.3418026,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Pedro Alexandrino, 297 - Madureira, Rio de Janeiro (Parque Madureira), Madureira, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Estrada da Independência, s/nº - Tijuca, Rio de Janeiro, Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9247351,
+    "lon": -43.2327165,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Lourenço Marques, 103 - Honório Gurgel, Rio de Janeiro (Parque Madureira), Honório Gurgel, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Honório Gurgel, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8465751,
+    "lon": -43.3561294,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Lopes Trovão, 287 - São Cristóvão, Rio de Janeiro, São Cristóvão, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "São Cristóvão, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.899318,
+    "lon": -43.2219346,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Estrada Almirante Santiago Dantas, 170 - Barros Filhos, Rio de Janeiro, Barros Filhos, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Barros Filhos, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Gregório de Matos - Vigário Geral, Rio de Janeiro, Vigário Geral, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8088395,
+    "lon": -43.3146207,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua São Miguel, s/nº - Tijuca, Rio de Janeiro, Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Paulino Nogueira, s/nº - Tijuca, Rio de Janeiro, Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua São Roque, 04 - Rocha Miranda, Rio de Janeiro (Parque madureira), Rocha Miranda, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rocha Miranda, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8503472,
+    "lon": -43.3463053,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Visconde Silva, s/nº - Humaitá, Rio de Janeiro, Humaitá, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Humaitá, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9546413,
+    "lon": -43.2004797,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Praça São Judas Tadeu - Cosme Velho, Rio de Janeiro, Cosme Velho, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9407127,
+    "lon": -43.1982662,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Estrada dos Palmares 4603 - Santa Cruz, Rio de Janeiro, Santa Cruz, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8793051,
+    "lon": -43.6552852,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Quintanilha, 820 - Freguesia, Rio de Janeiro, Freguesia, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.946582,
+    "lon": -43.3490495,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Via a 2, s/nº - Maré, Rio de Janeiro, Maré, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Maré, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8592368,
+    "lon": -43.2425729,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Osman Lins, s/nº - Deodoro, Rio de Janeiro, Deodoro, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Deodoro, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.851201,
+    "lon": -43.3870315,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Corrêa Seara, 97 - Magalhães Bastos, Rio de Janeiro, Magalhães Bastos, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8734891,
+    "lon": -43.4146773,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Praça Elba, 1215 - Vigário Geral, Rio de Janeiro, Vigário Geral, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.81347,
+    "lon": -43.3097159,
+    "status": "ok",
+    "precision": "exact"
+  },
+  "Rua Principal, s/nº - Maré, Rio de Janeiro, Maré, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Antônio de Almeida, 11- Portuguesa, Ilha do Governador, Rio de Janeiro, Ilha do Governador, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Ilha do Governador, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.804841,
+    "lon": -43.2199084,
+    "status": "ok",
+    "precision": "unknown"
+  },
+  "Rua Cilon Cunha Brum, s/nº - Paciência, Rio de Janeiro, Paciência, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Paciência, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8987,
+    "lon": -43.6369556,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Jerusalém, 30 - Realengo, Rio de Janeiro, Realengo, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Quintanilha, s/nº - Jacarepaguá, Rio de Janeiro, Jacarepaguá, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Jacarepaguá, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9531726,
+    "lon": -43.3715825,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Javatá, s/nº - Anchieta, Rio de Janeiro, Anchieta, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Anchieta, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8231903,
+    "lon": -43.3991069,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Estrada do Gericinó,80 - Bangu, Rio de Janeiro, Bangu, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8564374,
+    "lon": -43.4736839,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Av. Brás de Pina, 1614 - Brás de Pina, Rio de Janeiro, Brás de Pina, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8376751,
+    "lon": -43.3126794,
+    "status": "ok",
+    "precision": "exact"
+  },
+  "Rua Viana do Castelo, s/nº - Jardim América, Rio de Janeiro, Jardim América, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Jardim América, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.810005,
+    "lon": -43.323212,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua João Mafra, 85 - Cidade de Deus, Rio de Janeiro, Cidade de Deus, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9477846,
+    "lon": -43.3697439,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada de Manguinhos, s/nº - Manguinhos, Rio de Janeiro, Manguinhos, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Guimarães Rosa, 166 - Condomínio Novo Leblon, Barra da Tijuca, Rio de Janeiro, Barra da Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": -23.0031985,
+    "lon": -43.3836868,
+    "status": "ok",
+    "precision": "exact"
+  },
+  "Final da Rua Oliveira Martins, ao lado do nº133 - Jardim Sulacap, Rio de Janeiro, Jardim Sulacap, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Jardim Sulacap, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8956799,
+    "lon": -43.3929967,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Teotônio Vilela S/nº - Recreio dos Bandeirantes, Rio de Janeiro, Recreio dos Bandeirantes, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Recreio dos Bandeirantes, Rio de Janeiro, RJ, Brasil": {
+    "lat": -23.0185151,
+    "lon": -43.4634021,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Av. Brasil, 50.851 - Campo Grande, Rio de Janeiro, Campo Grande, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8612739,
+    "lon": -43.5459422,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Padre Januário, 220 - Inhaúma, Rio de Janeiro, Inhaúma, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8732007,
+    "lon": -43.2829831,
+    "status": "ok",
+    "precision": "exact"
+  },
+  "Rua São Diniz, s/nº - Estácio, Rio de Janeiro, Estácio, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Estácio, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9166265,
+    "lon": -43.20363,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua São Miguel, 500 - Tijuca, Rio de Janeiro, Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9394589,
+    "lon": -43.2516559,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Várzea da Palma, s/nº - Guaratiba, Rio de Janeiro, Guaratiba, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Guaratiba, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9905839,
+    "lon": -43.584923,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Almirante. Alexandrino, 3.286 - Santa Teresa, Rio de Janeiro, Santa Teresa, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9348434,
+    "lon": -43.1998625,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Estrada de Jacarepaguá, 3327 - Rio das Pedras, Rio de Janeiro, Rio das Pedras, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9735477,
+    "lon": -43.3296333,
+    "status": "ok",
+    "precision": "exact"
+  },
+  "Rua Caçapava - Grajaú, Rio de Janeiro, Grajaú, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9295418,
+    "lon": -43.2594525,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Potengi, s/nº - Tijuca, Rio de Janeiro, Tijuca, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Rua Canoana, s/nº - Guaratiba, Rio de Janeiro, Guaratiba, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Estrada Nova Sepetiba, s/nº - Sepetiba, Rio de Janeiro, Sepetiba, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Sepetiba, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9679803,
+    "lon": -43.6940872,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Estrada do Curipós, s/nº - Anil, Rio de Janeiro, Anil, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9661695,
+    "lon": -43.3416295,
+    "status": "ok",
+    "precision": "street"
+  },
+  "Rua Fernandes Gusmão, 340 - Irajá, Rio de Janeiro, Irajá, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Irajá, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8351129,
+    "lon": -43.3233619,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Praça Nossa Senhora Auxiliadora S/n° - Leblon, Rio de Janeiro, Leblon, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Leblon, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9834608,
+    "lon": -43.2249656,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Marcel Proust, 201 - Santa Tereza, Rio de Janeiro, Santa Tereza, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Santa Tereza, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.9215542,
+    "lon": -43.1860269,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Praça General Tibúrcio, 145 - Praia Vermelha, Urca, Rio de Janeiro, Urca, Rio de Janeiro, RJ, Brasil": {
+    "lat": null,
+    "lon": null,
+    "status": "not_found",
+    "precision": "unknown"
+  },
+  "Urca, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.954074,
+    "lon": -43.1679727,
+    "status": "ok",
+    "precision": "neighborhood"
+  },
+  "Rua Ari Lobo, 430 - Campo Grande, Rio de Janeiro, Campo Grande, Rio de Janeiro, RJ, Brasil": {
+    "lat": -22.8861904,
+    "lon": -43.5489408,
+    "status": "ok",
+    "precision": "street"
+  }
+}
