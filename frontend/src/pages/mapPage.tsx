@@ -1,38 +1,38 @@
-import { useEffect, useMemo, useState } from "react";
-import type { CSSProperties } from "react";
+import { useEffect, useMemo, useState } from "react"
+import type { CSSProperties } from "react"
 
-import { Mapa } from "@/components/mapa";
-import { AlertCircle, Leaf, UtensilsCrossed } from "lucide-react";
+import { Mapa } from "@/components/mapa"
+import { AlertCircle, Leaf, UtensilsCrossed } from "lucide-react"
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000"
 
 type ResumoGeral = {
   totais: {
-    total: number;
-    total_in_natura: number;
-    total_misto: number;
-    total_ultraprocessado: number;
-  };
+    total: number
+    total_in_natura: number
+    total_misto: number
+    total_ultraprocessado: number
+  }
   percentuais: {
-    in_natura: number;
-    misto: number;
-    ultraprocessado: number;
-  };
-};
+    in_natura: number
+    misto: number
+    ultraprocessado: number
+  }
+}
 
 function clampPct(x: number) {
-  if (!Number.isFinite(x)) return 0;
-  return Math.max(0, Math.min(100, x));
+  if (!Number.isFinite(x)) return 0
+  return Math.max(0, Math.min(100, x))
 }
 
 function fmtPct(x: number) {
-  return `${Math.round(clampPct(x))}%`;
+  return `${Math.round(clampPct(x))}%`
 }
 
 function Donut({ inNatura, misto, ultra }: { inNatura: number; misto: number; ultra: number }) {
-  const a = clampPct(ultra);
-  const b = clampPct(inNatura);
-  const c = clampPct(misto);
+  const a = clampPct(ultra)
+  const b = clampPct(inNatura)
+  const c = clampPct(misto)
 
   // Conic gradient: 1) ultraprocessado, 2) in natura, 3) misto
   const style = useMemo(
@@ -41,7 +41,7 @@ function Donut({ inNatura, misto, ultra }: { inNatura: number; misto: number; ul
         background: `conic-gradient(var(--destructive) 0 ${a}%, var(--primary) ${a}% ${a + b}%, hsl(38 92% 50%) ${a + b}% 100%)`,
       }) as CSSProperties,
     [a, b]
-  );
+  )
 
   return (
     <div className="relative h-28 w-28 rounded-full" style={style}>
@@ -51,7 +51,7 @@ function Donut({ inNatura, misto, ultra }: { inNatura: number; misto: number; ul
         <div className="text-lg font-bold">{fmtPct(a + b + c === 0 ? 0 : 100)}</div>
       </div>
     </div>
-  );
+  )
 }
 
 function StatRow({
@@ -60,10 +60,10 @@ function StatRow({
   value,
   hint,
 }: {
-  icon: React.ReactNode;
-  label: string;
-  value: string;
-  hint?: string;
+  icon: React.ReactNode
+  label: string
+  value: string
+  hint?: string
 }) {
   return (
     <div className="flex items-center justify-between gap-3 rounded-lg border bg-background/60 px-3 py-2">
@@ -76,45 +76,43 @@ function StatRow({
       </div>
       <div className="text-xl font-bold tabular-nums">{value}</div>
     </div>
-  );
+  )
 }
 
 export default function MapPage() {
-  const [resumo, setResumo] = useState<ResumoGeral | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [resumo, setResumo] = useState<ResumoGeral | null>(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    let cancelled = false;
-    setLoading(true);
-    setError(null);
+    let cancelled = false
 
-    fetch(`${API_BASE}/api/v1/geo/bairros/resumo`)
-      .then((r) => {
-        if (!r.ok) throw new Error(r.statusText);
-        return r.json();
-      })
-      .then((json: ResumoGeral) => {
-        if (cancelled) return;
-        setResumo(json);
-      })
-      .catch((e) => {
-        if (cancelled) return;
-        setError(String(e));
-      })
-      .finally(() => {
-        if (cancelled) return;
-        setLoading(false);
-      });
+    const fetchResumo = async () => {
+      setLoading(true)
+      setError(null)
+
+      try {
+        const r = await fetch(`${API_BASE}/api/v1/geo/bairros/resumo`)
+        if (!r.ok) throw new Error(r.statusText)
+        const json = (await r.json()) as ResumoGeral
+        if (!cancelled) setResumo(json)
+      } catch (e) {
+        if (!cancelled) setError(String(e))
+      } finally {
+        if (!cancelled) setLoading(false)
+      }
+    }
+
+    void fetchResumo()
 
     return () => {
-      cancelled = true;
-    };
-  }, []);
+      cancelled = true
+    }
+  }, [])
 
-  const ultraPct = resumo?.percentuais.ultraprocessado ?? 0;
-  const inNaturaPct = resumo?.percentuais.in_natura ?? 0;
-  const mistoPct = resumo?.percentuais.misto ?? 0;
+  const ultraPct = resumo?.percentuais.ultraprocessado ?? 0
+  const inNaturaPct = resumo?.percentuais.in_natura ?? 0
+  const mistoPct = resumo?.percentuais.misto ?? 0
 
   return (
     <>
@@ -124,7 +122,10 @@ export default function MapPage() {
 
       <div className="max-w-5xl p-4 mx-auto mt-32">
         <h1 className="text-4xl font-bold">Distribuição de alimentos no estado do Rio de Janeiro</h1>
-        <h2 className="text-sm font-light mt-1">Entenda a qualidade da sua alimentação baseada no grau de processamento industrial, conforme diretrizes do Guia Alimentar para a População Brasileira.</h2>
+        <h2 className="text-sm font-light mt-1">
+          Entenda a qualidade da sua alimentação baseada no grau de processamento industrial, conforme diretrizes do
+          Guia Alimentar para a População Brasileira.
+        </h2>
       </div>
 
       <div className="max-w-5xl mx-auto p-4">
@@ -188,8 +189,17 @@ export default function MapPage() {
         </div>
       </div>
 
-      <div className="mt-4 max-w-5xl mx-auto p-4 overflow-hidden">
-        <Mapa />
+      <div className="max-w-6xl p-4 mx-auto mt-4 flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
+          <h2 className="text-3xl md:text-4xl font-bold">Mapa coroplético por processamento</h2>
+          <p className="text-sm font-light">
+            Visualize densidades por processamento e contraste vulnerabilidades por bairro.
+          </p>
+        </div>
+
+        <div className="overflow-hidden rounded-xl border">
+          <Mapa />
+        </div>
       </div>
     </>
   )
