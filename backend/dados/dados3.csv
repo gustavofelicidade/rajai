@@ -1,0 +1,1517 @@
+bairro,classificacao_grupo,classificacao_cnae,quantidade,Total_de_pessoas_2022,densidade_por_10k
+     BARRA DA TIJUCA,Ultraprocessado,Restaurantes / Lanchonetes,2,142263.0,0.14
+ BENFICA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,1,21388.0,0.47
+ DEL CASTILHO,Ultraprocessado,Restaurantes / Lanchonetes,1,20597.0,0.49
+ABOLICAO,In natura,Açougues / Padarias,9,9196.0,9.79
+ABOLICAO,In natura,Hortifrutigranjeiros,3,9196.0,3.26
+ABOLICAO,Misto,Hipermercados,6,9196.0,6.52
+ABOLICAO,Misto,Mercearias,6,9196.0,6.52
+ABOLICAO,Misto,Supermercados,1,9196.0,1.09
+ABOLICAO,Ultraprocessado,Cantinas / Alimentação preparada,56,9196.0,60.9
+ABOLICAO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,13,9196.0,14.14
+ABOLICAO,Ultraprocessado,Restaurantes / Lanchonetes,50,9196.0,54.37
+ABOLICAO,Ultraprocessado,Serviços ambulantes,12,9196.0,13.05
+ACARI,In natura,Açougues / Padarias,23,29673.0,7.75
+ACARI,In natura,Hortifrutigranjeiros,17,29673.0,5.73
+ACARI,In natura,Peixarias,8,29673.0,2.7
+ACARI,Misto,Hipermercados,7,29673.0,2.36
+ACARI,Misto,Mercearias,42,29673.0,14.15
+ACARI,Ultraprocessado,Cantinas / Alimentação preparada,64,29673.0,21.57
+ACARI,Ultraprocessado,Lojas de conveniência / Varejo alimentar,14,29673.0,4.72
+ACARI,Ultraprocessado,Restaurantes / Lanchonetes,68,29673.0,22.92
+ACARI,Ultraprocessado,Serviços ambulantes,38,29673.0,12.81
+AGUA SANTA,In natura,Açougues / Padarias,3,6419.0,4.67
+AGUA SANTA,In natura,Hortifrutigranjeiros,1,6419.0,1.56
+AGUA SANTA,Misto,Hipermercados,1,6419.0,1.56
+AGUA SANTA,Misto,Mercearias,9,6419.0,14.02
+AGUA SANTA,Misto,Supermercados,2,6419.0,3.12
+AGUA SANTA,Ultraprocessado,Cantinas / Alimentação preparada,25,6419.0,38.95
+AGUA SANTA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,3,6419.0,4.67
+AGUA SANTA,Ultraprocessado,Restaurantes / Lanchonetes,18,6419.0,28.04
+AGUA SANTA,Ultraprocessado,Serviços ambulantes,6,6419.0,9.35
+ALTO DA BOA VISTA,In natura,Açougues / Padarias,7,9831.0,7.12
+ALTO DA BOA VISTA,In natura,Hortifrutigranjeiros,7,9831.0,7.12
+ALTO DA BOA VISTA,In natura,Peixarias,1,9831.0,1.02
+ALTO DA BOA VISTA,Misto,Hipermercados,2,9831.0,2.03
+ALTO DA BOA VISTA,Misto,Mercearias,6,9831.0,6.1
+ALTO DA BOA VISTA,Misto,Supermercados,1,9831.0,1.02
+ALTO DA BOA VISTA,Ultraprocessado,Cantinas / Alimentação preparada,58,9831.0,59.0
+ALTO DA BOA VISTA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,8,9831.0,8.14
+ALTO DA BOA VISTA,Ultraprocessado,Restaurantes / Lanchonetes,38,9831.0,38.65
+ALTO DA BOA VISTA,Ultraprocessado,Serviços ambulantes,13,9831.0,13.22
+ANCHIETA,In natura,Açougues / Padarias,53,52095.0,10.17
+ANCHIETA,In natura,Hortifrutigranjeiros,29,52095.0,5.57
+ANCHIETA,In natura,Peixarias,11,52095.0,2.11
+ANCHIETA,Misto,Hipermercados,9,52095.0,1.73
+ANCHIETA,Misto,Mercearias,74,52095.0,14.2
+ANCHIETA,Misto,Supermercados,4,52095.0,0.77
+ANCHIETA,Ultraprocessado,Cantinas / Alimentação preparada,253,52095.0,48.57
+ANCHIETA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,33,52095.0,6.33
+ANCHIETA,Ultraprocessado,Restaurantes / Lanchonetes,268,52095.0,51.44
+ANCHIETA,Ultraprocessado,Serviços ambulantes,77,52095.0,14.78
+ANDARAI,In natura,Açougues / Padarias,31,34576.0,8.97
+ANDARAI,In natura,Hortifrutigranjeiros,10,34576.0,2.89
+ANDARAI,In natura,Peixarias,5,34576.0,1.45
+ANDARAI,Misto,Hipermercados,10,34576.0,2.89
+ANDARAI,Misto,Mercearias,23,34576.0,6.65
+ANDARAI,Misto,Supermercados,1,34576.0,0.29
+ANDARAI,Ultraprocessado,Cantinas / Alimentação preparada,130,34576.0,37.6
+ANDARAI,Ultraprocessado,Lojas de conveniência / Varejo alimentar,37,34576.0,10.7
+ANDARAI,Ultraprocessado,Restaurantes / Lanchonetes,187,34576.0,54.08
+ANDARAI,Ultraprocessado,Serviços ambulantes,33,34576.0,9.54
+ANIL,In natura,Açougues / Padarias,66,31895.0,20.69
+ANIL,In natura,Hortifrutigranjeiros,35,31895.0,10.97
+ANIL,In natura,Peixarias,18,31895.0,5.64
+ANIL,Misto,Hipermercados,31,31895.0,9.72
+ANIL,Misto,Mercearias,87,31895.0,27.28
+ANIL,Misto,Supermercados,3,31895.0,0.94
+ANIL,Ultraprocessado,Cantinas / Alimentação preparada,266,31895.0,83.4
+ANIL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,61,31895.0,19.13
+ANIL,Ultraprocessado,Restaurantes / Lanchonetes,362,31895.0,113.5
+ANIL,Ultraprocessado,Serviços ambulantes,71,31895.0,22.26
+BANCARIOS,In natura,Açougues / Padarias,10,11062.0,9.04
+BANCARIOS,In natura,Peixarias,12,11062.0,10.85
+BANCARIOS,Misto,Hipermercados,3,11062.0,2.71
+BANCARIOS,Misto,Mercearias,16,11062.0,14.46
+BANCARIOS,Ultraprocessado,Cantinas / Alimentação preparada,71,11062.0,64.18
+BANCARIOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,8,11062.0,7.23
+BANCARIOS,Ultraprocessado,Restaurantes / Lanchonetes,66,11062.0,59.66
+BANCARIOS,Ultraprocessado,Serviços ambulantes,9,11062.0,8.14
+BANGU,In natura,Açougues / Padarias,234,211912.0,11.04
+BANGU,In natura,Hortifrutigranjeiros,150,211912.0,7.08
+BANGU,In natura,Peixarias,65,211912.0,3.07
+BANGU,Misto,Hipermercados,82,211912.0,3.87
+BANGU,Misto,Mercearias,315,211912.0,14.86
+BANGU,Misto,Supermercados,11,211912.0,0.52
+BANGU,Ultraprocessado,Cantinas / Alimentação preparada,923,211912.0,43.56
+BANGU,Ultraprocessado,Lojas de conveniência / Varejo alimentar,188,211912.0,8.87
+BANGU,Ultraprocessado,Restaurantes / Lanchonetes,1133,211912.0,53.47
+BANGU,Ultraprocessado,Serviços ambulantes,321,211912.0,15.15
+BARRA  DA  TIJUCA,Misto,Hipermercados,1,142263.0,0.07
+BARRA  DA  TIJUCA,Ultraprocessado,Cantinas / Alimentação preparada,2,142263.0,0.14
+BARRA  DA TIJUCA,Misto,Supermercados,1,142263.0,0.07
+BARRA  DA TIJUCA,Ultraprocessado,Restaurantes / Lanchonetes,3,142263.0,0.21
+BARRA DA TIJUCA,In natura,Açougues / Padarias,227,142263.0,15.96
+BARRA DA TIJUCA,In natura,Hortifrutigranjeiros,32,142263.0,2.25
+BARRA DA TIJUCA,In natura,Peixarias,44,142263.0,3.09
+BARRA DA TIJUCA,Misto,Hipermercados,75,142263.0,5.27
+BARRA DA TIJUCA,Misto,Mercearias,127,142263.0,8.93
+BARRA DA TIJUCA,Misto,Supermercados,22,142263.0,1.55
+BARRA DA TIJUCA,Ultraprocessado,Cantinas / Alimentação preparada,700,142263.0,49.2
+BARRA DA TIJUCA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,333,142263.0,23.41
+BARRA DA TIJUCA,Ultraprocessado,Restaurantes / Lanchonetes,1973,142263.0,138.69
+BARRA DA TIJUCA,Ultraprocessado,Serviços ambulantes,121,142263.0,8.51
+BARRA DE GUARATIBA,In natura,Açougues / Padarias,2,4755.0,4.21
+BARRA DE GUARATIBA,In natura,Hortifrutigranjeiros,2,4755.0,4.21
+BARRA DE GUARATIBA,In natura,Peixarias,1,4755.0,2.1
+BARRA DE GUARATIBA,Misto,Hipermercados,1,4755.0,2.1
+BARRA DE GUARATIBA,Misto,Mercearias,11,4755.0,23.13
+BARRA DE GUARATIBA,Ultraprocessado,Cantinas / Alimentação preparada,27,4755.0,56.78
+BARRA DE GUARATIBA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,7,4755.0,14.72
+BARRA DE GUARATIBA,Ultraprocessado,Restaurantes / Lanchonetes,55,4755.0,115.67
+BARRA DE GUARATIBA,Ultraprocessado,Serviços ambulantes,7,4755.0,14.72
+BARRA OLIMPICA,In natura,Açougues / Padarias,2,56547.0,0.35
+BARRA OLIMPICA,Misto,Hipermercados,3,56547.0,0.53
+BARRA OLIMPICA,Misto,Mercearias,6,56547.0,1.06
+BARRA OLIMPICA,Ultraprocessado,Cantinas / Alimentação preparada,12,56547.0,2.12
+BARRA OLIMPICA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,2,56547.0,0.35
+BARRA OLIMPICA,Ultraprocessado,Restaurantes / Lanchonetes,18,56547.0,3.18
+BARRA OLIMPICA,Ultraprocessado,Serviços ambulantes,6,56547.0,1.06
+BARROS FILHO,In natura,Açougues / Padarias,16,20444.0,7.83
+BARROS FILHO,In natura,Hortifrutigranjeiros,8,20444.0,3.91
+BARROS FILHO,In natura,Peixarias,4,20444.0,1.96
+BARROS FILHO,Misto,Hipermercados,1,20444.0,0.49
+BARROS FILHO,Misto,Mercearias,24,20444.0,11.74
+BARROS FILHO,Misto,Supermercados,1,20444.0,0.49
+BARROS FILHO,Ultraprocessado,Cantinas / Alimentação preparada,55,20444.0,26.9
+BARROS FILHO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,4,20444.0,1.96
+BARROS FILHO,Ultraprocessado,Restaurantes / Lanchonetes,47,20444.0,22.99
+BARROS FILHO,Ultraprocessado,Serviços ambulantes,21,20444.0,10.27
+BENFICA,In natura,Açougues / Padarias,54,21388.0,25.25
+BENFICA,In natura,Hortifrutigranjeiros,62,21388.0,28.99
+BENFICA,In natura,Peixarias,15,21388.0,7.01
+BENFICA,Misto,Hipermercados,9,21388.0,4.21
+BENFICA,Misto,Mercearias,63,21388.0,29.46
+BENFICA,Misto,Supermercados,4,21388.0,1.87
+BENFICA,Ultraprocessado,Cantinas / Alimentação preparada,158,21388.0,73.87
+BENFICA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,51,21388.0,23.85
+BENFICA,Ultraprocessado,Restaurantes / Lanchonetes,275,21388.0,128.58
+BENFICA,Ultraprocessado,Serviços ambulantes,46,21388.0,21.51
+BENTO RIBEIRO,In natura,Açougues / Padarias,29,37306.0,7.77
+BENTO RIBEIRO,In natura,Hortifrutigranjeiros,18,37306.0,4.82
+BENTO RIBEIRO,In natura,Peixarias,11,37306.0,2.95
+BENTO RIBEIRO,Misto,Hipermercados,10,37306.0,2.68
+BENTO RIBEIRO,Misto,Mercearias,58,37306.0,15.55
+BENTO RIBEIRO,Misto,Supermercados,5,37306.0,1.34
+BENTO RIBEIRO,Ultraprocessado,Cantinas / Alimentação preparada,231,37306.0,61.92
+BENTO RIBEIRO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,41,37306.0,10.99
+BENTO RIBEIRO,Ultraprocessado,Restaurantes / Lanchonetes,209,37306.0,56.02
+BENTO RIBEIRO,Ultraprocessado,Serviços ambulantes,61,37306.0,16.35
+BONSUCESSO,In natura,Açougues / Padarias,84,16872.0,49.79
+BONSUCESSO,In natura,Hortifrutigranjeiros,49,16872.0,29.04
+BONSUCESSO,In natura,Peixarias,18,16872.0,10.67
+BONSUCESSO,Misto,Hipermercados,35,16872.0,20.74
+BONSUCESSO,Misto,Mercearias,92,16872.0,54.53
+BONSUCESSO,Misto,Supermercados,9,16872.0,5.33
+BONSUCESSO,Ultraprocessado,Cantinas / Alimentação preparada,253,16872.0,149.95
+BONSUCESSO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,70,16872.0,41.49
+BONSUCESSO,Ultraprocessado,Restaurantes / Lanchonetes,497,16872.0,294.57
+BONSUCESSO,Ultraprocessado,Serviços ambulantes,97,16872.0,57.49
+BOTAFOGO,In natura,Açougues / Padarias,99,77018.0,12.85
+BOTAFOGO,In natura,Hortifrutigranjeiros,21,77018.0,2.73
+BOTAFOGO,In natura,Peixarias,8,77018.0,1.04
+BOTAFOGO,Misto,Hipermercados,24,77018.0,3.12
+BOTAFOGO,Misto,Mercearias,46,77018.0,5.97
+BOTAFOGO,Misto,Supermercados,12,77018.0,1.56
+BOTAFOGO,Ultraprocessado,Cantinas / Alimentação preparada,464,77018.0,60.25
+BOTAFOGO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,122,77018.0,15.84
+BOTAFOGO,Ultraprocessado,Restaurantes / Lanchonetes,921,77018.0,119.58
+BOTAFOGO,Ultraprocessado,Serviços ambulantes,69,77018.0,8.96
+BRAS DE PINA,In natura,Açougues / Padarias,8,45048.0,1.78
+BRAS DE PINA,In natura,Hortifrutigranjeiros,1,45048.0,0.22
+BRAS DE PINA,In natura,Peixarias,2,45048.0,0.44
+BRAS DE PINA,Misto,Hipermercados,1,45048.0,0.22
+BRAS DE PINA,Misto,Mercearias,4,45048.0,0.89
+BRAS DE PINA,Ultraprocessado,Cantinas / Alimentação preparada,33,45048.0,7.33
+BRAS DE PINA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,9,45048.0,2.0
+BRAS DE PINA,Ultraprocessado,Restaurantes / Lanchonetes,38,45048.0,8.44
+BRAS DE PINA,Ultraprocessado,Serviços ambulantes,15,45048.0,3.33
+CACHAMBI,In natura,Açougues / Padarias,50,38673.0,12.93
+CACHAMBI,In natura,Hortifrutigranjeiros,16,38673.0,4.14
+CACHAMBI,In natura,Peixarias,3,38673.0,0.78
+CACHAMBI,Misto,Hipermercados,16,38673.0,4.14
+CACHAMBI,Misto,Mercearias,36,38673.0,9.31
+CACHAMBI,Misto,Supermercados,8,38673.0,2.07
+CACHAMBI,Ultraprocessado,Cantinas / Alimentação preparada,201,38673.0,51.97
+CACHAMBI,Ultraprocessado,Lojas de conveniência / Varejo alimentar,43,38673.0,11.12
+CACHAMBI,Ultraprocessado,Restaurantes / Lanchonetes,351,38673.0,90.76
+CACHAMBI,Ultraprocessado,Serviços ambulantes,45,38673.0,11.64
+CACUIA,In natura,Açougues / Padarias,10,10392.0,9.62
+CACUIA,In natura,Hortifrutigranjeiros,8,10392.0,7.7
+CACUIA,In natura,Peixarias,5,10392.0,4.81
+CACUIA,Misto,Hipermercados,7,10392.0,6.74
+CACUIA,Misto,Mercearias,12,10392.0,11.55
+CACUIA,Ultraprocessado,Cantinas / Alimentação preparada,79,10392.0,76.02
+CACUIA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,18,10392.0,17.32
+CACUIA,Ultraprocessado,Restaurantes / Lanchonetes,97,10392.0,93.34
+CACUIA,Ultraprocessado,Serviços ambulantes,21,10392.0,20.21
+CAJU,In natura,Açougues / Padarias,25,24116.0,10.37
+CAJU,In natura,Hortifrutigranjeiros,9,24116.0,3.73
+CAJU,In natura,Peixarias,7,24116.0,2.9
+CAJU,Misto,Hipermercados,2,24116.0,0.83
+CAJU,Misto,Mercearias,33,24116.0,13.68
+CAJU,Misto,Supermercados,1,24116.0,0.41
+CAJU,Ultraprocessado,Cantinas / Alimentação preparada,53,24116.0,21.98
+CAJU,Ultraprocessado,Lojas de conveniência / Varejo alimentar,13,24116.0,5.39
+CAJU,Ultraprocessado,Restaurantes / Lanchonetes,112,24116.0,46.44
+CAJU,Ultraprocessado,Serviços ambulantes,26,24116.0,10.78
+CAMORIM,In natura,Açougues / Padarias,8,1383.0,57.85
+CAMORIM,In natura,Hortifrutigranjeiros,4,1383.0,28.92
+CAMORIM,In natura,Peixarias,1,1383.0,7.23
+CAMORIM,Misto,Hipermercados,3,1383.0,21.69
+CAMORIM,Misto,Mercearias,20,1383.0,144.61
+CAMORIM,Ultraprocessado,Cantinas / Alimentação preparada,50,1383.0,361.53
+CAMORIM,Ultraprocessado,Lojas de conveniência / Varejo alimentar,9,1383.0,65.08
+CAMORIM,Ultraprocessado,Restaurantes / Lanchonetes,46,1383.0,332.61
+CAMORIM,Ultraprocessado,Serviços ambulantes,12,1383.0,86.77
+CAMPINHO,In natura,Açougues / Padarias,13,8579.0,15.15
+CAMPINHO,In natura,Hortifrutigranjeiros,8,8579.0,9.33
+CAMPINHO,In natura,Peixarias,5,8579.0,5.83
+CAMPINHO,Misto,Hipermercados,2,8579.0,2.33
+CAMPINHO,Misto,Mercearias,12,8579.0,13.99
+CAMPINHO,Misto,Supermercados,1,8579.0,1.17
+CAMPINHO,Ultraprocessado,Cantinas / Alimentação preparada,48,8579.0,55.95
+CAMPINHO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,15,8579.0,17.48
+CAMPINHO,Ultraprocessado,Restaurantes / Lanchonetes,54,8579.0,62.94
+CAMPINHO,Ultraprocessado,Serviços ambulantes,8,8579.0,9.33
+CAMPO DOS AFONSOS,In natura,Açougues / Padarias,4,2106.0,18.99
+CAMPO DOS AFONSOS,In natura,Peixarias,1,2106.0,4.75
+CAMPO DOS AFONSOS,Misto,Hipermercados,1,2106.0,4.75
+CAMPO DOS AFONSOS,Misto,Mercearias,2,2106.0,9.5
+CAMPO DOS AFONSOS,Ultraprocessado,Cantinas / Alimentação preparada,10,2106.0,47.48
+CAMPO DOS AFONSOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,2,2106.0,9.5
+CAMPO DOS AFONSOS,Ultraprocessado,Restaurantes / Lanchonetes,18,2106.0,85.47
+CAMPO DOS AFONSOS,Ultraprocessado,Serviços ambulantes,1,2106.0,4.75
+CAMPO GRANDE,In natura,Açougues / Padarias,395,352704.0,11.2
+CAMPO GRANDE,In natura,Hortifrutigranjeiros,205,352704.0,5.81
+CAMPO GRANDE,In natura,Peixarias,94,352704.0,2.67
+CAMPO GRANDE,Misto,Hipermercados,178,352704.0,5.05
+CAMPO GRANDE,Misto,Mercearias,507,352704.0,14.37
+CAMPO GRANDE,Misto,Supermercados,30,352704.0,0.85
+CAMPO GRANDE,Ultraprocessado,Cantinas / Alimentação preparada,1691,352704.0,47.94
+CAMPO GRANDE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,427,352704.0,12.11
+CAMPO GRANDE,Ultraprocessado,Restaurantes / Lanchonetes,2315,352704.0,65.64
+CAMPO GRANDE,Ultraprocessado,Serviços ambulantes,526,352704.0,14.91
+CAMPO GRANDE',Misto,Mercearias,1,352704.0,0.03
+CASCADURA,In natura,Açougues / Padarias,36,26895.0,13.39
+CASCADURA,In natura,Hortifrutigranjeiros,15,26895.0,5.58
+CASCADURA,In natura,Peixarias,11,26895.0,4.09
+CASCADURA,Misto,Hipermercados,11,26895.0,4.09
+CASCADURA,Misto,Mercearias,29,26895.0,10.78
+CASCADURA,Misto,Supermercados,8,26895.0,2.97
+CASCADURA,Ultraprocessado,Cantinas / Alimentação preparada,142,26895.0,52.8
+CASCADURA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,26,26895.0,9.67
+CASCADURA,Ultraprocessado,Restaurantes / Lanchonetes,155,26895.0,57.63
+CASCADURA,Ultraprocessado,Serviços ambulantes,34,26895.0,12.64
+CATETE,In natura,Açougues / Padarias,29,22295.0,13.01
+CATETE,In natura,Hortifrutigranjeiros,16,22295.0,7.18
+CATETE,In natura,Peixarias,2,22295.0,0.9
+CATETE,Misto,Hipermercados,8,22295.0,3.59
+CATETE,Misto,Mercearias,22,22295.0,9.87
+CATETE,Misto,Supermercados,3,22295.0,1.35
+CATETE,Ultraprocessado,Cantinas / Alimentação preparada,77,22295.0,34.54
+CATETE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,21,22295.0,9.42
+CATETE,Ultraprocessado,Restaurantes / Lanchonetes,184,22295.0,82.53
+CATETE,Ultraprocessado,Serviços ambulantes,31,22295.0,13.9
+CATUMBI,In natura,Açougues / Padarias,14,12201.0,11.47
+CATUMBI,In natura,Hortifrutigranjeiros,6,12201.0,4.92
+CATUMBI,In natura,Peixarias,12,12201.0,9.84
+CATUMBI,Misto,Hipermercados,2,12201.0,1.64
+CATUMBI,Misto,Mercearias,26,12201.0,21.31
+CATUMBI,Misto,Supermercados,1,12201.0,0.82
+CATUMBI,Ultraprocessado,Cantinas / Alimentação preparada,83,12201.0,68.03
+CATUMBI,Ultraprocessado,Lojas de conveniência / Varejo alimentar,9,12201.0,7.38
+CATUMBI,Ultraprocessado,Restaurantes / Lanchonetes,99,12201.0,81.14
+CATUMBI,Ultraprocessado,Serviços ambulantes,28,12201.0,22.95
+CAVALCANTI,In natura,Açougues / Padarias,11,13799.0,7.97
+CAVALCANTI,In natura,Hortifrutigranjeiros,10,13799.0,7.25
+CAVALCANTI,In natura,Peixarias,2,13799.0,1.45
+CAVALCANTI,Misto,Hipermercados,2,13799.0,1.45
+CAVALCANTI,Misto,Mercearias,11,13799.0,7.97
+CAVALCANTI,Misto,Supermercados,1,13799.0,0.72
+CAVALCANTI,Ultraprocessado,Cantinas / Alimentação preparada,72,13799.0,52.18
+CAVALCANTI,Ultraprocessado,Lojas de conveniência / Varejo alimentar,14,13799.0,10.15
+CAVALCANTI,Ultraprocessado,Restaurantes / Lanchonetes,67,13799.0,48.55
+CAVALCANTI,Ultraprocessado,Serviços ambulantes,21,13799.0,15.22
+CENTRO,In natura,Açougues / Padarias,225,23642.0,95.17
+CENTRO,In natura,Hortifrutigranjeiros,29,23642.0,12.27
+CENTRO,In natura,Peixarias,11,23642.0,4.65
+CENTRO,Misto,Hipermercados,258,23642.0,109.13
+CENTRO,Misto,Mercearias,135,23642.0,57.1
+CENTRO,Misto,Supermercados,12,23642.0,5.08
+CENTRO,Ultraprocessado,Cantinas / Alimentação preparada,472,23642.0,199.64
+CENTRO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,245,23642.0,103.63
+CENTRO,Ultraprocessado,Restaurantes / Lanchonetes,1774,23642.0,750.36
+CENTRO,Ultraprocessado,Serviços ambulantes,190,23642.0,80.37
+CENTRO',Ultraprocessado,Restaurantes / Lanchonetes,1,23642.0,0.42
+CIDADE DE DEUS,In natura,Açougues / Padarias,51,30576.0,16.68
+CIDADE DE DEUS,In natura,Hortifrutigranjeiros,29,30576.0,9.48
+CIDADE DE DEUS,In natura,Peixarias,59,30576.0,19.3
+CIDADE DE DEUS,Misto,Hipermercados,14,30576.0,4.58
+CIDADE DE DEUS,Misto,Mercearias,77,30576.0,25.18
+CIDADE DE DEUS,Ultraprocessado,Cantinas / Alimentação preparada,187,30576.0,61.16
+CIDADE DE DEUS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,31,30576.0,10.14
+CIDADE DE DEUS,Ultraprocessado,Restaurantes / Lanchonetes,345,30576.0,112.83
+CIDADE DE DEUS,Ultraprocessado,Serviços ambulantes,60,30576.0,19.62
+CIDADE NOVA,In natura,Açougues / Padarias,12,4745.0,25.29
+CIDADE NOVA,In natura,Hortifrutigranjeiros,1,4745.0,2.11
+CIDADE NOVA,In natura,Peixarias,2,4745.0,4.21
+CIDADE NOVA,Misto,Hipermercados,2,4745.0,4.21
+CIDADE NOVA,Misto,Mercearias,4,4745.0,8.43
+CIDADE NOVA,Ultraprocessado,Cantinas / Alimentação preparada,45,4745.0,94.84
+CIDADE NOVA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,7,4745.0,14.75
+CIDADE NOVA,Ultraprocessado,Restaurantes / Lanchonetes,99,4745.0,208.64
+CIDADE NOVA,Ultraprocessado,Serviços ambulantes,9,4745.0,18.97
+CIDADE UNIVERSITARIA,In natura,Açougues / Padarias,5,1303.0,38.37
+CIDADE UNIVERSITARIA,In natura,Hortifrutigranjeiros,2,1303.0,15.35
+CIDADE UNIVERSITARIA,In natura,Peixarias,1,1303.0,7.67
+CIDADE UNIVERSITARIA,Misto,Mercearias,3,1303.0,23.02
+CIDADE UNIVERSITARIA,Ultraprocessado,Cantinas / Alimentação preparada,20,1303.0,153.49
+CIDADE UNIVERSITARIA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,2,1303.0,15.35
+CIDADE UNIVERSITARIA,Ultraprocessado,Restaurantes / Lanchonetes,36,1303.0,276.29
+CIDADE UNIVERSITARIA,Ultraprocessado,Serviços ambulantes,5,1303.0,38.37
+COCOTA,In natura,Açougues / Padarias,10,5021.0,19.92
+COCOTA,In natura,Hortifrutigranjeiros,8,5021.0,15.93
+COCOTA,In natura,Peixarias,2,5021.0,3.98
+COCOTA,Misto,Hipermercados,7,5021.0,13.94
+COCOTA,Misto,Mercearias,10,5021.0,19.92
+COCOTA,Ultraprocessado,Cantinas / Alimentação preparada,39,5021.0,77.67
+COCOTA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,8,5021.0,15.93
+COCOTA,Ultraprocessado,Restaurantes / Lanchonetes,48,5021.0,95.6
+COCOTA,Ultraprocessado,Serviços ambulantes,9,5021.0,17.92
+COELHO NETO,In natura,Açougues / Padarias,37,26780.0,13.82
+COELHO NETO,In natura,Hortifrutigranjeiros,64,26780.0,23.9
+COELHO NETO,In natura,Peixarias,18,26780.0,6.72
+COELHO NETO,Misto,Hipermercados,6,26780.0,2.24
+COELHO NETO,Misto,Mercearias,56,26780.0,20.91
+COELHO NETO,Misto,Supermercados,6,26780.0,2.24
+COELHO NETO,Ultraprocessado,Cantinas / Alimentação preparada,143,26780.0,53.4
+COELHO NETO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,40,26780.0,14.94
+COELHO NETO,Ultraprocessado,Restaurantes / Lanchonetes,184,26780.0,68.71
+COELHO NETO,Ultraprocessado,Serviços ambulantes,80,26780.0,29.87
+COLEGIO,In natura,Açougues / Padarias,28,26840.0,10.43
+COLEGIO,In natura,Hortifrutigranjeiros,23,26840.0,8.57
+COLEGIO,In natura,Peixarias,9,26840.0,3.35
+COLEGIO,Misto,Hipermercados,6,26840.0,2.24
+COLEGIO,Misto,Mercearias,43,26840.0,16.02
+COLEGIO,Ultraprocessado,Cantinas / Alimentação preparada,130,26840.0,48.44
+COLEGIO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,23,26840.0,8.57
+COLEGIO,Ultraprocessado,Restaurantes / Lanchonetes,120,26840.0,44.71
+COLEGIO,Ultraprocessado,Serviços ambulantes,56,26840.0,20.86
+COMPLEXO DO ALEMAO,In natura,Açougues / Padarias,5,54202.0,0.92
+COMPLEXO DO ALEMAO,In natura,Hortifrutigranjeiros,2,54202.0,0.37
+COMPLEXO DO ALEMAO,Misto,Hipermercados,4,54202.0,0.74
+COMPLEXO DO ALEMAO,Misto,Mercearias,13,54202.0,2.4
+COMPLEXO DO ALEMAO,Ultraprocessado,Cantinas / Alimentação preparada,3,54202.0,0.55
+COMPLEXO DO ALEMAO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,3,54202.0,0.55
+COMPLEXO DO ALEMAO,Ultraprocessado,Restaurantes / Lanchonetes,12,54202.0,2.21
+COPACABANA,In natura,Açougues / Padarias,130,128919.0,10.08
+COPACABANA,In natura,Hortifrutigranjeiros,38,128919.0,2.95
+COPACABANA,In natura,Peixarias,25,128919.0,1.94
+COPACABANA,Misto,Hipermercados,57,128919.0,4.42
+COPACABANA,Misto,Mercearias,151,128919.0,11.71
+COPACABANA,Misto,Supermercados,23,128919.0,1.78
+COPACABANA,Ultraprocessado,Cantinas / Alimentação preparada,517,128919.0,40.1
+COPACABANA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,169,128919.0,13.11
+COPACABANA,Ultraprocessado,Restaurantes / Lanchonetes,1157,128919.0,89.75
+COPACABANA,Ultraprocessado,Serviços ambulantes,135,128919.0,10.47
+CORDOVIL,In natura,Açougues / Padarias,19,34668.0,5.48
+CORDOVIL,In natura,Hortifrutigranjeiros,12,34668.0,3.46
+CORDOVIL,In natura,Peixarias,10,34668.0,2.88
+CORDOVIL,Misto,Hipermercados,3,34668.0,0.87
+CORDOVIL,Misto,Mercearias,45,34668.0,12.98
+CORDOVIL,Misto,Supermercados,4,34668.0,1.15
+CORDOVIL,Ultraprocessado,Cantinas / Alimentação preparada,148,34668.0,42.69
+CORDOVIL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,22,34668.0,6.35
+CORDOVIL,Ultraprocessado,Restaurantes / Lanchonetes,151,34668.0,43.56
+CORDOVIL,Ultraprocessado,Serviços ambulantes,43,34668.0,12.4
+COSME VELHO,In natura,Açougues / Padarias,4,6408.0,6.24
+COSME VELHO,In natura,Hortifrutigranjeiros,2,6408.0,3.12
+COSME VELHO,Misto,Hipermercados,1,6408.0,1.56
+COSME VELHO,Misto,Mercearias,7,6408.0,10.92
+COSME VELHO,Ultraprocessado,Cantinas / Alimentação preparada,26,6408.0,40.57
+COSME VELHO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,5,6408.0,7.8
+COSME VELHO,Ultraprocessado,Restaurantes / Lanchonetes,24,6408.0,37.45
+COSME VELHO,Ultraprocessado,Serviços ambulantes,6,6408.0,9.36
+COSMOS,In natura,Açougues / Padarias,67,95484.0,7.02
+COSMOS,In natura,Hortifrutigranjeiros,25,95484.0,2.62
+COSMOS,In natura,Peixarias,12,95484.0,1.26
+COSMOS,Misto,Hipermercados,13,95484.0,1.36
+COSMOS,Misto,Mercearias,98,95484.0,10.26
+COSMOS,Misto,Supermercados,3,95484.0,0.31
+COSMOS,Ultraprocessado,Cantinas / Alimentação preparada,287,95484.0,30.06
+COSMOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,77,95484.0,8.06
+COSMOS,Ultraprocessado,Restaurantes / Lanchonetes,394,95484.0,41.26
+COSMOS,Ultraprocessado,Serviços ambulantes,104,95484.0,10.89
+COSTA BARROS,In natura,Açougues / Padarias,35,26272.0,13.32
+COSTA BARROS,In natura,Hortifrutigranjeiros,12,26272.0,4.57
+COSTA BARROS,In natura,Peixarias,2,26272.0,0.76
+COSTA BARROS,Misto,Mercearias,42,26272.0,15.99
+COSTA BARROS,Ultraprocessado,Cantinas / Alimentação preparada,66,26272.0,25.12
+COSTA BARROS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,8,26272.0,3.05
+COSTA BARROS,Ultraprocessado,Restaurantes / Lanchonetes,87,26272.0,33.12
+COSTA BARROS,Ultraprocessado,Serviços ambulantes,30,26272.0,11.42
+CURICICA,In natura,Açougues / Padarias,35,29109.0,12.02
+CURICICA,In natura,Hortifrutigranjeiros,33,29109.0,11.34
+CURICICA,In natura,Peixarias,17,29109.0,5.84
+CURICICA,Misto,Hipermercados,15,29109.0,5.15
+CURICICA,Misto,Mercearias,53,29109.0,18.21
+CURICICA,Misto,Supermercados,4,29109.0,1.37
+CURICICA,Ultraprocessado,Cantinas / Alimentação preparada,307,29109.0,105.47
+CURICICA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,49,29109.0,16.83
+CURICICA,Ultraprocessado,Restaurantes / Lanchonetes,311,29109.0,106.84
+CURICICA,Ultraprocessado,Serviços ambulantes,66,29109.0,22.67
+DEL CASTILHO,In natura,Açougues / Padarias,38,20597.0,18.45
+DEL CASTILHO,In natura,Hortifrutigranjeiros,13,20597.0,6.31
+DEL CASTILHO,In natura,Peixarias,2,20597.0,0.97
+DEL CASTILHO,Misto,Hipermercados,13,20597.0,6.31
+DEL CASTILHO,Misto,Mercearias,39,20597.0,18.93
+DEL CASTILHO,Misto,Supermercados,1,20597.0,0.49
+DEL CASTILHO,Ultraprocessado,Cantinas / Alimentação preparada,120,20597.0,58.26
+DEL CASTILHO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,41,20597.0,19.91
+DEL CASTILHO,Ultraprocessado,Restaurantes / Lanchonetes,265,20597.0,128.66
+DEL CASTILHO,Ultraprocessado,Serviços ambulantes,29,20597.0,14.08
+DEODORO,In natura,Açougues / Padarias,9,10402.0,8.65
+DEODORO,In natura,Hortifrutigranjeiros,9,10402.0,8.65
+DEODORO,Misto,Hipermercados,3,10402.0,2.88
+DEODORO,Misto,Mercearias,17,10402.0,16.34
+DEODORO,Misto,Supermercados,1,10402.0,0.96
+DEODORO,Ultraprocessado,Cantinas / Alimentação preparada,66,10402.0,63.45
+DEODORO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,7,10402.0,6.73
+DEODORO,Ultraprocessado,Restaurantes / Lanchonetes,53,10402.0,50.95
+DEODORO,Ultraprocessado,Serviços ambulantes,20,10402.0,19.23
+ENCANTADO,In natura,Açougues / Padarias,8,12405.0,6.45
+ENCANTADO,In natura,Hortifrutigranjeiros,7,12405.0,5.64
+ENCANTADO,In natura,Peixarias,5,12405.0,4.03
+ENCANTADO,Misto,Hipermercados,5,12405.0,4.03
+ENCANTADO,Misto,Mercearias,13,12405.0,10.48
+ENCANTADO,Ultraprocessado,Cantinas / Alimentação preparada,86,12405.0,69.33
+ENCANTADO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,14,12405.0,11.29
+ENCANTADO,Ultraprocessado,Restaurantes / Lanchonetes,72,12405.0,58.04
+ENCANTADO,Ultraprocessado,Serviços ambulantes,14,12405.0,11.29
+ENGENHEIRO LEAL,In natura,Açougues / Padarias,8,5200.0,15.38
+ENGENHEIRO LEAL,In natura,Hortifrutigranjeiros,1,5200.0,1.92
+ENGENHEIRO LEAL,In natura,Peixarias,1,5200.0,1.92
+ENGENHEIRO LEAL,Misto,Mercearias,5,5200.0,9.62
+ENGENHEIRO LEAL,Ultraprocessado,Cantinas / Alimentação preparada,30,5200.0,57.69
+ENGENHEIRO LEAL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,2,5200.0,3.85
+ENGENHEIRO LEAL,Ultraprocessado,Restaurantes / Lanchonetes,12,5200.0,23.08
+ENGENHEIRO LEAL,Ultraprocessado,Serviços ambulantes,9,5200.0,17.31
+ENGENHO DA RAINHA,In natura,Açougues / Padarias,18,24188.0,7.44
+ENGENHO DA RAINHA,In natura,Hortifrutigranjeiros,17,24188.0,7.03
+ENGENHO DA RAINHA,In natura,Peixarias,5,24188.0,2.07
+ENGENHO DA RAINHA,Misto,Hipermercados,8,24188.0,3.31
+ENGENHO DA RAINHA,Misto,Mercearias,22,24188.0,9.1
+ENGENHO DA RAINHA,Misto,Supermercados,1,24188.0,0.41
+ENGENHO DA RAINHA,Ultraprocessado,Cantinas / Alimentação preparada,84,24188.0,34.73
+ENGENHO DA RAINHA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,13,24188.0,5.37
+ENGENHO DA RAINHA,Ultraprocessado,Restaurantes / Lanchonetes,85,24188.0,35.14
+ENGENHO DA RAINHA,Ultraprocessado,Serviços ambulantes,33,24188.0,13.64
+ENGENHO DE DENTRO,In natura,Açougues / Padarias,42,43175.0,9.73
+ENGENHO DE DENTRO,In natura,Hortifrutigranjeiros,18,43175.0,4.17
+ENGENHO DE DENTRO,In natura,Peixarias,12,43175.0,2.78
+ENGENHO DE DENTRO,Misto,Hipermercados,21,43175.0,4.86
+ENGENHO DE DENTRO,Misto,Mercearias,49,43175.0,11.35
+ENGENHO DE DENTRO,Misto,Supermercados,6,43175.0,1.39
+ENGENHO DE DENTRO,Ultraprocessado,Cantinas / Alimentação preparada,262,43175.0,60.68
+ENGENHO DE DENTRO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,48,43175.0,11.12
+ENGENHO DE DENTRO,Ultraprocessado,Restaurantes / Lanchonetes,269,43175.0,62.3
+ENGENHO DE DENTRO,Ultraprocessado,Serviços ambulantes,68,43175.0,15.75
+ENGENHO NOVO,In natura,Açougues / Padarias,22,39424.0,5.58
+ENGENHO NOVO,In natura,Hortifrutigranjeiros,19,39424.0,4.82
+ENGENHO NOVO,In natura,Peixarias,2,39424.0,0.51
+ENGENHO NOVO,Misto,Hipermercados,6,39424.0,1.52
+ENGENHO NOVO,Misto,Mercearias,51,39424.0,12.94
+ENGENHO NOVO,Misto,Supermercados,4,39424.0,1.01
+ENGENHO NOVO,Ultraprocessado,Cantinas / Alimentação preparada,204,39424.0,51.75
+ENGENHO NOVO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,24,39424.0,6.09
+ENGENHO NOVO,Ultraprocessado,Restaurantes / Lanchonetes,196,39424.0,49.72
+ENGENHO NOVO,Ultraprocessado,Serviços ambulantes,50,39424.0,12.68
+ESTACIO,In natura,Açougues / Padarias,15,23260.0,6.45
+ESTACIO,In natura,Hortifrutigranjeiros,10,23260.0,4.3
+ESTACIO,In natura,Peixarias,4,23260.0,1.72
+ESTACIO,Misto,Hipermercados,2,23260.0,0.86
+ESTACIO,Misto,Mercearias,19,23260.0,8.17
+ESTACIO,Ultraprocessado,Cantinas / Alimentação preparada,104,23260.0,44.71
+ESTACIO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,9,23260.0,3.87
+ESTACIO,Ultraprocessado,Restaurantes / Lanchonetes,115,23260.0,49.44
+ESTACIO,Ultraprocessado,Serviços ambulantes,29,23260.0,12.47
+FLAMENGO,In natura,Açougues / Padarias,26,43099.0,6.03
+FLAMENGO,In natura,Hortifrutigranjeiros,10,43099.0,2.32
+FLAMENGO,In natura,Peixarias,5,43099.0,1.16
+FLAMENGO,Misto,Hipermercados,15,43099.0,3.48
+FLAMENGO,Misto,Mercearias,30,43099.0,6.96
+FLAMENGO,Misto,Supermercados,5,43099.0,1.16
+FLAMENGO,Ultraprocessado,Cantinas / Alimentação preparada,106,43099.0,24.59
+FLAMENGO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,43,43099.0,9.98
+FLAMENGO,Ultraprocessado,Restaurantes / Lanchonetes,170,43099.0,39.44
+FLAMENGO,Ultraprocessado,Serviços ambulantes,35,43099.0,8.12
+FREGUESIA (ILHA),In natura,Açougues / Padarias,5,15900.0,3.14
+FREGUESIA (ILHA),Misto,Mercearias,2,15900.0,1.26
+FREGUESIA (ILHA),Ultraprocessado,Cantinas / Alimentação preparada,4,15900.0,2.52
+FREGUESIA (ILHA),Ultraprocessado,Lojas de conveniência / Varejo alimentar,1,15900.0,0.63
+FREGUESIA (ILHA),Ultraprocessado,Restaurantes / Lanchonetes,8,15900.0,5.03
+FREGUESIA (JACAREPAGUA),In natura,Açougues / Padarias,49,74803.0,6.55
+FREGUESIA (JACAREPAGUA),In natura,Hortifrutigranjeiros,19,74803.0,2.54
+FREGUESIA (JACAREPAGUA),In natura,Peixarias,9,74803.0,1.2
+FREGUESIA (JACAREPAGUA),Misto,Hipermercados,25,74803.0,3.34
+FREGUESIA (JACAREPAGUA),Misto,Mercearias,66,74803.0,8.82
+FREGUESIA (JACAREPAGUA),Misto,Supermercados,2,74803.0,0.27
+FREGUESIA (JACAREPAGUA),Ultraprocessado,Cantinas / Alimentação preparada,346,74803.0,46.25
+FREGUESIA (JACAREPAGUA),Ultraprocessado,Lojas de conveniência / Varejo alimentar,70,74803.0,9.36
+FREGUESIA (JACAREPAGUA),Ultraprocessado,Restaurantes / Lanchonetes,335,74803.0,44.78
+FREGUESIA (JACAREPAGUA),Ultraprocessado,Serviços ambulantes,67,74803.0,8.96
+FREGUESIA JACAREPAGUA,Misto,Mercearias,1,74803.0,0.13
+FREGUESIA JACAREPAGUA,Misto,Supermercados,1,74803.0,0.13
+"FREGUESIA, JACAREPAGUA",Ultraprocessado,Restaurantes / Lanchonetes,1,74803.0,0.13
+GALEAO,In natura,Açougues / Padarias,19,20816.0,9.13
+GALEAO,In natura,Hortifrutigranjeiros,13,20816.0,6.25
+GALEAO,In natura,Peixarias,10,20816.0,4.8
+GALEAO,Misto,Hipermercados,36,20816.0,17.29
+GALEAO,Misto,Mercearias,30,20816.0,14.41
+GALEAO,Ultraprocessado,Cantinas / Alimentação preparada,62,20816.0,29.78
+GALEAO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,12,20816.0,5.76
+GALEAO,Ultraprocessado,Restaurantes / Lanchonetes,175,20816.0,84.07
+GALEAO,Ultraprocessado,Serviços ambulantes,23,20816.0,11.05
+GAMBOA,In natura,Açougues / Padarias,11,11416.0,9.64
+GAMBOA,In natura,Hortifrutigranjeiros,1,11416.0,0.88
+GAMBOA,In natura,Peixarias,1,11416.0,0.88
+GAMBOA,Misto,Hipermercados,2,11416.0,1.75
+GAMBOA,Misto,Mercearias,20,11416.0,17.52
+GAMBOA,Misto,Supermercados,1,11416.0,0.88
+GAMBOA,Ultraprocessado,Cantinas / Alimentação preparada,64,11416.0,56.06
+GAMBOA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,9,11416.0,7.88
+GAMBOA,Ultraprocessado,Restaurantes / Lanchonetes,86,11416.0,75.33
+GAMBOA,Ultraprocessado,Serviços ambulantes,27,11416.0,23.65
+GARDENIA  AZUL,Ultraprocessado,Restaurantes / Lanchonetes,1,20490.0,0.49
+GARDENIA  AZUL,Ultraprocessado,Serviços ambulantes,1,20490.0,0.49
+GARDENIA AZUL,In natura,Açougues / Padarias,64,20490.0,31.23
+GARDENIA AZUL,In natura,Hortifrutigranjeiros,26,20490.0,12.69
+GARDENIA AZUL,In natura,Peixarias,24,20490.0,11.71
+GARDENIA AZUL,Misto,Hipermercados,18,20490.0,8.78
+GARDENIA AZUL,Misto,Mercearias,67,20490.0,32.7
+GARDENIA AZUL,Misto,Supermercados,1,20490.0,0.49
+GARDENIA AZUL,Ultraprocessado,Cantinas / Alimentação preparada,206,20490.0,100.54
+GARDENIA AZUL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,41,20490.0,20.01
+GARDENIA AZUL,Ultraprocessado,Restaurantes / Lanchonetes,266,20490.0,129.82
+GARDENIA AZUL,Ultraprocessado,Serviços ambulantes,60,20490.0,29.28
+GAVEA,In natura,Açougues / Padarias,42,14176.0,29.63
+GAVEA,In natura,Hortifrutigranjeiros,9,14176.0,6.35
+GAVEA,In natura,Peixarias,13,14176.0,9.17
+GAVEA,Misto,Hipermercados,13,14176.0,9.17
+GAVEA,Misto,Mercearias,45,14176.0,31.74
+GAVEA,Misto,Supermercados,4,14176.0,2.82
+GAVEA,Ultraprocessado,Cantinas / Alimentação preparada,151,14176.0,106.52
+GAVEA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,34,14176.0,23.98
+GAVEA,Ultraprocessado,Restaurantes / Lanchonetes,282,14176.0,198.93
+GAVEA,Ultraprocessado,Serviços ambulantes,33,14176.0,23.28
+GLORIA,In natura,Açougues / Padarias,10,7120.0,14.04
+GLORIA,In natura,Hortifrutigranjeiros,4,7120.0,5.62
+GLORIA,Misto,Hipermercados,7,7120.0,9.83
+GLORIA,Misto,Mercearias,19,7120.0,26.69
+GLORIA,Misto,Supermercados,1,7120.0,1.4
+GLORIA,Ultraprocessado,Cantinas / Alimentação preparada,57,7120.0,80.06
+GLORIA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,12,7120.0,16.85
+GLORIA,Ultraprocessado,Restaurantes / Lanchonetes,93,7120.0,130.62
+GLORIA,Ultraprocessado,Serviços ambulantes,25,7120.0,35.11
+GRAJAU,In natura,Açougues / Padarias,22,32816.0,6.7
+GRAJAU,In natura,Hortifrutigranjeiros,12,32816.0,3.66
+GRAJAU,In natura,Peixarias,4,32816.0,1.22
+GRAJAU,Misto,Hipermercados,5,32816.0,1.52
+GRAJAU,Misto,Mercearias,27,32816.0,8.23
+GRAJAU,Misto,Supermercados,3,32816.0,0.91
+GRAJAU,Ultraprocessado,Cantinas / Alimentação preparada,162,32816.0,49.37
+GRAJAU,Ultraprocessado,Lojas de conveniência / Varejo alimentar,42,32816.0,12.8
+GRAJAU,Ultraprocessado,Restaurantes / Lanchonetes,143,32816.0,43.58
+GRAJAU,Ultraprocessado,Serviços ambulantes,34,32816.0,10.36
+GRUMARI,Misto,Mercearias,6,184.0,326.09
+GRUMARI,Ultraprocessado,Cantinas / Alimentação preparada,1,184.0,54.35
+GRUMARI,Ultraprocessado,Restaurantes / Lanchonetes,8,184.0,434.78
+GRUMARI,Ultraprocessado,Serviços ambulantes,2,184.0,108.7
+GUADALUPE,In natura,Açougues / Padarias,36,41088.0,8.76
+GUADALUPE,In natura,Hortifrutigranjeiros,32,41088.0,7.79
+GUADALUPE,In natura,Peixarias,12,41088.0,2.92
+GUADALUPE,Misto,Hipermercados,14,41088.0,3.41
+GUADALUPE,Misto,Mercearias,31,41088.0,7.54
+GUADALUPE,Misto,Supermercados,5,41088.0,1.22
+GUADALUPE,Ultraprocessado,Cantinas / Alimentação preparada,184,41088.0,44.78
+GUADALUPE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,28,41088.0,6.81
+GUADALUPE,Ultraprocessado,Restaurantes / Lanchonetes,191,41088.0,46.49
+GUADALUPE,Ultraprocessado,Serviços ambulantes,67,41088.0,16.31
+GUARATIBA,In natura,Açougues / Padarias,131,154125.0,8.5
+GUARATIBA,In natura,Hortifrutigranjeiros,75,154125.0,4.87
+GUARATIBA,In natura,Peixarias,30,154125.0,1.95
+GUARATIBA,Misto,Hipermercados,53,154125.0,3.44
+GUARATIBA,Misto,Mercearias,221,154125.0,14.34
+GUARATIBA,Misto,Supermercados,2,154125.0,0.13
+GUARATIBA,Ultraprocessado,Cantinas / Alimentação preparada,612,154125.0,39.71
+GUARATIBA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,114,154125.0,7.4
+GUARATIBA,Ultraprocessado,Restaurantes / Lanchonetes,725,154125.0,47.04
+GUARATIBA,Ultraprocessado,Serviços ambulantes,172,154125.0,11.16
+HIGIENOPOLIS,In natura,Açougues / Padarias,9,14227.0,6.33
+HIGIENOPOLIS,In natura,Hortifrutigranjeiros,7,14227.0,4.92
+HIGIENOPOLIS,In natura,Peixarias,2,14227.0,1.41
+HIGIENOPOLIS,Misto,Hipermercados,5,14227.0,3.51
+HIGIENOPOLIS,Misto,Mercearias,20,14227.0,14.06
+HIGIENOPOLIS,Misto,Supermercados,3,14227.0,2.11
+HIGIENOPOLIS,Ultraprocessado,Cantinas / Alimentação preparada,88,14227.0,61.85
+HIGIENOPOLIS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,16,14227.0,11.25
+HIGIENOPOLIS,Ultraprocessado,Restaurantes / Lanchonetes,94,14227.0,66.07
+HIGIENOPOLIS,Ultraprocessado,Serviços ambulantes,17,14227.0,11.95
+HONORIO GURGEL,In natura,Açougues / Padarias,23,18213.0,12.63
+HONORIO GURGEL,In natura,Hortifrutigranjeiros,13,18213.0,7.14
+HONORIO GURGEL,In natura,Peixarias,5,18213.0,2.75
+HONORIO GURGEL,Misto,Hipermercados,3,18213.0,1.65
+HONORIO GURGEL,Misto,Mercearias,25,18213.0,13.73
+HONORIO GURGEL,Ultraprocessado,Cantinas / Alimentação preparada,84,18213.0,46.12
+HONORIO GURGEL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,18,18213.0,9.88
+HONORIO GURGEL,Ultraprocessado,Restaurantes / Lanchonetes,74,18213.0,40.63
+HONORIO GURGEL,Ultraprocessado,Serviços ambulantes,26,18213.0,14.28
+HUMAITA,In natura,Açougues / Padarias,5,13044.0,3.83
+HUMAITA,In natura,Hortifrutigranjeiros,7,13044.0,5.37
+HUMAITA,In natura,Peixarias,2,13044.0,1.53
+HUMAITA,Misto,Hipermercados,8,13044.0,6.13
+HUMAITA,Misto,Mercearias,5,13044.0,3.83
+HUMAITA,Misto,Supermercados,1,13044.0,0.77
+HUMAITA,Ultraprocessado,Cantinas / Alimentação preparada,58,13044.0,44.46
+HUMAITA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,11,13044.0,8.43
+HUMAITA,Ultraprocessado,Restaurantes / Lanchonetes,64,13044.0,49.06
+HUMAITA,Ultraprocessado,Serviços ambulantes,5,13044.0,3.83
+ILHA  DE  GUARATIBA,Ultraprocessado,Restaurantes / Lanchonetes,1,6099.0,1.64
+ILHA DE GUARATIBA,Ultraprocessado,Restaurantes / Lanchonetes,1,6099.0,1.64
+INHAUMA,In natura,Açougues / Padarias,56,37233.0,15.04
+INHAUMA,In natura,Hortifrutigranjeiros,23,37233.0,6.18
+INHAUMA,In natura,Peixarias,16,37233.0,4.3
+INHAUMA,Misto,Hipermercados,9,37233.0,2.42
+INHAUMA,Misto,Mercearias,76,37233.0,20.41
+INHAUMA,Misto,Supermercados,3,37233.0,0.81
+INHAUMA,Ultraprocessado,Cantinas / Alimentação preparada,218,37233.0,58.55
+INHAUMA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,41,37233.0,11.01
+INHAUMA,Ultraprocessado,Restaurantes / Lanchonetes,288,37233.0,77.35
+INHAUMA,Ultraprocessado,Serviços ambulantes,90,37233.0,24.17
+INHOAIBA,In natura,Açougues / Padarias,70,72141.0,9.7
+INHOAIBA,In natura,Hortifrutigranjeiros,34,72141.0,4.71
+INHOAIBA,In natura,Peixarias,10,72141.0,1.39
+INHOAIBA,Misto,Hipermercados,19,72141.0,2.63
+INHOAIBA,Misto,Mercearias,92,72141.0,12.75
+INHOAIBA,Misto,Supermercados,2,72141.0,0.28
+INHOAIBA,Ultraprocessado,Cantinas / Alimentação preparada,261,72141.0,36.18
+INHOAIBA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,47,72141.0,6.52
+INHOAIBA,Ultraprocessado,Restaurantes / Lanchonetes,351,72141.0,48.65
+INHOAIBA,Ultraprocessado,Serviços ambulantes,75,72141.0,10.4
+IPANEMA,In natura,Açougues / Padarias,39,37392.0,10.43
+IPANEMA,In natura,Hortifrutigranjeiros,11,37392.0,2.94
+IPANEMA,In natura,Peixarias,10,37392.0,2.67
+IPANEMA,Misto,Hipermercados,25,37392.0,6.69
+IPANEMA,Misto,Mercearias,42,37392.0,11.23
+IPANEMA,Misto,Supermercados,8,37392.0,2.14
+IPANEMA,Ultraprocessado,Cantinas / Alimentação preparada,121,37392.0,32.36
+IPANEMA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,70,37392.0,18.72
+IPANEMA,Ultraprocessado,Restaurantes / Lanchonetes,412,37392.0,110.18
+IPANEMA,Ultraprocessado,Serviços ambulantes,25,37392.0,6.69
+IRAJA,In natura,Açougues / Padarias,85,85906.0,9.89
+IRAJA,In natura,Hortifrutigranjeiros,93,85906.0,10.83
+IRAJA,In natura,Peixarias,20,85906.0,2.33
+IRAJA,Misto,Hipermercados,27,85906.0,3.14
+IRAJA,Misto,Mercearias,115,85906.0,13.39
+IRAJA,Misto,Supermercados,15,85906.0,1.75
+IRAJA,Ultraprocessado,Cantinas / Alimentação preparada,473,85906.0,55.06
+IRAJA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,111,85906.0,12.92
+IRAJA,Ultraprocessado,Restaurantes / Lanchonetes,472,85906.0,54.94
+IRAJA,Ultraprocessado,Serviços ambulantes,142,85906.0,16.53
+ITANHANGA,In natura,Açougues / Padarias,53,67969.0,7.8
+ITANHANGA,In natura,Hortifrutigranjeiros,36,67969.0,5.3
+ITANHANGA,In natura,Peixarias,29,67969.0,4.27
+ITANHANGA,Misto,Hipermercados,15,67969.0,2.21
+ITANHANGA,Misto,Mercearias,144,67969.0,21.19
+ITANHANGA,Misto,Supermercados,1,67969.0,0.15
+ITANHANGA,Ultraprocessado,Cantinas / Alimentação preparada,213,67969.0,31.34
+ITANHANGA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,54,67969.0,7.94
+ITANHANGA,Ultraprocessado,Restaurantes / Lanchonetes,337,67969.0,49.58
+ITANHANGA,Ultraprocessado,Serviços ambulantes,74,67969.0,10.89
+JACARE,In natura,Açougues / Padarias,35,8198.0,42.69
+JACARE,In natura,Hortifrutigranjeiros,12,8198.0,14.64
+JACARE,In natura,Peixarias,10,8198.0,12.2
+JACARE,Misto,Hipermercados,6,8198.0,7.32
+JACARE,Misto,Mercearias,45,8198.0,54.89
+JACARE,Misto,Supermercados,2,8198.0,2.44
+JACARE,Ultraprocessado,Cantinas / Alimentação preparada,94,8198.0,114.66
+JACARE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,13,8198.0,15.86
+JACARE,Ultraprocessado,Restaurantes / Lanchonetes,162,8198.0,197.61
+JACARE,Ultraprocessado,Serviços ambulantes,34,8198.0,41.47
+JACAREPAGUA,In natura,Açougues / Padarias,164,175943.0,9.32
+JACAREPAGUA,In natura,Hortifrutigranjeiros,70,175943.0,3.98
+JACAREPAGUA,In natura,Peixarias,44,175943.0,2.5
+JACAREPAGUA,Misto,Hipermercados,56,175943.0,3.18
+JACAREPAGUA,Misto,Mercearias,243,175943.0,13.81
+JACAREPAGUA,Misto,Supermercados,14,175943.0,0.8
+JACAREPAGUA,Ultraprocessado,Cantinas / Alimentação preparada,597,175943.0,33.93
+JACAREPAGUA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,181,175943.0,10.29
+JACAREPAGUA,Ultraprocessado,Restaurantes / Lanchonetes,896,175943.0,50.93
+JACAREPAGUA,Ultraprocessado,Serviços ambulantes,140,175943.0,7.96
+JACAREZINHO,In natura,Açougues / Padarias,15,35348.0,4.24
+JACAREZINHO,In natura,Hortifrutigranjeiros,3,35348.0,0.85
+JACAREZINHO,In natura,Peixarias,5,35348.0,1.41
+JACAREZINHO,Misto,Mercearias,25,35348.0,7.07
+JACAREZINHO,Ultraprocessado,Cantinas / Alimentação preparada,23,35348.0,6.51
+JACAREZINHO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,7,35348.0,1.98
+JACAREZINHO,Ultraprocessado,Restaurantes / Lanchonetes,31,35348.0,8.77
+JACAREZINHO,Ultraprocessado,Serviços ambulantes,10,35348.0,2.83
+JARDIM AMERICA,In natura,Açougues / Padarias,41,20687.0,19.82
+JARDIM AMERICA,In natura,Hortifrutigranjeiros,24,20687.0,11.6
+JARDIM AMERICA,In natura,Peixarias,11,20687.0,5.32
+JARDIM AMERICA,Misto,Hipermercados,10,20687.0,4.83
+JARDIM AMERICA,Misto,Mercearias,47,20687.0,22.72
+JARDIM AMERICA,Misto,Supermercados,1,20687.0,0.48
+JARDIM AMERICA,Ultraprocessado,Cantinas / Alimentação preparada,118,20687.0,57.04
+JARDIM AMERICA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,48,20687.0,23.2
+JARDIM AMERICA,Ultraprocessado,Restaurantes / Lanchonetes,134,20687.0,64.77
+JARDIM AMERICA,Ultraprocessado,Serviços ambulantes,62,20687.0,29.97
+JARDIM BOTANICO,In natura,Açougues / Padarias,13,15871.0,8.19
+JARDIM BOTANICO,In natura,Hortifrutigranjeiros,4,15871.0,2.52
+JARDIM BOTANICO,Misto,Hipermercados,4,15871.0,2.52
+JARDIM BOTANICO,Misto,Mercearias,9,15871.0,5.67
+JARDIM BOTANICO,Misto,Supermercados,4,15871.0,2.52
+JARDIM BOTANICO,Ultraprocessado,Cantinas / Alimentação preparada,75,15871.0,47.26
+JARDIM BOTANICO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,19,15871.0,11.97
+JARDIM BOTANICO,Ultraprocessado,Restaurantes / Lanchonetes,101,15871.0,63.64
+JARDIM BOTANICO,Ultraprocessado,Serviços ambulantes,10,15871.0,6.3
+JARDIM CARIOCA,In natura,Açougues / Padarias,26,20374.0,12.76
+JARDIM CARIOCA,In natura,Hortifrutigranjeiros,8,20374.0,3.93
+JARDIM CARIOCA,In natura,Peixarias,5,20374.0,2.45
+JARDIM CARIOCA,Misto,Hipermercados,13,20374.0,6.38
+JARDIM CARIOCA,Misto,Mercearias,34,20374.0,16.69
+JARDIM CARIOCA,Misto,Supermercados,1,20374.0,0.49
+JARDIM CARIOCA,Ultraprocessado,Cantinas / Alimentação preparada,89,20374.0,43.68
+JARDIM CARIOCA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,12,20374.0,5.89
+JARDIM CARIOCA,Ultraprocessado,Restaurantes / Lanchonetes,175,20374.0,85.89
+JARDIM CARIOCA,Ultraprocessado,Serviços ambulantes,25,20374.0,12.27
+JARDIM GUANABARA,In natura,Açougues / Padarias,14,27084.0,5.17
+JARDIM GUANABARA,In natura,Hortifrutigranjeiros,5,27084.0,1.85
+JARDIM GUANABARA,In natura,Peixarias,3,27084.0,1.11
+JARDIM GUANABARA,Misto,Hipermercados,7,27084.0,2.58
+JARDIM GUANABARA,Misto,Mercearias,12,27084.0,4.43
+JARDIM GUANABARA,Ultraprocessado,Cantinas / Alimentação preparada,93,27084.0,34.34
+JARDIM GUANABARA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,25,27084.0,9.23
+JARDIM GUANABARA,Ultraprocessado,Restaurantes / Lanchonetes,112,27084.0,41.35
+JARDIM GUANABARA,Ultraprocessado,Serviços ambulantes,9,27084.0,3.32
+JARDIM SULACAP,In natura,Açougues / Padarias,14,14396.0,9.72
+JARDIM SULACAP,In natura,Hortifrutigranjeiros,9,14396.0,6.25
+JARDIM SULACAP,In natura,Peixarias,2,14396.0,1.39
+JARDIM SULACAP,Misto,Hipermercados,4,14396.0,2.78
+JARDIM SULACAP,Misto,Mercearias,25,14396.0,17.37
+JARDIM SULACAP,Misto,Supermercados,3,14396.0,2.08
+JARDIM SULACAP,Ultraprocessado,Cantinas / Alimentação preparada,78,14396.0,54.18
+JARDIM SULACAP,Ultraprocessado,Lojas de conveniência / Varejo alimentar,22,14396.0,15.28
+JARDIM SULACAP,Ultraprocessado,Restaurantes / Lanchonetes,118,14396.0,81.97
+JARDIM SULACAP,Ultraprocessado,Serviços ambulantes,28,14396.0,19.45
+JOA,Misto,Hipermercados,1,983.0,10.17
+JOA,Ultraprocessado,Cantinas / Alimentação preparada,5,983.0,50.86
+JOA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,1,983.0,10.17
+JOA,Ultraprocessado,Restaurantes / Lanchonetes,5,983.0,50.86
+LAGOA,In natura,Açougues / Padarias,4,18676.0,2.14
+LAGOA,In natura,Hortifrutigranjeiros,2,18676.0,1.07
+LAGOA,Misto,Mercearias,4,18676.0,2.14
+LAGOA,Ultraprocessado,Cantinas / Alimentação preparada,43,18676.0,23.02
+LAGOA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,12,18676.0,6.43
+LAGOA,Ultraprocessado,Restaurantes / Lanchonetes,73,18676.0,39.09
+LAGOA,Ultraprocessado,Serviços ambulantes,9,18676.0,4.82
+LAPA,Misto,Mercearias,4,9116.0,4.39
+LAPA,Ultraprocessado,Cantinas / Alimentação preparada,1,9116.0,1.1
+LAPA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,2,9116.0,2.19
+LAPA,Ultraprocessado,Restaurantes / Lanchonetes,12,9116.0,13.16
+LARANJEIRAS,In natura,Açougues / Padarias,23,39692.0,5.79
+LARANJEIRAS,In natura,Hortifrutigranjeiros,10,39692.0,2.52
+LARANJEIRAS,In natura,Peixarias,2,39692.0,0.5
+LARANJEIRAS,Misto,Hipermercados,9,39692.0,2.27
+LARANJEIRAS,Misto,Mercearias,27,39692.0,6.8
+LARANJEIRAS,Misto,Supermercados,4,39692.0,1.01
+LARANJEIRAS,Ultraprocessado,Cantinas / Alimentação preparada,112,39692.0,28.22
+LARANJEIRAS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,41,39692.0,10.33
+LARANJEIRAS,Ultraprocessado,Restaurantes / Lanchonetes,161,39692.0,40.56
+LARANJEIRAS,Ultraprocessado,Serviços ambulantes,26,39692.0,6.55
+LEBLON,In natura,Açougues / Padarias,42,37709.0,11.14
+LEBLON,In natura,Hortifrutigranjeiros,12,37709.0,3.18
+LEBLON,In natura,Peixarias,8,37709.0,2.12
+LEBLON,Misto,Hipermercados,14,37709.0,3.71
+LEBLON,Misto,Mercearias,33,37709.0,8.75
+LEBLON,Misto,Supermercados,5,37709.0,1.33
+LEBLON,Ultraprocessado,Cantinas / Alimentação preparada,121,37709.0,32.09
+LEBLON,Ultraprocessado,Lojas de conveniência / Varejo alimentar,62,37709.0,16.44
+LEBLON,Ultraprocessado,Restaurantes / Lanchonetes,373,37709.0,98.92
+LEBLON,Ultraprocessado,Serviços ambulantes,26,37709.0,6.89
+LEME,In natura,Açougues / Padarias,8,12479.0,6.41
+LEME,In natura,Hortifrutigranjeiros,2,12479.0,1.6
+LEME,In natura,Peixarias,3,12479.0,2.4
+LEME,Misto,Hipermercados,2,12479.0,1.6
+LEME,Misto,Mercearias,23,12479.0,18.43
+LEME,Misto,Supermercados,1,12479.0,0.8
+LEME,Ultraprocessado,Cantinas / Alimentação preparada,45,12479.0,36.06
+LEME,Ultraprocessado,Lojas de conveniência / Varejo alimentar,6,12479.0,4.81
+LEME,Ultraprocessado,Restaurantes / Lanchonetes,75,12479.0,60.1
+LEME,Ultraprocessado,Serviços ambulantes,14,12479.0,11.22
+LINS DE VASCONCELOS,In natura,Açougues / Padarias,23,30228.0,7.61
+LINS DE VASCONCELOS,In natura,Hortifrutigranjeiros,7,30228.0,2.32
+LINS DE VASCONCELOS,In natura,Peixarias,6,30228.0,1.98
+LINS DE VASCONCELOS,Misto,Hipermercados,8,30228.0,2.65
+LINS DE VASCONCELOS,Misto,Mercearias,19,30228.0,6.29
+LINS DE VASCONCELOS,Misto,Supermercados,2,30228.0,0.66
+LINS DE VASCONCELOS,Ultraprocessado,Cantinas / Alimentação preparada,80,30228.0,26.47
+LINS DE VASCONCELOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,5,30228.0,1.65
+LINS DE VASCONCELOS,Ultraprocessado,Restaurantes / Lanchonetes,95,30228.0,31.43
+LINS DE VASCONCELOS,Ultraprocessado,Serviços ambulantes,24,30228.0,7.94
+MADUREIRA,In natura,Açougues / Padarias,71,39712.0,17.88
+MADUREIRA,In natura,Hortifrutigranjeiros,53,39712.0,13.35
+MADUREIRA,In natura,Peixarias,9,39712.0,2.27
+MADUREIRA,Misto,Hipermercados,110,39712.0,27.7
+MADUREIRA,Misto,Mercearias,91,39712.0,22.91
+MADUREIRA,Misto,Supermercados,4,39712.0,1.01
+MADUREIRA,Ultraprocessado,Cantinas / Alimentação preparada,235,39712.0,59.18
+MADUREIRA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,75,39712.0,18.89
+MADUREIRA,Ultraprocessado,Restaurantes / Lanchonetes,469,39712.0,118.1
+MADUREIRA,Ultraprocessado,Serviços ambulantes,112,39712.0,28.2
+MAGALHAES BASTOS,In natura,Açougues / Padarias,32,20938.0,15.28
+MAGALHAES BASTOS,In natura,Hortifrutigranjeiros,11,20938.0,5.25
+MAGALHAES BASTOS,Misto,Hipermercados,3,20938.0,1.43
+MAGALHAES BASTOS,Misto,Mercearias,30,20938.0,14.33
+MAGALHAES BASTOS,Ultraprocessado,Cantinas / Alimentação preparada,110,20938.0,52.54
+MAGALHAES BASTOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,14,20938.0,6.69
+MAGALHAES BASTOS,Ultraprocessado,Restaurantes / Lanchonetes,114,20938.0,54.45
+MAGALHAES BASTOS,Ultraprocessado,Serviços ambulantes,22,20938.0,10.51
+MANGUEIRA,In natura,Açougues / Padarias,7,18247.0,3.84
+MANGUEIRA,In natura,Hortifrutigranjeiros,7,18247.0,3.84
+MANGUEIRA,In natura,Peixarias,3,18247.0,1.64
+MANGUEIRA,Misto,Hipermercados,1,18247.0,0.55
+MANGUEIRA,Misto,Mercearias,21,18247.0,11.51
+MANGUEIRA,Ultraprocessado,Cantinas / Alimentação preparada,61,18247.0,33.43
+MANGUEIRA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,9,18247.0,4.93
+MANGUEIRA,Ultraprocessado,Restaurantes / Lanchonetes,72,18247.0,39.46
+MANGUEIRA,Ultraprocessado,Serviços ambulantes,21,18247.0,11.51
+MANGUINHOS,In natura,Açougues / Padarias,21,28855.0,7.28
+MANGUINHOS,In natura,Hortifrutigranjeiros,14,28855.0,4.85
+MANGUINHOS,In natura,Peixarias,8,28855.0,2.77
+MANGUINHOS,Misto,Hipermercados,2,28855.0,0.69
+MANGUINHOS,Misto,Mercearias,41,28855.0,14.21
+MANGUINHOS,Misto,Supermercados,1,28855.0,0.35
+MANGUINHOS,Ultraprocessado,Cantinas / Alimentação preparada,73,28855.0,25.3
+MANGUINHOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,16,28855.0,5.54
+MANGUINHOS,Ultraprocessado,Restaurantes / Lanchonetes,127,28855.0,44.01
+MANGUINHOS,Ultraprocessado,Serviços ambulantes,32,28855.0,11.09
+MARACANA,In natura,Açougues / Padarias,28,23498.0,11.92
+MARACANA,In natura,Hortifrutigranjeiros,5,23498.0,2.13
+MARACANA,In natura,Peixarias,4,23498.0,1.7
+MARACANA,Misto,Hipermercados,4,23498.0,1.7
+MARACANA,Misto,Mercearias,13,23498.0,5.53
+MARACANA,Misto,Supermercados,2,23498.0,0.85
+MARACANA,Ultraprocessado,Cantinas / Alimentação preparada,120,23498.0,51.07
+MARACANA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,31,23498.0,13.19
+MARACANA,Ultraprocessado,Restaurantes / Lanchonetes,189,23498.0,80.43
+MARACANA,Ultraprocessado,Serviços ambulantes,16,23498.0,6.81
+MARE,In natura,Açougues / Padarias,70,124832.0,5.61
+MARE,In natura,Hortifrutigranjeiros,30,124832.0,2.4
+MARE,In natura,Peixarias,22,124832.0,1.76
+MARE,Misto,Hipermercados,20,124832.0,1.6
+MARE,Misto,Mercearias,138,124832.0,11.05
+MARE,Misto,Supermercados,2,124832.0,0.16
+MARE,Ultraprocessado,Cantinas / Alimentação preparada,179,124832.0,14.34
+MARE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,38,124832.0,3.04
+MARE,Ultraprocessado,Restaurantes / Lanchonetes,292,124832.0,23.39
+MARE,Ultraprocessado,Serviços ambulantes,63,124832.0,5.05
+MARECHAL  HERMES,In natura,Açougues / Padarias,1,41507.0,0.24
+MARECHAL  HERMES,Ultraprocessado,Restaurantes / Lanchonetes,1,41507.0,0.24
+MARECHAL HERMES,In natura,Açougues / Padarias,60,41507.0,14.46
+MARECHAL HERMES,In natura,Hortifrutigranjeiros,20,41507.0,4.82
+MARECHAL HERMES,In natura,Peixarias,9,41507.0,2.17
+MARECHAL HERMES,Misto,Hipermercados,15,41507.0,3.61
+MARECHAL HERMES,Misto,Mercearias,61,41507.0,14.7
+MARECHAL HERMES,Misto,Supermercados,4,41507.0,0.96
+MARECHAL HERMES,Ultraprocessado,Cantinas / Alimentação preparada,224,41507.0,53.97
+MARECHAL HERMES,Ultraprocessado,Lojas de conveniência / Varejo alimentar,27,41507.0,6.5
+MARECHAL HERMES,Ultraprocessado,Restaurantes / Lanchonetes,233,41507.0,56.14
+MARECHAL HERMES,Ultraprocessado,Serviços ambulantes,62,41507.0,14.94
+MARIA DA GRACA,In natura,Açougues / Padarias,8,7209.0,11.1
+MARIA DA GRACA,In natura,Hortifrutigranjeiros,4,7209.0,5.55
+MARIA DA GRACA,Misto,Hipermercados,1,7209.0,1.39
+MARIA DA GRACA,Misto,Mercearias,8,7209.0,11.1
+MARIA DA GRACA,Ultraprocessado,Cantinas / Alimentação preparada,36,7209.0,49.94
+MARIA DA GRACA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,4,7209.0,5.55
+MARIA DA GRACA,Ultraprocessado,Restaurantes / Lanchonetes,40,7209.0,55.49
+MARIA DA GRACA,Ultraprocessado,Serviços ambulantes,11,7209.0,15.26
+MEIER,In natura,Açougues / Padarias,58,39700.0,14.61
+MEIER,In natura,Hortifrutigranjeiros,19,39700.0,4.79
+MEIER,In natura,Peixarias,11,39700.0,2.77
+MEIER,Misto,Hipermercados,35,39700.0,8.82
+MEIER,Misto,Mercearias,50,39700.0,12.59
+MEIER,Misto,Supermercados,8,39700.0,2.02
+MEIER,Ultraprocessado,Cantinas / Alimentação preparada,295,39700.0,74.31
+MEIER,Ultraprocessado,Lojas de conveniência / Varejo alimentar,63,39700.0,15.87
+MEIER,Ultraprocessado,Restaurantes / Lanchonetes,374,39700.0,94.21
+MEIER,Ultraprocessado,Serviços ambulantes,61,39700.0,15.37
+MONERO,In natura,Açougues / Padarias,5,5723.0,8.74
+MONERO,In natura,Hortifrutigranjeiros,1,5723.0,1.75
+MONERO,Misto,Mercearias,5,5723.0,8.74
+MONERO,Ultraprocessado,Cantinas / Alimentação preparada,17,5723.0,29.7
+MONERO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,3,5723.0,5.24
+MONERO,Ultraprocessado,Restaurantes / Lanchonetes,17,5723.0,29.7
+MONERO,Ultraprocessado,Serviços ambulantes,8,5723.0,13.98
+OLARIA,In natura,Açougues / Padarias,44,51222.0,8.59
+OLARIA,In natura,Hortifrutigranjeiros,18,51222.0,3.51
+OLARIA,In natura,Peixarias,4,51222.0,0.78
+OLARIA,Misto,Hipermercados,18,51222.0,3.51
+OLARIA,Misto,Mercearias,45,51222.0,8.79
+OLARIA,Misto,Supermercados,5,51222.0,0.98
+OLARIA,Ultraprocessado,Cantinas / Alimentação preparada,258,51222.0,50.37
+OLARIA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,54,51222.0,10.54
+OLARIA,Ultraprocessado,Restaurantes / Lanchonetes,282,51222.0,55.05
+OLARIA,Ultraprocessado,Serviços ambulantes,75,51222.0,14.64
+OSVALDO CRUZ,Ultraprocessado,Restaurantes / Lanchonetes,1,29995.0,0.33
+OSVALDO CRUZ,Ultraprocessado,Serviços ambulantes,1,29995.0,0.33
+PACIENCIA,In natura,Açougues / Padarias,109,104884.0,10.39
+PACIENCIA,In natura,Hortifrutigranjeiros,56,104884.0,5.34
+PACIENCIA,In natura,Peixarias,22,104884.0,2.1
+PACIENCIA,Misto,Hipermercados,33,104884.0,3.15
+PACIENCIA,Misto,Mercearias,145,104884.0,13.82
+PACIENCIA,Misto,Supermercados,4,104884.0,0.38
+PACIENCIA,Ultraprocessado,Cantinas / Alimentação preparada,359,104884.0,34.23
+PACIENCIA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,89,104884.0,8.49
+PACIENCIA,Ultraprocessado,Restaurantes / Lanchonetes,488,104884.0,46.53
+PACIENCIA,Ultraprocessado,Serviços ambulantes,131,104884.0,12.49
+PADRE MIGUEL,In natura,Açougues / Padarias,54,61254.0,8.82
+PADRE MIGUEL,In natura,Hortifrutigranjeiros,28,61254.0,4.57
+PADRE MIGUEL,In natura,Peixarias,15,61254.0,2.45
+PADRE MIGUEL,Misto,Hipermercados,12,61254.0,1.96
+PADRE MIGUEL,Misto,Mercearias,65,61254.0,10.61
+PADRE MIGUEL,Misto,Supermercados,5,61254.0,0.82
+PADRE MIGUEL,Ultraprocessado,Cantinas / Alimentação preparada,245,61254.0,40.0
+PADRE MIGUEL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,47,61254.0,7.67
+PADRE MIGUEL,Ultraprocessado,Restaurantes / Lanchonetes,311,61254.0,50.77
+PADRE MIGUEL,Ultraprocessado,Serviços ambulantes,86,61254.0,14.04
+PAQUETA,In natura,Açougues / Padarias,5,3486.0,14.34
+PAQUETA,In natura,Hortifrutigranjeiros,3,3486.0,8.61
+PAQUETA,Misto,Mercearias,6,3486.0,17.21
+PAQUETA,Ultraprocessado,Cantinas / Alimentação preparada,21,3486.0,60.24
+PAQUETA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,1,3486.0,2.87
+PAQUETA,Ultraprocessado,Restaurantes / Lanchonetes,17,3486.0,48.77
+PAQUETA,Ultraprocessado,Serviços ambulantes,11,3486.0,31.55
+PARADA DE LUCAS,In natura,Açougues / Padarias,24,22069.0,10.87
+PARADA DE LUCAS,In natura,Hortifrutigranjeiros,13,22069.0,5.89
+PARADA DE LUCAS,In natura,Peixarias,6,22069.0,2.72
+PARADA DE LUCAS,Misto,Hipermercados,3,22069.0,1.36
+PARADA DE LUCAS,Misto,Mercearias,50,22069.0,22.66
+PARADA DE LUCAS,Misto,Supermercados,3,22069.0,1.36
+PARADA DE LUCAS,Ultraprocessado,Cantinas / Alimentação preparada,71,22069.0,32.17
+PARADA DE LUCAS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,23,22069.0,10.42
+PARADA DE LUCAS,Ultraprocessado,Restaurantes / Lanchonetes,91,22069.0,41.23
+PARADA DE LUCAS,Ultraprocessado,Serviços ambulantes,24,22069.0,10.87
+PARQUE ANCHIETA,In natura,Açougues / Padarias,23,21833.0,10.53
+PARQUE ANCHIETA,In natura,Hortifrutigranjeiros,9,21833.0,4.12
+PARQUE ANCHIETA,In natura,Peixarias,8,21833.0,3.66
+PARQUE ANCHIETA,Misto,Hipermercados,5,21833.0,2.29
+PARQUE ANCHIETA,Misto,Mercearias,24,21833.0,10.99
+PARQUE ANCHIETA,Ultraprocessado,Cantinas / Alimentação preparada,93,21833.0,42.6
+PARQUE ANCHIETA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,26,21833.0,11.91
+PARQUE ANCHIETA,Ultraprocessado,Restaurantes / Lanchonetes,106,21833.0,48.55
+PARQUE ANCHIETA,Ultraprocessado,Serviços ambulantes,31,21833.0,14.2
+PARQUE COLUMBIA,In natura,Açougues / Padarias,4,8222.0,4.86
+PARQUE COLUMBIA,In natura,Hortifrutigranjeiros,2,8222.0,2.43
+PARQUE COLUMBIA,In natura,Peixarias,1,8222.0,1.22
+PARQUE COLUMBIA,Misto,Mercearias,7,8222.0,8.51
+PARQUE COLUMBIA,Ultraprocessado,Cantinas / Alimentação preparada,16,8222.0,19.46
+PARQUE COLUMBIA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,3,8222.0,3.65
+PARQUE COLUMBIA,Ultraprocessado,Restaurantes / Lanchonetes,12,8222.0,14.59
+PARQUE COLUMBIA,Ultraprocessado,Serviços ambulantes,3,8222.0,3.65
+PAVUNA,In natura,Açougues / Padarias,83,95337.0,8.71
+PAVUNA,In natura,Hortifrutigranjeiros,39,95337.0,4.09
+PAVUNA,In natura,Peixarias,33,95337.0,3.46
+PAVUNA,Misto,Hipermercados,20,95337.0,2.1
+PAVUNA,Misto,Mercearias,113,95337.0,11.85
+PAVUNA,Misto,Supermercados,8,95337.0,0.84
+PAVUNA,Ultraprocessado,Cantinas / Alimentação preparada,326,95337.0,34.19
+PAVUNA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,65,95337.0,6.82
+PAVUNA,Ultraprocessado,Restaurantes / Lanchonetes,314,95337.0,32.94
+PAVUNA,Ultraprocessado,Serviços ambulantes,132,95337.0,13.85
+PECHINCHA,In natura,Açougues / Padarias,42,39070.0,10.75
+PECHINCHA,In natura,Hortifrutigranjeiros,13,39070.0,3.33
+PECHINCHA,In natura,Peixarias,14,39070.0,3.58
+PECHINCHA,Misto,Hipermercados,10,39070.0,2.56
+PECHINCHA,Misto,Mercearias,43,39070.0,11.01
+PECHINCHA,Misto,Supermercados,2,39070.0,0.51
+PECHINCHA,Ultraprocessado,Cantinas / Alimentação preparada,250,39070.0,63.99
+PECHINCHA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,56,39070.0,14.33
+PECHINCHA,Ultraprocessado,Restaurantes / Lanchonetes,197,39070.0,50.42
+PECHINCHA,Ultraprocessado,Serviços ambulantes,52,39070.0,13.31
+PEDRA DE GUARATIBA,In natura,Açougues / Padarias,19,11950.0,15.9
+PEDRA DE GUARATIBA,In natura,Hortifrutigranjeiros,6,11950.0,5.02
+PEDRA DE GUARATIBA,In natura,Peixarias,9,11950.0,7.53
+PEDRA DE GUARATIBA,Misto,Hipermercados,6,11950.0,5.02
+PEDRA DE GUARATIBA,Misto,Mercearias,43,11950.0,35.98
+PEDRA DE GUARATIBA,Ultraprocessado,Cantinas / Alimentação preparada,83,11950.0,69.46
+PEDRA DE GUARATIBA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,17,11950.0,14.23
+PEDRA DE GUARATIBA,Ultraprocessado,Restaurantes / Lanchonetes,139,11950.0,116.32
+PEDRA DE GUARATIBA,Ultraprocessado,Serviços ambulantes,27,11950.0,22.59
+PENHA,In natura,Açougues / Padarias,63,58516.0,10.77
+PENHA,In natura,Hortifrutigranjeiros,19,58516.0,3.25
+PENHA,In natura,Peixarias,16,58516.0,2.73
+PENHA,Misto,Hipermercados,31,58516.0,5.3
+PENHA,Misto,Mercearias,68,58516.0,11.62
+PENHA,Misto,Supermercados,8,58516.0,1.37
+PENHA,Ultraprocessado,Cantinas / Alimentação preparada,272,58516.0,46.48
+PENHA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,66,58516.0,11.28
+PENHA,Ultraprocessado,Restaurantes / Lanchonetes,367,58516.0,62.72
+PENHA,Ultraprocessado,Serviços ambulantes,85,58516.0,14.53
+PENHA  CIRCULAR,Ultraprocessado,Lojas de conveniência / Varejo alimentar,1,36725.0,0.27
+PENHA CIRCULAR,In natura,Açougues / Padarias,43,36725.0,11.71
+PENHA CIRCULAR,In natura,Hortifrutigranjeiros,17,36725.0,4.63
+PENHA CIRCULAR,In natura,Peixarias,8,36725.0,2.18
+PENHA CIRCULAR,Misto,Hipermercados,16,36725.0,4.36
+PENHA CIRCULAR,Misto,Mercearias,67,36725.0,18.24
+PENHA CIRCULAR,Misto,Supermercados,12,36725.0,3.27
+PENHA CIRCULAR,Ultraprocessado,Cantinas / Alimentação preparada,214,36725.0,58.27
+PENHA CIRCULAR,Ultraprocessado,Lojas de conveniência / Varejo alimentar,52,36725.0,14.16
+PENHA CIRCULAR,Ultraprocessado,Restaurantes / Lanchonetes,218,36725.0,59.36
+PENHA CIRCULAR,Ultraprocessado,Serviços ambulantes,64,36725.0,17.43
+PIEDADE,In natura,Açougues / Padarias,35,38712.0,9.04
+PIEDADE,In natura,Hortifrutigranjeiros,13,38712.0,3.36
+PIEDADE,In natura,Peixarias,3,38712.0,0.77
+PIEDADE,Misto,Hipermercados,7,38712.0,1.81
+PIEDADE,Misto,Mercearias,51,38712.0,13.17
+PIEDADE,Misto,Supermercados,2,38712.0,0.52
+PIEDADE,Ultraprocessado,Cantinas / Alimentação preparada,223,38712.0,57.6
+PIEDADE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,29,38712.0,7.49
+PIEDADE,Ultraprocessado,Restaurantes / Lanchonetes,218,38712.0,56.31
+PIEDADE,Ultraprocessado,Serviços ambulantes,62,38712.0,16.02
+PILARES,In natura,Açougues / Padarias,27,23518.0,11.48
+PILARES,In natura,Hortifrutigranjeiros,20,23518.0,8.5
+PILARES,In natura,Peixarias,7,23518.0,2.98
+PILARES,Misto,Hipermercados,10,23518.0,4.25
+PILARES,Misto,Mercearias,25,23518.0,10.63
+PILARES,Misto,Supermercados,6,23518.0,2.55
+PILARES,Ultraprocessado,Cantinas / Alimentação preparada,157,23518.0,66.76
+PILARES,Ultraprocessado,Lojas de conveniência / Varejo alimentar,26,23518.0,11.06
+PILARES,Ultraprocessado,Restaurantes / Lanchonetes,183,23518.0,77.81
+PILARES,Ultraprocessado,Serviços ambulantes,42,23518.0,17.86
+PITANGUEIRAS,In natura,Açougues / Padarias,7,10242.0,6.83
+PITANGUEIRAS,In natura,Hortifrutigranjeiros,3,10242.0,2.93
+PITANGUEIRAS,Misto,Mercearias,6,10242.0,5.86
+PITANGUEIRAS,Ultraprocessado,Cantinas / Alimentação preparada,23,10242.0,22.46
+PITANGUEIRAS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,6,10242.0,5.86
+PITANGUEIRAS,Ultraprocessado,Restaurantes / Lanchonetes,27,10242.0,26.36
+PITANGUEIRAS,Ultraprocessado,Serviços ambulantes,5,10242.0,4.88
+PORTUGUESA,In natura,Açougues / Padarias,8,19831.0,4.03
+PORTUGUESA,In natura,Hortifrutigranjeiros,3,19831.0,1.51
+PORTUGUESA,In natura,Peixarias,2,19831.0,1.01
+PORTUGUESA,Misto,Hipermercados,4,19831.0,2.02
+PORTUGUESA,Misto,Mercearias,11,19831.0,5.55
+PORTUGUESA,Misto,Supermercados,1,19831.0,0.5
+PORTUGUESA,Ultraprocessado,Cantinas / Alimentação preparada,57,19831.0,28.74
+PORTUGUESA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,18,19831.0,9.08
+PORTUGUESA,Ultraprocessado,Restaurantes / Lanchonetes,74,19831.0,37.32
+PORTUGUESA,Ultraprocessado,Serviços ambulantes,12,19831.0,6.05
+PRACA DA BANDEIRA,In natura,Açougues / Padarias,9,7215.0,12.47
+PRACA DA BANDEIRA,In natura,Hortifrutigranjeiros,3,7215.0,4.16
+PRACA DA BANDEIRA,In natura,Peixarias,2,7215.0,2.77
+PRACA DA BANDEIRA,Misto,Hipermercados,5,7215.0,6.93
+PRACA DA BANDEIRA,Misto,Mercearias,16,7215.0,22.18
+PRACA DA BANDEIRA,Misto,Supermercados,1,7215.0,1.39
+PRACA DA BANDEIRA,Ultraprocessado,Cantinas / Alimentação preparada,78,7215.0,108.11
+PRACA DA BANDEIRA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,14,7215.0,19.4
+PRACA DA BANDEIRA,Ultraprocessado,Restaurantes / Lanchonetes,121,7215.0,167.71
+PRACA DA BANDEIRA,Ultraprocessado,Serviços ambulantes,17,7215.0,23.56
+PRACA SECA,In natura,Açougues / Padarias,36,63284.0,5.69
+PRACA SECA,In natura,Hortifrutigranjeiros,22,63284.0,3.48
+PRACA SECA,In natura,Peixarias,8,63284.0,1.26
+PRACA SECA,Misto,Hipermercados,19,63284.0,3.0
+PRACA SECA,Misto,Mercearias,40,63284.0,6.32
+PRACA SECA,Misto,Supermercados,1,63284.0,0.16
+PRACA SECA,Ultraprocessado,Cantinas / Alimentação preparada,236,63284.0,37.29
+PRACA SECA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,34,63284.0,5.37
+PRACA SECA,Ultraprocessado,Restaurantes / Lanchonetes,199,63284.0,31.45
+PRACA SECA,Ultraprocessado,Serviços ambulantes,82,63284.0,12.96
+PRAIA DA BANDEIRA,In natura,Açougues / Padarias,1,5153.0,1.94
+PRAIA DA BANDEIRA,Misto,Mercearias,5,5153.0,9.7
+PRAIA DA BANDEIRA,Ultraprocessado,Cantinas / Alimentação preparada,13,5153.0,25.23
+PRAIA DA BANDEIRA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,1,5153.0,1.94
+PRAIA DA BANDEIRA,Ultraprocessado,Restaurantes / Lanchonetes,26,5153.0,50.46
+PRAIA DA BANDEIRA,Ultraprocessado,Serviços ambulantes,7,5153.0,13.58
+QUINTINO BOCAIUVA,In natura,Açougues / Padarias,9,24740.0,3.64
+QUINTINO BOCAIUVA,In natura,Hortifrutigranjeiros,11,24740.0,4.45
+QUINTINO BOCAIUVA,In natura,Peixarias,5,24740.0,2.02
+QUINTINO BOCAIUVA,Misto,Hipermercados,4,24740.0,1.62
+QUINTINO BOCAIUVA,Misto,Mercearias,22,24740.0,8.89
+QUINTINO BOCAIUVA,Ultraprocessado,Cantinas / Alimentação preparada,155,24740.0,62.65
+QUINTINO BOCAIUVA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,19,24740.0,7.68
+QUINTINO BOCAIUVA,Ultraprocessado,Restaurantes / Lanchonetes,158,24740.0,63.86
+QUINTINO BOCAIUVA,Ultraprocessado,Serviços ambulantes,40,24740.0,16.17
+RAMOS,In natura,Açougues / Padarias,82,34453.0,23.8
+RAMOS,In natura,Hortifrutigranjeiros,29,34453.0,8.42
+RAMOS,In natura,Peixarias,16,34453.0,4.64
+RAMOS,Misto,Hipermercados,22,34453.0,6.39
+RAMOS,Misto,Mercearias,109,34453.0,31.64
+RAMOS,Misto,Supermercados,3,34453.0,0.87
+RAMOS,Ultraprocessado,Cantinas / Alimentação preparada,307,34453.0,89.11
+RAMOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,73,34453.0,21.19
+RAMOS,Ultraprocessado,Restaurantes / Lanchonetes,452,34453.0,131.19
+RAMOS,Ultraprocessado,Serviços ambulantes,97,34453.0,28.15
+REALENGO,In natura,Açougues / Padarias,174,165881.0,10.49
+REALENGO,In natura,Hortifrutigranjeiros,98,165881.0,5.91
+REALENGO,In natura,Peixarias,33,165881.0,1.99
+REALENGO,Misto,Hipermercados,36,165881.0,2.17
+REALENGO,Misto,Mercearias,215,165881.0,12.96
+REALENGO,Misto,Supermercados,15,165881.0,0.9
+REALENGO,Ultraprocessado,Cantinas / Alimentação preparada,769,165881.0,46.36
+REALENGO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,135,165881.0,8.14
+REALENGO,Ultraprocessado,Restaurantes / Lanchonetes,879,165881.0,52.99
+REALENGO,Ultraprocessado,Serviços ambulantes,268,165881.0,16.16
+RECREIO  DOS BANDEIRANTES,Ultraprocessado,Restaurantes / Lanchonetes,1,141316.0,0.07
+RECREIO DOS BANDEIRANTES,In natura,Açougues / Padarias,155,141316.0,10.97
+RECREIO DOS BANDEIRANTES,In natura,Hortifrutigranjeiros,53,141316.0,3.75
+RECREIO DOS BANDEIRANTES,In natura,Peixarias,46,141316.0,3.26
+RECREIO DOS BANDEIRANTES,Misto,Hipermercados,49,141316.0,3.47
+RECREIO DOS BANDEIRANTES,Misto,Mercearias,165,141316.0,11.68
+RECREIO DOS BANDEIRANTES,Misto,Supermercados,9,141316.0,0.64
+RECREIO DOS BANDEIRANTES,Ultraprocessado,Cantinas / Alimentação preparada,709,141316.0,50.17
+RECREIO DOS BANDEIRANTES,Ultraprocessado,Lojas de conveniência / Varejo alimentar,223,141316.0,15.78
+RECREIO DOS BANDEIRANTES,Ultraprocessado,Restaurantes / Lanchonetes,1128,141316.0,79.82
+RECREIO DOS BANDEIRANTES,Ultraprocessado,Serviços ambulantes,140,141316.0,9.91
+RIACHUELO,In natura,Açougues / Padarias,8,10514.0,7.61
+RIACHUELO,In natura,Hortifrutigranjeiros,8,10514.0,7.61
+RIACHUELO,In natura,Peixarias,1,10514.0,0.95
+RIACHUELO,Misto,Hipermercados,5,10514.0,4.76
+RIACHUELO,Misto,Mercearias,6,10514.0,5.71
+RIACHUELO,Misto,Supermercados,1,10514.0,0.95
+RIACHUELO,Ultraprocessado,Cantinas / Alimentação preparada,57,10514.0,54.21
+RIACHUELO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,14,10514.0,13.32
+RIACHUELO,Ultraprocessado,Restaurantes / Lanchonetes,56,10514.0,53.26
+RIACHUELO,Ultraprocessado,Serviços ambulantes,12,10514.0,11.41
+RIBEIRA,In natura,Açougues / Padarias,2,3474.0,5.76
+RIBEIRA,In natura,Hortifrutigranjeiros,1,3474.0,2.88
+RIBEIRA,Misto,Hipermercados,1,3474.0,2.88
+RIBEIRA,Misto,Mercearias,3,3474.0,8.64
+RIBEIRA,Ultraprocessado,Cantinas / Alimentação preparada,16,3474.0,46.06
+RIBEIRA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,5,3474.0,14.39
+RIBEIRA,Ultraprocessado,Restaurantes / Lanchonetes,44,3474.0,126.66
+RIBEIRA,Ultraprocessado,Serviços ambulantes,3,3474.0,8.64
+RICARDO DE ALBUQUERQUE,In natura,Açougues / Padarias,31,27704.0,11.19
+RICARDO DE ALBUQUERQUE,In natura,Hortifrutigranjeiros,15,27704.0,5.41
+RICARDO DE ALBUQUERQUE,In natura,Peixarias,4,27704.0,1.44
+RICARDO DE ALBUQUERQUE,Misto,Hipermercados,4,27704.0,1.44
+RICARDO DE ALBUQUERQUE,Misto,Mercearias,41,27704.0,14.8
+RICARDO DE ALBUQUERQUE,Misto,Supermercados,2,27704.0,0.72
+RICARDO DE ALBUQUERQUE,Ultraprocessado,Cantinas / Alimentação preparada,142,27704.0,51.26
+RICARDO DE ALBUQUERQUE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,14,27704.0,5.05
+RICARDO DE ALBUQUERQUE,Ultraprocessado,Restaurantes / Lanchonetes,113,27704.0,40.79
+RICARDO DE ALBUQUERQUE,Ultraprocessado,Serviços ambulantes,31,27704.0,11.19
+RIO  COMPRIDO,Ultraprocessado,Restaurantes / Lanchonetes,1,39890.0,0.25
+RIO COMPRIDO,In natura,Açougues / Padarias,42,39890.0,10.53
+RIO COMPRIDO,In natura,Hortifrutigranjeiros,11,39890.0,2.76
+RIO COMPRIDO,In natura,Peixarias,9,39890.0,2.26
+RIO COMPRIDO,Misto,Hipermercados,10,39890.0,2.51
+RIO COMPRIDO,Misto,Mercearias,40,39890.0,10.03
+RIO COMPRIDO,Misto,Supermercados,2,39890.0,0.5
+RIO COMPRIDO,Ultraprocessado,Cantinas / Alimentação preparada,236,39890.0,59.16
+RIO COMPRIDO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,38,39890.0,9.53
+RIO COMPRIDO,Ultraprocessado,Restaurantes / Lanchonetes,266,39890.0,66.68
+RIO COMPRIDO,Ultraprocessado,Serviços ambulantes,60,39890.0,15.04
+ROCHA,In natura,Açougues / Padarias,12,15900.0,7.55
+ROCHA,In natura,Hortifrutigranjeiros,3,15900.0,1.89
+ROCHA,In natura,Peixarias,4,15900.0,2.52
+ROCHA,Misto,Mercearias,11,15900.0,6.92
+ROCHA,Misto,Supermercados,1,15900.0,0.63
+ROCHA,Ultraprocessado,Cantinas / Alimentação preparada,48,15900.0,30.19
+ROCHA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,12,15900.0,7.55
+ROCHA,Ultraprocessado,Restaurantes / Lanchonetes,39,15900.0,24.53
+ROCHA,Ultraprocessado,Serviços ambulantes,12,15900.0,7.55
+ROCHA MIRANDA,In natura,Açougues / Padarias,47,36360.0,12.93
+ROCHA MIRANDA,In natura,Hortifrutigranjeiros,43,36360.0,11.83
+ROCHA MIRANDA,In natura,Peixarias,12,36360.0,3.3
+ROCHA MIRANDA,Misto,Hipermercados,8,36360.0,2.2
+ROCHA MIRANDA,Misto,Mercearias,49,36360.0,13.48
+ROCHA MIRANDA,Misto,Supermercados,6,36360.0,1.65
+ROCHA MIRANDA,Ultraprocessado,Cantinas / Alimentação preparada,202,36360.0,55.56
+ROCHA MIRANDA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,30,36360.0,8.25
+ROCHA MIRANDA,Ultraprocessado,Restaurantes / Lanchonetes,197,36360.0,54.18
+ROCHA MIRANDA,Ultraprocessado,Serviços ambulantes,50,36360.0,13.75
+ROCINHA,In natura,Açougues / Padarias,23,70894.0,3.24
+ROCINHA,In natura,Hortifrutigranjeiros,6,70894.0,0.85
+ROCINHA,In natura,Peixarias,12,70894.0,1.69
+ROCINHA,Misto,Hipermercados,3,70894.0,0.42
+ROCINHA,Misto,Mercearias,67,70894.0,9.45
+ROCINHA,Ultraprocessado,Cantinas / Alimentação preparada,61,70894.0,8.6
+ROCINHA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,16,70894.0,2.26
+ROCINHA,Ultraprocessado,Restaurantes / Lanchonetes,154,70894.0,21.72
+ROCINHA,Ultraprocessado,Serviços ambulantes,22,70894.0,3.1
+SAMPAIO,In natura,Açougues / Padarias,7,8832.0,7.93
+SAMPAIO,In natura,Peixarias,3,8832.0,3.4
+SAMPAIO,Misto,Hipermercados,3,8832.0,3.4
+SAMPAIO,Misto,Mercearias,9,8832.0,10.19
+SAMPAIO,Ultraprocessado,Cantinas / Alimentação preparada,43,8832.0,48.69
+SAMPAIO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,11,8832.0,12.45
+SAMPAIO,Ultraprocessado,Restaurantes / Lanchonetes,60,8832.0,67.93
+SAMPAIO,Ultraprocessado,Serviços ambulantes,17,8832.0,19.25
+SANTA CRUZ,In natura,Açougues / Padarias,214,249130.0,8.59
+SANTA CRUZ,In natura,Hortifrutigranjeiros,112,249130.0,4.5
+SANTA CRUZ,In natura,Peixarias,62,249130.0,2.49
+SANTA CRUZ,Misto,Hipermercados,76,249130.0,3.05
+SANTA CRUZ,Misto,Mercearias,395,249130.0,15.86
+SANTA CRUZ,Misto,Supermercados,12,249130.0,0.48
+SANTA CRUZ,Ultraprocessado,Cantinas / Alimentação preparada,883,249130.0,35.44
+SANTA CRUZ,Ultraprocessado,Lojas de conveniência / Varejo alimentar,184,249130.0,7.39
+SANTA CRUZ,Ultraprocessado,Restaurantes / Lanchonetes,994,249130.0,39.9
+SANTA CRUZ,Ultraprocessado,Serviços ambulantes,266,249130.0,10.68
+SANTA TERESA,In natura,Açougues / Padarias,15,36252.0,4.14
+SANTA TERESA,In natura,Hortifrutigranjeiros,8,36252.0,2.21
+SANTA TERESA,In natura,Peixarias,3,36252.0,0.83
+SANTA TERESA,Misto,Hipermercados,6,36252.0,1.66
+SANTA TERESA,Misto,Mercearias,39,36252.0,10.76
+SANTA TERESA,Misto,Supermercados,2,36252.0,0.55
+SANTA TERESA,Ultraprocessado,Cantinas / Alimentação preparada,157,36252.0,43.31
+SANTA TERESA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,16,36252.0,4.41
+SANTA TERESA,Ultraprocessado,Restaurantes / Lanchonetes,137,36252.0,37.79
+SANTA TERESA,Ultraprocessado,Serviços ambulantes,47,36252.0,12.96
+SANTISSIMO,In natura,Açougues / Padarias,46,48187.0,9.55
+SANTISSIMO,In natura,Hortifrutigranjeiros,19,48187.0,3.94
+SANTISSIMO,In natura,Peixarias,21,48187.0,4.36
+SANTISSIMO,Misto,Hipermercados,9,48187.0,1.87
+SANTISSIMO,Misto,Mercearias,86,48187.0,17.85
+SANTISSIMO,Misto,Supermercados,2,48187.0,0.42
+SANTISSIMO,Ultraprocessado,Cantinas / Alimentação preparada,205,48187.0,42.54
+SANTISSIMO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,34,48187.0,7.06
+SANTISSIMO,Ultraprocessado,Restaurantes / Lanchonetes,217,48187.0,45.03
+SANTISSIMO,Ultraprocessado,Serviços ambulantes,67,48187.0,13.9
+SANTO CRISTO,In natura,Açougues / Padarias,21,9936.0,21.14
+SANTO CRISTO,In natura,Hortifrutigranjeiros,5,9936.0,5.03
+SANTO CRISTO,In natura,Peixarias,3,9936.0,3.02
+SANTO CRISTO,Misto,Hipermercados,3,9936.0,3.02
+SANTO CRISTO,Misto,Mercearias,21,9936.0,21.14
+SANTO CRISTO,Misto,Supermercados,1,9936.0,1.01
+SANTO CRISTO,Ultraprocessado,Cantinas / Alimentação preparada,75,9936.0,75.48
+SANTO CRISTO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,16,9936.0,16.1
+SANTO CRISTO,Ultraprocessado,Restaurantes / Lanchonetes,110,9936.0,110.71
+SANTO CRISTO,Ultraprocessado,Serviços ambulantes,31,9936.0,31.2
+SAO CONRADO,In natura,Açougues / Padarias,17,9739.0,17.46
+SAO CONRADO,In natura,Hortifrutigranjeiros,3,9739.0,3.08
+SAO CONRADO,In natura,Peixarias,1,9739.0,1.03
+SAO CONRADO,Misto,Hipermercados,8,9739.0,8.21
+SAO CONRADO,Misto,Mercearias,5,9739.0,5.13
+SAO CONRADO,Misto,Supermercados,3,9739.0,3.08
+SAO CONRADO,Ultraprocessado,Cantinas / Alimentação preparada,29,9739.0,29.78
+SAO CONRADO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,9,9739.0,9.24
+SAO CONRADO,Ultraprocessado,Restaurantes / Lanchonetes,79,9739.0,81.12
+SAO CONRADO,Ultraprocessado,Serviços ambulantes,14,9739.0,14.38
+SAO CRISTOVAO,In natura,Açougues / Padarias,49,27911.0,17.56
+SAO CRISTOVAO,In natura,Hortifrutigranjeiros,28,27911.0,10.03
+SAO CRISTOVAO,In natura,Peixarias,17,27911.0,6.09
+SAO CRISTOVAO,Misto,Hipermercados,26,27911.0,9.32
+SAO CRISTOVAO,Misto,Mercearias,70,27911.0,25.08
+SAO CRISTOVAO,Misto,Supermercados,5,27911.0,1.79
+SAO CRISTOVAO,Ultraprocessado,Cantinas / Alimentação preparada,264,27911.0,94.59
+SAO CRISTOVAO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,71,27911.0,25.44
+SAO CRISTOVAO,Ultraprocessado,Restaurantes / Lanchonetes,520,27911.0,186.31
+SAO CRISTOVAO,Ultraprocessado,Serviços ambulantes,77,27911.0,27.59
+SAO FRANCISCO XAVIER,In natura,Açougues / Padarias,7,6340.0,11.04
+SAO FRANCISCO XAVIER,In natura,Hortifrutigranjeiros,3,6340.0,4.73
+SAO FRANCISCO XAVIER,In natura,Peixarias,2,6340.0,3.15
+SAO FRANCISCO XAVIER,Misto,Mercearias,4,6340.0,6.31
+SAO FRANCISCO XAVIER,Misto,Supermercados,1,6340.0,1.58
+SAO FRANCISCO XAVIER,Ultraprocessado,Cantinas / Alimentação preparada,37,6340.0,58.36
+SAO FRANCISCO XAVIER,Ultraprocessado,Lojas de conveniência / Varejo alimentar,6,6340.0,9.46
+SAO FRANCISCO XAVIER,Ultraprocessado,Restaurantes / Lanchonetes,42,6340.0,66.25
+SAO FRANCISCO XAVIER,Ultraprocessado,Serviços ambulantes,7,6340.0,11.04
+SAUDE,In natura,Hortifrutigranjeiros,3,1876.0,15.99
+SAUDE,Misto,Hipermercados,4,1876.0,21.32
+SAUDE,Misto,Mercearias,7,1876.0,37.31
+SAUDE,Misto,Supermercados,2,1876.0,10.66
+SAUDE,Ultraprocessado,Cantinas / Alimentação preparada,18,1876.0,95.95
+SAUDE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,6,1876.0,31.98
+SAUDE,Ultraprocessado,Restaurantes / Lanchonetes,100,1876.0,533.05
+SAUDE,Ultraprocessado,Serviços ambulantes,16,1876.0,85.29
+SENADOR CAMARA,In natura,Açougues / Padarias,74,101980.0,7.26
+SENADOR CAMARA,In natura,Hortifrutigranjeiros,43,101980.0,4.22
+SENADOR CAMARA,In natura,Peixarias,19,101980.0,1.86
+SENADOR CAMARA,Misto,Hipermercados,21,101980.0,2.06
+SENADOR CAMARA,Misto,Mercearias,128,101980.0,12.55
+SENADOR CAMARA,Misto,Supermercados,3,101980.0,0.29
+SENADOR CAMARA,Ultraprocessado,Cantinas / Alimentação preparada,264,101980.0,25.89
+SENADOR CAMARA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,65,101980.0,6.37
+SENADOR CAMARA,Ultraprocessado,Restaurantes / Lanchonetes,301,101980.0,29.52
+SENADOR CAMARA,Ultraprocessado,Serviços ambulantes,99,101980.0,9.71
+SENADOR VASCONCELOS,In natura,Açougues / Padarias,39,32765.0,11.9
+SENADOR VASCONCELOS,In natura,Hortifrutigranjeiros,13,32765.0,3.97
+SENADOR VASCONCELOS,In natura,Peixarias,10,32765.0,3.05
+SENADOR VASCONCELOS,Misto,Hipermercados,6,32765.0,1.83
+SENADOR VASCONCELOS,Misto,Mercearias,36,32765.0,10.99
+SENADOR VASCONCELOS,Misto,Supermercados,1,32765.0,0.31
+SENADOR VASCONCELOS,Ultraprocessado,Cantinas / Alimentação preparada,114,32765.0,34.79
+SENADOR VASCONCELOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,36,32765.0,10.99
+SENADOR VASCONCELOS,Ultraprocessado,Restaurantes / Lanchonetes,136,32765.0,41.51
+SENADOR VASCONCELOS,Ultraprocessado,Serviços ambulantes,40,32765.0,12.21
+SEPETIBA,In natura,Açougues / Padarias,89,58738.0,15.15
+SEPETIBA,In natura,Hortifrutigranjeiros,18,58738.0,3.06
+SEPETIBA,In natura,Peixarias,19,58738.0,3.23
+SEPETIBA,Misto,Hipermercados,24,58738.0,4.09
+SEPETIBA,Misto,Mercearias,100,58738.0,17.02
+SEPETIBA,Misto,Supermercados,2,58738.0,0.34
+SEPETIBA,Ultraprocessado,Cantinas / Alimentação preparada,217,58738.0,36.94
+SEPETIBA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,48,58738.0,8.17
+SEPETIBA,Ultraprocessado,Restaurantes / Lanchonetes,273,58738.0,46.48
+SEPETIBA,Ultraprocessado,Serviços ambulantes,59,58738.0,10.04
+TANQUE,In natura,Açougues / Padarias,26,36815.0,7.06
+TANQUE,In natura,Hortifrutigranjeiros,27,36815.0,7.33
+TANQUE,In natura,Peixarias,7,36815.0,1.9
+TANQUE,Misto,Hipermercados,14,36815.0,3.8
+TANQUE,Misto,Mercearias,35,36815.0,9.51
+TANQUE,Misto,Supermercados,2,36815.0,0.54
+TANQUE,Ultraprocessado,Cantinas / Alimentação preparada,203,36815.0,55.14
+TANQUE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,35,36815.0,9.51
+TANQUE,Ultraprocessado,Restaurantes / Lanchonetes,164,36815.0,44.55
+TANQUE,Ultraprocessado,Serviços ambulantes,48,36815.0,13.04
+TAQUARA,In natura,Açougues / Padarias,137,107188.0,12.78
+TAQUARA,In natura,Hortifrutigranjeiros,64,107188.0,5.97
+TAQUARA,In natura,Peixarias,32,107188.0,2.99
+TAQUARA,Misto,Hipermercados,53,107188.0,4.94
+TAQUARA,Misto,Mercearias,133,107188.0,12.41
+TAQUARA,Misto,Supermercados,11,107188.0,1.03
+TAQUARA,Ultraprocessado,Cantinas / Alimentação preparada,810,107188.0,75.57
+TAQUARA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,149,107188.0,13.9
+TAQUARA,Ultraprocessado,Restaurantes / Lanchonetes,776,107188.0,72.4
+TAQUARA,Ultraprocessado,Serviços ambulantes,176,107188.0,16.42
+TAUA,In natura,Açougues / Padarias,27,26482.0,10.2
+TAUA,In natura,Hortifrutigranjeiros,15,26482.0,5.66
+TAUA,In natura,Peixarias,4,26482.0,1.51
+TAUA,Misto,Hipermercados,1,26482.0,0.38
+TAUA,Misto,Mercearias,49,26482.0,18.5
+TAUA,Ultraprocessado,Cantinas / Alimentação preparada,99,26482.0,37.38
+TAUA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,12,26482.0,4.53
+TAUA,Ultraprocessado,Restaurantes / Lanchonetes,134,26482.0,50.6
+TAUA,Ultraprocessado,Serviços ambulantes,37,26482.0,13.97
+TIJUCA,In natura,Açougues / Padarias,153,142326.0,10.75
+TIJUCA,In natura,Hortifrutigranjeiros,48,142326.0,3.37
+TIJUCA,In natura,Peixarias,26,142326.0,1.83
+TIJUCA,Misto,Hipermercados,63,142326.0,4.43
+TIJUCA,Misto,Mercearias,80,142326.0,5.62
+TIJUCA,Misto,Supermercados,19,142326.0,1.33
+TIJUCA,Ultraprocessado,Cantinas / Alimentação preparada,520,142326.0,36.54
+TIJUCA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,148,142326.0,10.4
+TIJUCA,Ultraprocessado,Restaurantes / Lanchonetes,854,142326.0,60.0
+TIJUCA,Ultraprocessado,Serviços ambulantes,98,142326.0,6.89
+TODOS OS SANTOS,In natura,Açougues / Padarias,22,22593.0,9.74
+TODOS OS SANTOS,In natura,Hortifrutigranjeiros,10,22593.0,4.43
+TODOS OS SANTOS,In natura,Peixarias,6,22593.0,2.66
+TODOS OS SANTOS,Misto,Hipermercados,6,22593.0,2.66
+TODOS OS SANTOS,Misto,Mercearias,23,22593.0,10.18
+TODOS OS SANTOS,Ultraprocessado,Cantinas / Alimentação preparada,122,22593.0,54.0
+TODOS OS SANTOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,22,22593.0,9.74
+TODOS OS SANTOS,Ultraprocessado,Restaurantes / Lanchonetes,77,22593.0,34.08
+TODOS OS SANTOS,Ultraprocessado,Serviços ambulantes,23,22593.0,10.18
+TOMAS COELHO,In natura,Açougues / Padarias,21,20343.0,10.32
+TOMAS COELHO,In natura,Hortifrutigranjeiros,11,20343.0,5.41
+TOMAS COELHO,In natura,Peixarias,4,20343.0,1.97
+TOMAS COELHO,Misto,Hipermercados,2,20343.0,0.98
+TOMAS COELHO,Misto,Mercearias,22,20343.0,10.81
+TOMAS COELHO,Ultraprocessado,Cantinas / Alimentação preparada,89,20343.0,43.75
+TOMAS COELHO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,11,20343.0,5.41
+TOMAS COELHO,Ultraprocessado,Restaurantes / Lanchonetes,49,20343.0,24.09
+TOMAS COELHO,Ultraprocessado,Serviços ambulantes,28,20343.0,13.76
+TURIACU,In natura,Açougues / Padarias,16,11613.0,13.78
+TURIACU,In natura,Hortifrutigranjeiros,11,11613.0,9.47
+TURIACU,In natura,Peixarias,4,11613.0,3.44
+TURIACU,Misto,Hipermercados,1,11613.0,0.86
+TURIACU,Misto,Mercearias,17,11613.0,14.64
+TURIACU,Ultraprocessado,Cantinas / Alimentação preparada,83,11613.0,71.47
+TURIACU,Ultraprocessado,Lojas de conveniência / Varejo alimentar,15,11613.0,12.92
+TURIACU,Ultraprocessado,Restaurantes / Lanchonetes,74,11613.0,63.72
+TURIACU,Ultraprocessado,Serviços ambulantes,24,11613.0,20.67
+URCA,In natura,Açougues / Padarias,4,5215.0,7.67
+URCA,In natura,Hortifrutigranjeiros,1,5215.0,1.92
+URCA,Misto,Hipermercados,3,5215.0,5.75
+URCA,Misto,Mercearias,8,5215.0,15.34
+URCA,Ultraprocessado,Cantinas / Alimentação preparada,19,5215.0,36.43
+URCA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,5,5215.0,9.59
+URCA,Ultraprocessado,Restaurantes / Lanchonetes,36,5215.0,69.03
+URCA,Ultraprocessado,Serviços ambulantes,15,5215.0,28.76
+VARGEM GRANDE,In natura,Açougues / Padarias,23,20663.0,11.13
+VARGEM GRANDE,In natura,Hortifrutigranjeiros,15,20663.0,7.26
+VARGEM GRANDE,In natura,Peixarias,6,20663.0,2.9
+VARGEM GRANDE,Misto,Hipermercados,9,20663.0,4.36
+VARGEM GRANDE,Misto,Mercearias,42,20663.0,20.33
+VARGEM GRANDE,Misto,Supermercados,1,20663.0,0.48
+VARGEM GRANDE,Ultraprocessado,Cantinas / Alimentação preparada,135,20663.0,65.33
+VARGEM GRANDE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,39,20663.0,18.87
+VARGEM GRANDE,Ultraprocessado,Restaurantes / Lanchonetes,173,20663.0,83.72
+VARGEM GRANDE,Ultraprocessado,Serviços ambulantes,34,20663.0,16.45
+VARGEM PEQUENA,In natura,Açougues / Padarias,18,31115.0,5.78
+VARGEM PEQUENA,In natura,Hortifrutigranjeiros,23,31115.0,7.39
+VARGEM PEQUENA,In natura,Peixarias,2,31115.0,0.64
+VARGEM PEQUENA,Misto,Hipermercados,6,31115.0,1.93
+VARGEM PEQUENA,Misto,Mercearias,47,31115.0,15.11
+VARGEM PEQUENA,Misto,Supermercados,2,31115.0,0.64
+VARGEM PEQUENA,Ultraprocessado,Cantinas / Alimentação preparada,147,31115.0,47.24
+VARGEM PEQUENA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,44,31115.0,14.14
+VARGEM PEQUENA,Ultraprocessado,Restaurantes / Lanchonetes,135,31115.0,43.39
+VARGEM PEQUENA,Ultraprocessado,Serviços ambulantes,41,31115.0,13.18
+VASCO DA GAMA,In natura,Açougues / Padarias,4,14576.0,2.74
+VASCO DA GAMA,In natura,Hortifrutigranjeiros,1,14576.0,0.69
+VASCO DA GAMA,In natura,Peixarias,2,14576.0,1.37
+VASCO DA GAMA,Misto,Hipermercados,4,14576.0,2.74
+VASCO DA GAMA,Misto,Mercearias,15,14576.0,10.29
+VASCO DA GAMA,Ultraprocessado,Cantinas / Alimentação preparada,20,14576.0,13.72
+VASCO DA GAMA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,6,14576.0,4.12
+VASCO DA GAMA,Ultraprocessado,Restaurantes / Lanchonetes,28,14576.0,19.21
+VASCO DA GAMA,Ultraprocessado,Serviços ambulantes,3,14576.0,2.06
+VAZ LOBO,In natura,Açougues / Padarias,16,10995.0,14.55
+VAZ LOBO,In natura,Hortifrutigranjeiros,8,10995.0,7.28
+VAZ LOBO,In natura,Peixarias,6,10995.0,5.46
+VAZ LOBO,Misto,Hipermercados,6,10995.0,5.46
+VAZ LOBO,Misto,Mercearias,8,10995.0,7.28
+VAZ LOBO,Ultraprocessado,Cantinas / Alimentação preparada,67,10995.0,60.94
+VAZ LOBO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,17,10995.0,15.46
+VAZ LOBO,Ultraprocessado,Restaurantes / Lanchonetes,87,10995.0,79.13
+VAZ LOBO,Ultraprocessado,Serviços ambulantes,25,10995.0,22.74
+VICENTE DE CARVALHO,In natura,Açougues / Padarias,31,21300.0,14.55
+VICENTE DE CARVALHO,In natura,Hortifrutigranjeiros,9,21300.0,4.23
+VICENTE DE CARVALHO,In natura,Peixarias,5,21300.0,2.35
+VICENTE DE CARVALHO,Misto,Hipermercados,8,21300.0,3.76
+VICENTE DE CARVALHO,Misto,Mercearias,24,21300.0,11.27
+VICENTE DE CARVALHO,Misto,Supermercados,5,21300.0,2.35
+VICENTE DE CARVALHO,Ultraprocessado,Cantinas / Alimentação preparada,134,21300.0,62.91
+VICENTE DE CARVALHO,Ultraprocessado,Lojas de conveniência / Varejo alimentar,15,21300.0,7.04
+VICENTE DE CARVALHO,Ultraprocessado,Restaurantes / Lanchonetes,169,21300.0,79.34
+VICENTE DE CARVALHO,Ultraprocessado,Serviços ambulantes,40,21300.0,18.78
+VIDIGAL,In natura,Açougues / Padarias,10,15112.0,6.62
+VIDIGAL,In natura,Hortifrutigranjeiros,9,15112.0,5.96
+VIDIGAL,In natura,Peixarias,2,15112.0,1.32
+VIDIGAL,Misto,Hipermercados,3,15112.0,1.99
+VIDIGAL,Misto,Mercearias,30,15112.0,19.85
+VIDIGAL,Ultraprocessado,Cantinas / Alimentação preparada,68,15112.0,45.0
+VIDIGAL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,7,15112.0,4.63
+VIDIGAL,Ultraprocessado,Restaurantes / Lanchonetes,86,15112.0,56.91
+VIDIGAL,Ultraprocessado,Serviços ambulantes,20,15112.0,13.23
+VIGARIO GERAL,In natura,Açougues / Padarias,20,34202.0,5.85
+VIGARIO GERAL,In natura,Hortifrutigranjeiros,16,34202.0,4.68
+VIGARIO GERAL,In natura,Peixarias,4,34202.0,1.17
+VIGARIO GERAL,Misto,Hipermercados,12,34202.0,3.51
+VIGARIO GERAL,Misto,Mercearias,49,34202.0,14.33
+VIGARIO GERAL,Ultraprocessado,Cantinas / Alimentação preparada,128,34202.0,37.42
+VIGARIO GERAL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,18,34202.0,5.26
+VIGARIO GERAL,Ultraprocessado,Restaurantes / Lanchonetes,93,34202.0,27.19
+VIGARIO GERAL,Ultraprocessado,Serviços ambulantes,45,34202.0,13.16
+VILA  ISABEL,Misto,Mercearias,1,65790.0,0.15
+VILA  ISABEL,Ultraprocessado,Restaurantes / Lanchonetes,1,65790.0,0.15
+VILA  VALQUEIRE,In natura,Açougues / Padarias,1,34024.0,0.29
+VILA  VALQUEIRE,Ultraprocessado,Restaurantes / Lanchonetes,1,34024.0,0.29
+VILA DA PENHA,In natura,Açougues / Padarias,26,21950.0,11.85
+VILA DA PENHA,In natura,Hortifrutigranjeiros,6,21950.0,2.73
+VILA DA PENHA,In natura,Peixarias,8,21950.0,3.64
+VILA DA PENHA,Misto,Hipermercados,26,21950.0,11.85
+VILA DA PENHA,Misto,Mercearias,42,21950.0,19.13
+VILA DA PENHA,Misto,Supermercados,3,21950.0,1.37
+VILA DA PENHA,Ultraprocessado,Cantinas / Alimentação preparada,153,21950.0,69.7
+VILA DA PENHA,Ultraprocessado,Lojas de conveniência / Varejo alimentar,40,21950.0,18.22
+VILA DA PENHA,Ultraprocessado,Restaurantes / Lanchonetes,235,21950.0,107.06
+VILA DA PENHA,Ultraprocessado,Serviços ambulantes,51,21950.0,23.23
+VILA ISABEL,In natura,Açougues / Padarias,68,65790.0,10.34
+VILA ISABEL,In natura,Hortifrutigranjeiros,15,65790.0,2.28
+VILA ISABEL,In natura,Peixarias,15,65790.0,2.28
+VILA ISABEL,Misto,Hipermercados,23,65790.0,3.5
+VILA ISABEL,Misto,Mercearias,58,65790.0,8.82
+VILA ISABEL,Misto,Supermercados,6,65790.0,0.91
+VILA ISABEL,Ultraprocessado,Cantinas / Alimentação preparada,331,65790.0,50.31
+VILA ISABEL,Ultraprocessado,Lojas de conveniência / Varejo alimentar,52,65790.0,7.9
+VILA ISABEL,Ultraprocessado,Restaurantes / Lanchonetes,323,65790.0,49.1
+VILA ISABEL,Ultraprocessado,Serviços ambulantes,62,65790.0,9.42
+VILA KENNEDY,Ultraprocessado,Restaurantes / Lanchonetes,1,21579.0,0.46
+VILA KOSMOS,In natura,Açougues / Padarias,12,14878.0,8.07
+VILA KOSMOS,In natura,Hortifrutigranjeiros,4,14878.0,2.69
+VILA KOSMOS,In natura,Peixarias,4,14878.0,2.69
+VILA KOSMOS,Misto,Hipermercados,4,14878.0,2.69
+VILA KOSMOS,Misto,Mercearias,17,14878.0,11.43
+VILA KOSMOS,Ultraprocessado,Cantinas / Alimentação preparada,68,14878.0,45.71
+VILA KOSMOS,Ultraprocessado,Lojas de conveniência / Varejo alimentar,10,14878.0,6.72
+VILA KOSMOS,Ultraprocessado,Restaurantes / Lanchonetes,61,14878.0,41.0
+VILA KOSMOS,Ultraprocessado,Serviços ambulantes,16,14878.0,10.75
+VILA MILITAR,In natura,Açougues / Padarias,4,12956.0,3.09
+VILA MILITAR,In natura,Hortifrutigranjeiros,3,12956.0,2.32
+VILA MILITAR,In natura,Peixarias,1,12956.0,0.77
+VILA MILITAR,Misto,Mercearias,4,12956.0,3.09
+VILA MILITAR,Ultraprocessado,Cantinas / Alimentação preparada,24,12956.0,18.52
+VILA MILITAR,Ultraprocessado,Lojas de conveniência / Varejo alimentar,3,12956.0,2.32
+VILA MILITAR,Ultraprocessado,Restaurantes / Lanchonetes,14,12956.0,10.81
+VILA MILITAR,Ultraprocessado,Serviços ambulantes,5,12956.0,3.86
+VILA VALQUEIRE,In natura,Açougues / Padarias,36,34024.0,10.58
+VILA VALQUEIRE,In natura,Hortifrutigranjeiros,16,34024.0,4.7
+VILA VALQUEIRE,In natura,Peixarias,9,34024.0,2.65
+VILA VALQUEIRE,Misto,Hipermercados,10,34024.0,2.94
+VILA VALQUEIRE,Misto,Mercearias,37,34024.0,10.87
+VILA VALQUEIRE,Misto,Supermercados,2,34024.0,0.59
+VILA VALQUEIRE,Ultraprocessado,Cantinas / Alimentação preparada,173,34024.0,50.85
+VILA VALQUEIRE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,30,34024.0,8.82
+VILA VALQUEIRE,Ultraprocessado,Restaurantes / Lanchonetes,228,34024.0,67.01
+VILA VALQUEIRE,Ultraprocessado,Serviços ambulantes,54,34024.0,15.87
+VISTA ALEGRE,In natura,Açougues / Padarias,16,7059.0,22.67
+VISTA ALEGRE,In natura,Hortifrutigranjeiros,10,7059.0,14.17
+VISTA ALEGRE,In natura,Peixarias,4,7059.0,5.67
+VISTA ALEGRE,Misto,Hipermercados,3,7059.0,4.25
+VISTA ALEGRE,Misto,Mercearias,8,7059.0,11.33
+VISTA ALEGRE,Misto,Supermercados,2,7059.0,2.83
+VISTA ALEGRE,Ultraprocessado,Cantinas / Alimentação preparada,58,7059.0,82.16
+VISTA ALEGRE,Ultraprocessado,Lojas de conveniência / Varejo alimentar,17,7059.0,24.08
+VISTA ALEGRE,Ultraprocessado,Restaurantes / Lanchonetes,107,7059.0,151.58
+VISTA ALEGRE,Ultraprocessado,Serviços ambulantes,19,7059.0,26.92
+VL ISABEL,Ultraprocessado,Restaurantes / Lanchonetes,1,65790.0,0.15
+ZUMBI,In natura,Açougues / Padarias,3,1817.0,16.51
+ZUMBI,In natura,Hortifrutigranjeiros,1,1817.0,5.5
+ZUMBI,Misto,Mercearias,1,1817.0,5.5
+ZUMBI,Ultraprocessado,Cantinas / Alimentação preparada,10,1817.0,55.04
+ZUMBI,Ultraprocessado,Lojas de conveniência / Varejo alimentar,2,1817.0,11.01
+ZUMBI,Ultraprocessado,Restaurantes / Lanchonetes,15,1817.0,82.55
+ZUMBI,Ultraprocessado,Serviços ambulantes,4,1817.0,22.01

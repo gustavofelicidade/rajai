@@ -28,6 +28,10 @@ GEO_METRICS = [
     "densidade_in_natura_10k",
     "densidade_misto_10k",
     "densidade_ultraprocessado_10k",
+    "percentil_densidade_total",
+    "percentil_densidade_in_natura",
+    "percentil_densidade_misto",
+    "percentil_densidade_ultraprocessado",
 ]
 
 # Normalização de bairros para casar CSV x GeoJSON
@@ -137,7 +141,25 @@ def set_geo_cache(rows: List[Dict[str, Any]]) -> None:
             },
             "breakdown": breakdown,
         }
+        metrics_to_rank = [
+        ("densidade_total_10k", "percentil_densidade_total"),
+        ("densidade_in_natura_10k", "percentil_densidade_in_natura"),
+        ("densidade_misto_10k", "percentil_densidade_misto"),
+        ("densidade_ultraprocessado_10k", "percentil_densidade_ultraprocessado"),
+    ]
 
+    all_bairros = list(GEO_SUMMARY.values())
+    total_bairros = len(all_bairros)
+
+    if total_bairros > 0:
+        for metric_source, metric_target in metrics_to_rank:
+            # Ordena por densidade
+            all_bairros.sort(key=lambda x: x["totais"].get(metric_source, 0))
+            # Aplica o rank
+            for i, item in enumerate(all_bairros):
+                percentil = ((i + 1) / total_bairros) * 100
+                item["totais"][metric_target] = round(percentil, 2)
+                
     GEO_CATALOG.clear()
     GEO_CATALOG.update(
         {
