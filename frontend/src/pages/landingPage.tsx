@@ -73,45 +73,47 @@ export default function LandingPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Card className="backdrop-blur-sm bg-white/70">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-base flex items-center gap-2">
-                    <MapPinned className="h-4 w-4" />
-                    Mapa por bairro
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="text-sm text-foreground/75 leading-relaxed">
-                  Visualize a distribuição e compare territórios rapidamente com uma
-                  leitura geográfica intuitiva.
-                </CardContent>
-              </Card>
+              <CardTitle className="text-base flex items-center gap-2">
+                <MapPinned className="h-4 w-4" />
+                Mapa por bairro
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="text-sm text-foreground/75 leading-relaxed">
+              Visualize desertos alimentares, oásis e pontos de venda por tipo de alimento
+              (in natura, misto, ultraprocessado). Compare rapidamente onde a oferta saudável
+              é escassa e onde os ultraprocessados dominam.
+            </CardContent>
+          </Card>
 
               <Card className="backdrop-blur-sm bg-white/70">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-base flex items-center gap-2">
-                    <ShieldCheck className="h-4 w-4" />
-                    Transparência
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="text-sm text-foreground/75 leading-relaxed">
-                  Deixe claro o que é fonte, o que é metodologia e quais limites os
-                  dados têm — isso aumenta confiança.
-                </CardContent>
-              </Card>
+              <CardTitle className="text-base flex items-center gap-2">
+                <ShieldCheck className="h-4 w-4" />
+                Transparência
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="text-sm text-foreground/75 leading-relaxed">
+              Dados públicos confiáveis (IBGE, CNAE) com metodologia aberta. Indicamos
+              limitações e suposições para decisões mais responsáveis e auditáveis.
+            </CardContent>
+          </Card>
 
               <Card className="backdrop-blur-sm bg-white/70 sm:col-span-2">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-base flex items-center gap-2">
-                    <BookOpen className="h-4 w-4" />
-                    Camada narrativa
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="text-sm text-foreground/75 leading-relaxed">
-                  O mapa é o “o quê”. A narrativa explica o “por quê”: desigualdade,
-                  acesso, preço, tempo de deslocamento e justiça social na alimentação.
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </main>
+              <CardTitle className="text-base flex items-center gap-2">
+                <BookOpen className="h-4 w-4" />
+                Camada narrativa
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="text-sm text-foreground/75 leading-relaxed">
+              Além do “o quê” (mapa), entregamos o “por quê”: desigualdade territorial,
+              preço, tempo de deslocamento e justiça alimentar. Mostramos urgência e
+              caminhos de ação para reduzir insegurança alimentar.
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    </main>
 
         {/* Footer */}
         <footer className="relative z-10">
