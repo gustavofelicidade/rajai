@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from "react"
 import type { CSSProperties } from "react"
 
 import { Mapa } from "@/components/mapa";
-import { AlertCircle, Leaf, UtensilsCrossed } from "lucide-react";
+// Adicionei BookOpen aos imports
+import { AlertCircle, Leaf, UtensilsCrossed, BookOpen } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -11,6 +12,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
+  DialogDescription, // Adicionado para acessibilidade/semântica
 } from "@/components/ui/dialog";
 import {
   Accordion,
@@ -20,6 +22,31 @@ import {
 } from "@/components/ui/accordion";
 
 const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000"
+
+// --- DADOS DO GLOSSÁRIO ---
+// Baseado na imagem enviada e conceitos estatísticos comuns
+const glossaryItems = [
+  {
+    value: "totais",
+    label: "Totais Absolutos (total, total_in_natura, etc.)",
+    description: "Representa a contagem simples bruta de estabelecimentos encontrados na bairro. Útil para saber o volume de oferta, mas não considera o tamanho da população.",
+  },
+  {
+    value: "ratio",
+    label: "Ratio Ultra sobre Total (ratio_ultra_sobre_total)",
+    description: "A porcentagem de estabelecimentos que vendem ultraprocessados em relação ao total de estabelecimentos do bairro. Quanto maior, pior a qualidade alimentar do ambiente.",
+  },
+  {
+    value: "densidade",
+    label: "Densidade por 10k hab. (densidade_..._10k)",
+    description: "Número de estabelecimentos dividido pela população total do bairro, normalizado para cada 10.000 habitantes. Isso permite comparar bairros populosos com bairros pequenos de forma justa.",
+  },
+  {
+    value: "percentil",
+    label: "Percentis (percentil_densidade...)",
+    description: "Um ranking de 0 a 100 que indica como este bairro se compara aos outros. Se um bairro tem 'Percentil 90' de ultraprocessados, significa que ele tem uma densidade maior do que 90% dos outros bairros do estado.",
+  },
+];
 
 type ResumoGeral = {
   totais: {
@@ -144,12 +171,7 @@ export default function MapPage() {
 
   return (
     <>
-      {/* Header */}
-      <header className="fixed top-0 z-50 flex h-16 w-full items-center justify-center bg-primary">
-        <img src="/logo.svg" alt="Logo" className="h-12" />
-      </header>
-
-      {/* Título */}
+      {/* Título Principal */}
       <div className="mx-auto mt-24 max-w-5xl p-4">
         <h1 className="text-4xl font-bold">
           Distribuição de alimentos no estado do Rio de Janeiro
@@ -160,7 +182,7 @@ export default function MapPage() {
         </h2>
       </div>
 
-      {/* Resumo */}
+      {/* Seção Resumo (Donut + Stats) */}
       <div className="mx-auto max-w-5xl p-4">
         <div className="rounded-2xl border bg-card/40 p-4 shadow-sm">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
@@ -256,15 +278,52 @@ export default function MapPage() {
         </div>
       </div>
 
+      {/* Seção Mapa e Glossário */}
       <div className="max-w-6xl p-4 mx-auto mt-4 flex flex-col gap-4">
-        <div className="flex flex-col gap-2">
-          <h2 className="text-3xl md:text-4xl font-bold">Mapa coroplético por processamento</h2>
-          <p className="text-sm font-light">
-            Visualize densidades por processamento e contraste vulnerabilidades por bairro.
-          </p>
+
+        {/* Cabeçalho da Seção do Mapa com Botão do Glossário */}
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <div className="flex flex-col gap-2">
+            <h2 className="text-3xl md:text-4xl font-bold">Mapa coroplético</h2>
+            <p className="text-sm font-light text-muted-foreground max-w-2xl">
+              Visualize densidades por processamento e contraste vulnerabilidades por bairro.
+              Utilize o seletor no mapa para alternar as métricas.
+            </p>
+          </div>
+
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant="outline" className="gap-2 shrink-0">
+                <BookOpen className="h-4 w-4" />
+                Entenda as métricas
+              </Button>
+            </DialogTrigger>
+            <DialogContent className="max-w-lg">
+              <DialogHeader>
+                <DialogTitle>Glossário de Métricas</DialogTitle>
+                <DialogDescription>
+                  Entenda o significado de cada opção disponível no seletor do mapa.
+                </DialogDescription>
+              </DialogHeader>
+
+              <Accordion type="single" collapsible className="w-full">
+                {glossaryItems.map((item) => (
+                  <AccordionItem key={item.value} value={item.value}>
+                    <AccordionTrigger className="text-left font-semibold">
+                      {item.label}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground">
+                      {item.description}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </DialogContent>
+          </Dialog>
         </div>
 
-        <div className="overflow-hidden rounded-xl border">
+        {/* O Mapa */}
+        <div className="overflow-hidden rounded-xl border bg-card">
           <Mapa />
         </div>
       </div>
